@@ -16,7 +16,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "c39f2262e07ae114525745d4a5ecbff9",
+        "contentDigest": "84f7b49c8bfe1901ea4fd42add2a01d2",
         "owner": "internal-data-bridge"
       }
     },
@@ -305,11 +305,73 @@
         "owner": "internal-data-bridge"
       }
     },
+    "Plugin gatsby-plugin-styled-components": {
+      "resolve": "C:/Users/lukes/Documents/web-design-graphics/clients/Luke Secomb Digital/website/LSD_portfolio/node_modules/gatsby-plugin-styled-components",
+      "id": "Plugin gatsby-plugin-styled-components",
+      "name": "gatsby-plugin-styled-components",
+      "version": "2.0.9",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [],
+      "browserAPIs": [],
+      "ssrAPIs": [
+        "replaceRenderer"
+      ],
+      "pluginFilepath": "C:/Users/lukes/Documents/web-design-graphics/clients/Luke Secomb Digital/website/LSD_portfolio/node_modules/gatsby-plugin-styled-components",
+      "packageJson": {
+        "name": "gatsby-plugin-styled-components",
+        "description": "Gatsby plugin to add support for styled components",
+        "version": "2.0.9",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin",
+          "styled-components"
+        ],
+        "author": {
+          "name": "Guten Ye",
+          "email": "ywzhaifei@gmail.com"
+        },
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "babel-runtime",
+            "version": "^6.26.0"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "babel-cli",
+            "version": "^6.26.0"
+          }
+        ],
+        "peerDependencies": [
+          {
+            "name": "gatsby",
+            "version": "^1.0.0"
+          },
+          {
+            "name": "styled-components",
+            "version": ">= 2.0.0"
+          }
+        ],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "dcd903962e284923d24ca7e5c54562a4",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
     "Plugin default-site-plugin": {
       "resolve": "C:/Users/lukes/Documents/web-design-graphics/clients/Luke Secomb Digital/website/LSD_portfolio",
       "id": "Plugin default-site-plugin",
       "name": "default-site-plugin",
-      "version": "d7aa712fd4a565be1f49c52b7d8479c5",
+      "version": "4f4e110ecf3f7ef8048d7c290c159e1b",
       "pluginOptions": {
         "plugins": []
       },
@@ -365,7 +427,7 @@
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "183dfd1a484b1879adeaa23054096bd9",
+        "contentDigest": "bd1766694a4448dce3361bac6dc73f43",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
@@ -376,12 +438,14 @@
       },
       "port": 8001,
       "host": "localhost",
-      "buildTime": "2018-03-16T09:51:35.045Z",
+      "pathPrefix": "",
+      "polyfill": true,
+      "buildTime": "2018-03-16T12:47:59.337Z",
       "id": "Site",
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "99783b9a6bb1b9410901e9718dd8f9e6",
+        "contentDigest": "656f6f25d262617ccaac46e950272491",
         "type": "Site",
         "owner": "internal-data-bridge"
       }
@@ -402,7 +466,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "c700c89fcefcdc3c92a31cfbaa85bbb0",
+        "contentDigest": "43f0c7711bb82729a2028bc685c62817",
         "owner": "internal-data-bridge"
       }
     },
@@ -422,27 +486,27 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "176402dfb4037d8a773ceb8ab5b94ae0",
+        "contentDigest": "aae27b8459188ea7a4e37462bd283f2b",
         "owner": "internal-data-bridge"
       }
     },
-    "SitePage /page-2/": {
+    "SitePage /resume/": {
       "layout": "index",
-      "jsonName": "page-2.json",
-      "internalComponentName": "ComponentPage2",
-      "path": "/page-2/",
-      "component": "C:/Users/lukes/Documents/web-design-graphics/clients/Luke Secomb Digital/website/LSD_portfolio/src/pages/page-2.js",
-      "componentChunkName": "component---src-pages-page-2-js",
+      "jsonName": "resume.json",
+      "internalComponentName": "ComponentResume",
+      "path": "/resume/",
+      "component": "C:/Users/lukes/Documents/web-design-graphics/clients/Luke Secomb Digital/website/LSD_portfolio/src/pages/resume.js",
+      "componentChunkName": "component---src-pages-resume-js",
       "context": {},
       "pluginCreator___NODE": "Plugin component-page-creator",
       "pluginCreatorId": "Plugin component-page-creator",
-      "componentPath": "C:/Users/lukes/Documents/web-design-graphics/clients/Luke Secomb Digital/website/LSD_portfolio/src/pages/page-2.js",
-      "id": "SitePage /page-2/",
+      "componentPath": "C:/Users/lukes/Documents/web-design-graphics/clients/Luke Secomb Digital/website/LSD_portfolio/src/pages/resume.js",
+      "id": "SitePage /resume/",
       "parent": "SOURCE",
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "6e5c6891ceb445c999b7ed6a4715d4bd",
+        "contentDigest": "5de0b90976ee5c79c5c6116e2ebf67c4",
         "owner": "internal-data-bridge"
       }
     },
@@ -462,14 +526,14 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "bcd4c3b3a00b186aa9bb2b083945f43a",
+        "contentDigest": "7a6866fdcab7e0a00b7ab38a260422f4",
         "owner": "internal-data-bridge"
       }
     }
   },
   "status": {
     "plugins": {},
-    "PLUGINS_HASH": "954a7e6551ab330bcad1ad6f1ee44b9c"
+    "PLUGINS_HASH": "fafe273cc6adff34d12c34de75cbdc44"
   },
   "componentDataDependencies": {
     "nodes": {},

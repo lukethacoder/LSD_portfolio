@@ -5,19 +5,21 @@ import styled from 'styled-components'
 import logo from '../../images/logo.jpg';
 
 const HeaderWrapper = styled.div`
-  background: #F2C76D;
-  marginBottom: 1.45rem;
+  width: 100%;
+  height: auto;
+  padding: 2%;
+  margin: 0 auto;
+  background: green;
   h1 {
     img {
-      height: 80px;
+      width: 50px;
     }
   }
 `;
 
 const HeaderContainer = styled.div`
   margin: 0 auto;
-  max-width: 960px;
-  padding: 1.45rem 1.0875rem;
+  width: 100%;
 `;
 
 const Header = () => (
