@@ -7,7 +7,6 @@ import logo from '../../images/logo.jpg';
 const LandingPageWrapper = styled.div`
     width: 100%;
     height: 100vh;
-    background-color: ${props => props.theme.dgr};
     marginBottom: 1.45rem;
     h1 {
         img {

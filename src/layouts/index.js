@@ -2,58 +2,26 @@ import React from 'react'
 import PropTypes from 'prop-types'
 import Helmet from 'react-helmet'
 import styled from 'styled-components'
+import ReactSVG from 'react-svg'
+
+import fontawesome from '@fortawesome/fontawesome'
+import FontAWesomeIcon from '@fortawesome/react-fontawesome'
+import brands from '@fortawesome/fontawesome-free-brands'
+import { faCoffee } from '@fortawesome/fontawesome-free-solid'
+
+import { primaryDarkGrey, primaryGold, hola } from '../theme/variables';
 
 import Header from '../components/Header'
 import Footer from '../components/Footer'
 import './index.css'
 
-const mainTheme = {
-  fontPrimary: ``,
-  fontSecondary: ``,
-  fontTertiary: ``,
-  // Primary Colours
-  dgr: '#212024',
-  ofw: '#F9F9F9',
-  yel: '#D9B262',
-  // Secondary Colours
-  gr: `#47464D`,
-  offw: `#F1F1F1`,
-  yelr: `#F2C76D`,
-  // Typographical Colours / Other Greys
-  // dgr
-  // gr
-  grl: '#78787F',
-  grll: '#9D9DA5',
-  grlll: '#B8B8BF'
-}
-const greenTheme = {
-  fontPrimary: ``,
-  fontSecondary: ``,
-  fontTertiary: ``,
-  // Primary Colours
-  dgr: '#006837',
-  ofw: '#F9F9F9',
-  yel: '#D9B262',
-  // Secondary Colours
-  gr: `#47464D`,
-  offw: `#F1F1F1`,
-  yelr: `#F2C76D`,
-  offfw: `#FCFCFC`,
-  // Typographical Colours / Other Greys
-  // dgr
-  // gr
-  grl: '#78787F',
-  grll: '#9D9DA5',
-  grlll: '#B8B8BF'
-}
-
-const TheBody = styled.body`
+const TheBody = styled.div`
   width: 100%;
   height: 100%;
-  background-color: ${props => props.theme.offw};
+  background-color: ${primaryDarkGrey};
 `;
 
-const BodyContainer = styled.div` 
+const BodyContainer = styled.div`
   width: 100%;
   height: 100%;
   margin: 0;
@@ -62,11 +30,13 @@ const BodyContainer = styled.div`
 
 const ChildrenContainer = styled.div`
   width: 100%;
+  height: 100%;
   margin: 0;
+  background-color: ${props => props.theme.dgr};
 `;
-
+// theme={mainTheme}
 const TemplateWrapper = ({ children }) => (
-  <TheBody theme={mainTheme}>
+  <TheBody>
     <BodyContainer>
       <Helmet
         title="Luke Secomb - Web Developer | Digital Designer"

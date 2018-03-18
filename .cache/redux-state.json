@@ -16,7 +16,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "84f7b49c8bfe1901ea4fd42add2a01d2",
+        "contentDigest": "0c075afce5e4974383c21a675371db08",
         "owner": "internal-data-bridge"
       }
     },
@@ -390,6 +390,22 @@
         "license": "MIT",
         "dependencies": [
           {
+            "name": "@fortawesome/fontawesome",
+            "version": "^1.1.4"
+          },
+          {
+            "name": "@fortawesome/fontawesome-free-brands",
+            "version": "^5.0.8"
+          },
+          {
+            "name": "@fortawesome/fontawesome-free-solid",
+            "version": "^5.0.8"
+          },
+          {
+            "name": "@fortawesome/react-fontawesome",
+            "version": "0.0.17"
+          },
+          {
             "name": "gatsby",
             "version": "^1.9.232"
           },
@@ -410,8 +426,16 @@
             "version": "^5.2.0"
           },
           {
+            "name": "react-svg",
+            "version": "^2.2.14"
+          },
+          {
             "name": "styled-components",
             "version": "^3.2.3"
+          },
+          {
+            "name": "styled-components-theme",
+            "version": "^1.0.5"
           }
         ],
         "devDependencies": [
@@ -440,12 +464,12 @@
       "host": "localhost",
       "pathPrefix": "",
       "polyfill": true,
-      "buildTime": "2018-03-16T12:47:59.337Z",
+      "buildTime": "2018-03-18T12:20:32.404Z",
       "id": "Site",
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "656f6f25d262617ccaac46e950272491",
+        "contentDigest": "11daaada2985a9cf4eabd357e6886119",
         "type": "Site",
         "owner": "internal-data-bridge"
       }
@@ -466,7 +490,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "43f0c7711bb82729a2028bc685c62817",
+        "contentDigest": "b621f6941d77dc25d27ef2d184960a65",
         "owner": "internal-data-bridge"
       }
     },
@@ -486,7 +510,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "aae27b8459188ea7a4e37462bd283f2b",
+        "contentDigest": "2eb80232a9d12325e88adb805d01ebb0",
         "owner": "internal-data-bridge"
       }
     },
@@ -506,7 +530,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "5de0b90976ee5c79c5c6116e2ebf67c4",
+        "contentDigest": "4fd400d4dbdb1cca545bf179092961dd",
         "owner": "internal-data-bridge"
       }
     },
@@ -526,14 +550,14 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "7a6866fdcab7e0a00b7ab38a260422f4",
+        "contentDigest": "62acf2e4524930610649feccfcd897a7",
         "owner": "internal-data-bridge"
       }
     }
   },
   "status": {
     "plugins": {},
-    "PLUGINS_HASH": "fafe273cc6adff34d12c34de75cbdc44"
+    "PLUGINS_HASH": "8c3a158040d61a79439b5216f363c6c1"
   },
   "componentDataDependencies": {
     "nodes": {},

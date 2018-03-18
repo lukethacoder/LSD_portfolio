@@ -2,34 +2,50 @@ import React from 'react'
 import Link from 'gatsby-link'
 import styled from 'styled-components'
 
-import logo from '../../images/logo.jpg';
+// import mainTheme from '../../layouts/index'
+
+import { primaryDarkGrey, primaryGold, hola } from '../../theme/variables';
+
+import logo from '../../images/luke-secomb-digital-logo.svg';
+
+const LogoSVG = () => (
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 350 226.86">
+  <g id="Layer_2" data-name="Layer 2">
+  <g id="Layer_1-2" data-name="Layer 1">
+  <path class="cls-1" d="M106.94,22.24,19.24,59l87.7,37v22.24L0,71.71V46.48L106.94,0Z"/>
+  <path class="cls-1" d="M243.06,204.62l87.7-36.73-87.7-37V108.67L350,155.15v25.24L243.06,226.86Z"/>
+  <path class="cls-1" d="M242.6,0Q151.42,151.75,136.33,178.45t-15.09,35.39q0,9.77,8.26,9.77,18.25,0,67-68.93,1.08-2.17,2.61-2.17a1.16,1.16,0,0,1,.87,1.3q0,1.3-2.17,3.47l-9.35,12.83q-41.09,56.74-60.64,56.74a19.19,19.19,0,0,1-15.32-7.06q-6-7.06-6-17.91A51.52,51.52,0,0,1,112,178.78q5.54-11.18,37.67-64.59Q189,48.85,215.89.87Z"/>
+  </g></g>
+</svg>
+)
 
 const HeaderWrapper = styled.div`
   width: 100%;
   height: auto;
   padding: 2%;
   margin: 0 auto;
-  background: green;
-  h1 {
-    img {
-      width: 50px;
-    }
-  }
 `;
 
 const HeaderContainer = styled.div`
   margin: 0 auto;
   width: 100%;
+  a {
+    svg {
+      width: 50px;
+      color: ${primaryGold};
+    }
+  }
 `;
 
 const Header = () => (
   <HeaderWrapper>
     <HeaderContainer>
-      <h1 style={{ margin: 0 }}>
         <Link to="/">
-          <img src={logo} alt="Luke Secomb Digital Logo" />
+          <LogoSVG />
         </Link>
-      </h1>
+        <Link to="/">
+          
+        </Link>
     </HeaderContainer>
   </HeaderWrapper>
 )
