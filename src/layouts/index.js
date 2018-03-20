@@ -2,7 +2,6 @@ import React from 'react'
 import PropTypes from 'prop-types'
 import Helmet from 'react-helmet'
 import styled from 'styled-components'
-import ReactSVG from 'react-svg'
 
 import fontawesome from '@fortawesome/fontawesome'
 import FontAWesomeIcon from '@fortawesome/react-fontawesome'

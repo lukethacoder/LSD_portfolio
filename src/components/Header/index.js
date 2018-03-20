@@ -2,8 +2,6 @@ import React from 'react'
 import Link from 'gatsby-link'
 import styled from 'styled-components'
 
-// import mainTheme from '../../layouts/index'
-
 import { primaryDarkGrey, primaryGold, hola } from '../../theme/variables';
 
 import logo from '../../images/luke-secomb-digital-logo.svg';
@@ -37,15 +35,45 @@ const HeaderContainer = styled.div`
   }
 `;
 
+const SvgWrapper = styled.div`
+  fill: ${primaryGold};
+`
+
+const NavList = styled.ul`
+  width: 50%;
+  float: right;
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  display: grid;
+  grid-template-rows: 1fr;
+  grid-template-columns: auto;
+  align-content: right;
+  a {
+    align-content: right;
+    text-decoration: none;
+    li {
+      display: inline-block;
+      align-self: right;
+      color: ${primaryGold};
+      margin: 1% 10%;
+    }
+  }
+`
+
 const Header = () => (
   <HeaderWrapper>
     <HeaderContainer>
         <Link to="/">
-          <LogoSVG />
+          <SvgWrapper>
+            <LogoSVG />
+          </SvgWrapper>
         </Link>
-        <Link to="/">
-          
-        </Link>
+        <NavList>
+          <Link to="/blog"><li>Blog</li></Link>
+          <Link to="/resume"><li>Resume</li></Link>
+          <Link to="/about"><li>About</li></Link>
+        </NavList>
     </HeaderContainer>
   </HeaderWrapper>
 )

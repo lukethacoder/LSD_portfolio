@@ -12,7 +12,6 @@ export const otherGreyLight = '#9D9DA5';
 export const otherGreyLighter = '#B8B8BF';
 
 // Font Variables
-
 export const primaryFont = "Montserrat', sans-serif";
 export const secondaryFont = "Montserrat', sans-serif";
 export const tertiaryFont = "'GFS Didot', serif";
