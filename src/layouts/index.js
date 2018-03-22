@@ -4,11 +4,11 @@ import Helmet from 'react-helmet'
 import styled from 'styled-components'
 
 import fontawesome from '@fortawesome/fontawesome'
-import FontAWesomeIcon from '@fortawesome/react-fontawesome'
+import FontAwesomeIcon from '@fortawesome/react-fontawesome'
 import brands from '@fortawesome/fontawesome-free-brands'
 import { faCoffee } from '@fortawesome/fontawesome-free-solid'
 
-import { primaryDarkGrey, primaryGold, hola } from '../theme/variables';
+import { primaryDarkGrey, primaryGold, primaryWhite, primaryFont, secondaryFont, tertiaryFont } from '../theme/variables';
 
 import Header from '../components/Header'
 import Footer from '../components/Footer'
@@ -31,7 +31,7 @@ const ChildrenContainer = styled.div`
   width: 100%;
   height: 100%;
   margin: 0;
-  background-color: ${props => props.theme.dgr};
+  background-color: ${primaryDarkGrey};
 `;
 // theme={mainTheme}
 const TemplateWrapper = ({ children }) => (
