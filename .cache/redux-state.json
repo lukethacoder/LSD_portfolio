@@ -16,7 +16,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "dc0eeedc828646322c642e9287bf44b5",
+        "contentDigest": "f5340e9ca8a9efd4490b0736d865391e",
         "owner": "internal-data-bridge"
       }
     },
@@ -244,7 +244,7 @@
       "resolve": "C:/Users/lukes/Documents/web-design-graphics/clients/Luke Secomb Digital/website/LSD_portfolio/node_modules/gatsby-plugin-react-helmet",
       "id": "Plugin gatsby-plugin-react-helmet",
       "name": "gatsby-plugin-react-helmet",
-      "version": "2.0.7",
+      "version": "2.0.8",
       "pluginOptions": {
         "plugins": []
       },
@@ -256,8 +256,8 @@
       "pluginFilepath": "C:/Users/lukes/Documents/web-design-graphics/clients/Luke Secomb Digital/website/LSD_portfolio/node_modules/gatsby-plugin-react-helmet",
       "packageJson": {
         "name": "gatsby-plugin-react-helmet",
-        "description": "Stub description for gatsby-plugin-react-helmet",
-        "version": "2.0.7",
+        "description": "Provides drop-in support for server rendering data added with react-helmet",
+        "version": "2.0.8",
         "main": "index.js",
         "keywords": [
           "gatsby",
@@ -300,7 +300,7 @@
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "cee777a55b4310d17801499904667509",
+        "contentDigest": "d0de3c1b08a76b97e7c06c411fb4579b",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
@@ -367,11 +367,420 @@
         "owner": "internal-data-bridge"
       }
     },
+    "Plugin gatsby-source-filesystem": {
+      "resolve": "C:/Users/lukes/Documents/web-design-graphics/clients/Luke Secomb Digital/website/LSD_portfolio/node_modules/gatsby-source-filesystem",
+      "id": "Plugin gatsby-source-filesystem",
+      "name": "gatsby-source-filesystem",
+      "version": "1.5.27",
+      "pluginOptions": {
+        "plugins": [],
+        "name": "img",
+        "path": "C:\\Users\\lukes\\Documents\\web-design-graphics\\clients\\Luke Secomb Digital\\website\\LSD_portfolio/src/images"
+      },
+      "nodeAPIs": [
+        "sourceNodes",
+        "setFieldsOnGraphQLNodeType"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "C:/Users/lukes/Documents/web-design-graphics/clients/Luke Secomb Digital/website/LSD_portfolio/node_modules/gatsby-source-filesystem",
+      "packageJson": {
+        "name": "gatsby-source-filesystem",
+        "description": "Gatsby plugin which parses files within a directory for further parsing by other plugins",
+        "version": "1.5.27",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin"
+        ],
+        "author": {
+          "name": "Kyle Mathews",
+          "email": "mathews.kyle@gmail.com"
+        },
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "babel-cli",
+            "version": "^6.26.0"
+          },
+          {
+            "name": "babel-runtime",
+            "version": "^6.26.0"
+          },
+          {
+            "name": "bluebird",
+            "version": "^3.5.0"
+          },
+          {
+            "name": "chokidar",
+            "version": "^1.7.0"
+          },
+          {
+            "name": "fs-extra",
+            "version": "^4.0.1"
+          },
+          {
+            "name": "got",
+            "version": "^7.1.0"
+          },
+          {
+            "name": "md5-file",
+            "version": "^3.1.1"
+          },
+          {
+            "name": "mime",
+            "version": "^1.3.6"
+          },
+          {
+            "name": "pretty-bytes",
+            "version": "^4.0.2"
+          },
+          {
+            "name": "slash",
+            "version": "^1.0.0"
+          },
+          {
+            "name": "valid-url",
+            "version": "^1.0.9"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "cross-env",
+            "version": "^5.0.5"
+          }
+        ],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "f79428e38ca39f4bb279c868bd03b76f",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin gatsby-transformer-remark": {
+      "resolve": "C:/Users/lukes/Documents/web-design-graphics/clients/Luke Secomb Digital/website/LSD_portfolio/node_modules/gatsby-transformer-remark",
+      "id": "Plugin gatsby-transformer-remark",
+      "name": "gatsby-transformer-remark",
+      "version": "1.7.37",
+      "pluginOptions": {
+        "plugins": [],
+        "excerpt_separator": "<!-- 420 -->"
+      },
+      "nodeAPIs": [
+        "onCreateNode",
+        "setFieldsOnGraphQLNodeType"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "C:/Users/lukes/Documents/web-design-graphics/clients/Luke Secomb Digital/website/LSD_portfolio/node_modules/gatsby-transformer-remark",
+      "packageJson": {
+        "name": "gatsby-transformer-remark",
+        "description": "Gatsby transformer plugin for Markdown using the Remark library and ecosystem",
+        "version": "1.7.37",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin",
+          "markdown",
+          "remark"
+        ],
+        "author": {
+          "name": "Kyle Mathews",
+          "email": "mathews.kyle@gmail.com"
+        },
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "babel-runtime",
+            "version": "^6.26.0"
+          },
+          {
+            "name": "bluebird",
+            "version": "^3.5.0"
+          },
+          {
+            "name": "graphql-type-json",
+            "version": "^0.1.4"
+          },
+          {
+            "name": "gray-matter",
+            "version": "^3.0.0"
+          },
+          {
+            "name": "hast-util-raw",
+            "version": "^2.0.2"
+          },
+          {
+            "name": "hast-util-to-html",
+            "version": "^3.0.0"
+          },
+          {
+            "name": "lodash",
+            "version": "^4.17.4"
+          },
+          {
+            "name": "mdast-util-to-hast",
+            "version": "^2.4.0"
+          },
+          {
+            "name": "mdast-util-toc",
+            "version": "^2.0.1"
+          },
+          {
+            "name": "remark",
+            "version": "^7.0.1"
+          },
+          {
+            "name": "remark-parse",
+            "version": "^4.0.0"
+          },
+          {
+            "name": "remark-retext",
+            "version": "^3.1.0"
+          },
+          {
+            "name": "remark-stringify",
+            "version": "^4.0.0"
+          },
+          {
+            "name": "retext-english",
+            "version": "^3.0.0"
+          },
+          {
+            "name": "sanitize-html",
+            "version": "^1.14.1"
+          },
+          {
+            "name": "underscore.string",
+            "version": "^3.3.4"
+          },
+          {
+            "name": "unified",
+            "version": "^6.1.5"
+          },
+          {
+            "name": "unist-util-remove-position",
+            "version": "^1.1.1"
+          },
+          {
+            "name": "unist-util-select",
+            "version": "^1.5.0"
+          },
+          {
+            "name": "unist-util-visit",
+            "version": "^1.1.1"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "babel-cli",
+            "version": "^6.26.0"
+          },
+          {
+            "name": "babel-plugin-transform-object-rest-spread",
+            "version": "^6.20.2"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.0.5"
+          }
+        ],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "f05cbd906d78448411603e6741f09309",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin gatsby-transformer-sharp": {
+      "resolve": "C:/Users/lukes/Documents/web-design-graphics/clients/Luke Secomb Digital/website/LSD_portfolio/node_modules/gatsby-transformer-sharp",
+      "id": "Plugin gatsby-transformer-sharp",
+      "name": "gatsby-transformer-sharp",
+      "version": "1.6.22",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "onCreateNode",
+        "setFieldsOnGraphQLNodeType",
+        "onPreExtractQueries"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "C:/Users/lukes/Documents/web-design-graphics/clients/Luke Secomb Digital/website/LSD_portfolio/node_modules/gatsby-transformer-sharp",
+      "packageJson": {
+        "name": "gatsby-transformer-sharp",
+        "description": "Gatsby transformer plugin for images using Sharp",
+        "version": "1.6.22",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin",
+          "image",
+          "sharp"
+        ],
+        "author": {
+          "name": "Kyle Mathews",
+          "email": "mathews.kyle@gmail.com"
+        },
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "babel-runtime",
+            "version": "^6.26.0"
+          },
+          {
+            "name": "bluebird",
+            "version": "^3.5.0"
+          },
+          {
+            "name": "fs-extra",
+            "version": "^4.0.2"
+          },
+          {
+            "name": "probe-image-size",
+            "version": "^3.2.0"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "babel-cli",
+            "version": "^6.26.0"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.0.5"
+          }
+        ],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "08d0a82819bacf08c5fea73c91563e9e",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin gatsby-plugin-sharp": {
+      "resolve": "C:/Users/lukes/Documents/web-design-graphics/clients/Luke Secomb Digital/website/LSD_portfolio/node_modules/gatsby-plugin-sharp",
+      "id": "Plugin gatsby-plugin-sharp",
+      "name": "gatsby-plugin-sharp",
+      "version": "1.6.41",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "C:/Users/lukes/Documents/web-design-graphics/clients/Luke Secomb Digital/website/LSD_portfolio/node_modules/gatsby-plugin-sharp",
+      "packageJson": {
+        "name": "gatsby-plugin-sharp",
+        "description": "Wrapper of the Sharp image manipulation library for Gatsby plugins",
+        "version": "1.6.41",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin",
+          "image",
+          "sharp"
+        ],
+        "author": {
+          "name": "Kyle Mathews",
+          "email": "mathews.kyle@gmail.com"
+        },
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "async",
+            "version": "^2.1.2"
+          },
+          {
+            "name": "babel-runtime",
+            "version": "^6.26.0"
+          },
+          {
+            "name": "bluebird",
+            "version": "^3.5.0"
+          },
+          {
+            "name": "imagemin",
+            "version": "^5.2.2"
+          },
+          {
+            "name": "imagemin-pngquant",
+            "version": "^5.0.0"
+          },
+          {
+            "name": "imagemin-webp",
+            "version": "^4.0.0"
+          },
+          {
+            "name": "lodash",
+            "version": "^4.17.4"
+          },
+          {
+            "name": "potrace",
+            "version": "^2.1.1"
+          },
+          {
+            "name": "probe-image-size",
+            "version": "^3.2.0"
+          },
+          {
+            "name": "progress",
+            "version": "^1.1.8"
+          },
+          {
+            "name": "sharp",
+            "version": "^0.20.0"
+          },
+          {
+            "name": "svgo",
+            "version": "^0.7.2"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "babel-cli",
+            "version": "^6.26.0"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.0.5"
+          }
+        ],
+        "peerDependencies": [
+          {
+            "name": "gatsby",
+            "version": "^1.0.0"
+          }
+        ],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "48d9826e0646571b0991f6d804b6655b",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
     "Plugin default-site-plugin": {
       "resolve": "C:/Users/lukes/Documents/web-design-graphics/clients/Luke Secomb Digital/website/LSD_portfolio",
       "id": "Plugin default-site-plugin",
       "name": "default-site-plugin",
-      "version": "4f4e110ecf3f7ef8048d7c290c159e1b",
+      "version": "99530fee2e68af36990704a4ed082063",
       "pluginOptions": {
         "plugins": []
       },
@@ -410,16 +819,36 @@
             "version": "^1.9.232"
           },
           {
+            "name": "gatsby-image",
+            "version": "^1.0.42"
+          },
+          {
             "name": "gatsby-link",
             "version": "^1.6.39"
           },
           {
             "name": "gatsby-plugin-react-helmet",
-            "version": "^2.0.7"
+            "version": "^2.0.8"
+          },
+          {
+            "name": "gatsby-plugin-sharp",
+            "version": "^1.6.41"
           },
           {
             "name": "gatsby-plugin-styled-components",
             "version": "^2.0.9"
+          },
+          {
+            "name": "gatsby-source-filesystem",
+            "version": "^1.5.27"
+          },
+          {
+            "name": "gatsby-transformer-remark",
+            "version": "^1.7.37"
+          },
+          {
+            "name": "gatsby-transformer-sharp",
+            "version": "^1.6.22"
           },
           {
             "name": "react-helmet",
@@ -451,7 +880,7 @@
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "bd1766694a4448dce3361bac6dc73f43",
+        "contentDigest": "1327bfa66a51f4d89fc1d3dc727f1d29",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
@@ -464,14 +893,1107 @@
       "host": "localhost",
       "pathPrefix": "",
       "polyfill": true,
-      "buildTime": "2018-03-22T02:19:47.720Z",
+      "buildTime": "2018-03-23T08:39:20.814Z",
       "id": "Site",
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "d46aadcfcb441be0adfe2223357110e7",
+        "contentDigest": "69ba4d9ccde9439a36f1b56d14796bda",
         "type": "Site",
         "owner": "internal-data-bridge"
+      }
+    },
+    "C:/Users/lukes/Documents/web-design-graphics/clients/Luke Secomb Digital/website/LSD_portfolio/src/ absPath of file": {
+      "id": "C:/Users/lukes/Documents/web-design-graphics/clients/Luke Secomb Digital/website/LSD_portfolio/src/ absPath of file",
+      "children": [],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "bc011beaf61a8bdeae214114854abc60",
+        "type": "Directory",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "src",
+      "absolutePath": "C:/Users/lukes/Documents/web-design-graphics/clients/Luke Secomb Digital/website/LSD_portfolio/src/",
+      "relativePath": "",
+      "extension": "",
+      "size": 0,
+      "prettySize": "0 B",
+      "modifiedTime": "2018-03-18T11:15:46.555Z",
+      "accessTime": "2018-03-18T11:15:46.555Z",
+      "changeTime": "2018-03-18T11:15:46.555Z",
+      "birthTime": "2018-03-16T08:16:59.233Z",
+      "root": "C:/",
+      "dir": "C:/Users/lukes/Documents/web-design-graphics/clients/Luke Secomb Digital/website/LSD_portfolio",
+      "base": "src",
+      "ext": "",
+      "name": "src",
+      "relativeDirectory": "..",
+      "dev": 103622586,
+      "mode": 16822,
+      "nlink": 1,
+      "uid": 0,
+      "gid": 0,
+      "rdev": 0,
+      "ino": 4222124651110875,
+      "atimeMs": 1521371746554.5662,
+      "mtimeMs": 1521371746554.5662,
+      "ctimeMs": 1521371746554.5662,
+      "birthtimeMs": 1521188219232.988,
+      "atime": "2018-03-18T11:15:46.555Z",
+      "mtime": "2018-03-18T11:15:46.555Z",
+      "ctime": "2018-03-18T11:15:46.555Z",
+      "birthtime": "2018-03-16T08:16:59.233Z"
+    },
+    "C:/Users/lukes/Documents/web-design-graphics/clients/Luke Secomb Digital/website/LSD_portfolio/src/components absPath of file": {
+      "id": "C:/Users/lukes/Documents/web-design-graphics/clients/Luke Secomb Digital/website/LSD_portfolio/src/components absPath of file",
+      "children": [],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "5401915b6f7df61baf32ae37f33973e6",
+        "type": "Directory",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "src",
+      "absolutePath": "C:/Users/lukes/Documents/web-design-graphics/clients/Luke Secomb Digital/website/LSD_portfolio/src/components",
+      "relativePath": "components",
+      "extension": "",
+      "size": 0,
+      "prettySize": "0 B",
+      "modifiedTime": "2018-03-22T02:35:35.107Z",
+      "accessTime": "2018-03-22T02:35:35.107Z",
+      "changeTime": "2018-03-22T02:35:35.107Z",
+      "birthTime": "2018-03-16T08:16:59.233Z",
+      "root": "C:/",
+      "dir": "C:/Users/lukes/Documents/web-design-graphics/clients/Luke Secomb Digital/website/LSD_portfolio/src",
+      "base": "components",
+      "ext": "",
+      "name": "components",
+      "relativeDirectory": "",
+      "dev": 103622586,
+      "mode": 16822,
+      "nlink": 1,
+      "uid": 0,
+      "gid": 0,
+      "rdev": 0,
+      "ino": 5348024557953500,
+      "atimeMs": 1521686135107.4,
+      "mtimeMs": 1521686135107.4,
+      "ctimeMs": 1521686135107.4,
+      "birthtimeMs": 1521188219232.988,
+      "atime": "2018-03-22T02:35:35.107Z",
+      "mtime": "2018-03-22T02:35:35.107Z",
+      "ctime": "2018-03-22T02:35:35.107Z",
+      "birthtime": "2018-03-16T08:16:59.233Z"
+    },
+    "C:/Users/lukes/Documents/web-design-graphics/clients/Luke Secomb Digital/website/LSD_portfolio/src/fonts absPath of file": {
+      "id": "C:/Users/lukes/Documents/web-design-graphics/clients/Luke Secomb Digital/website/LSD_portfolio/src/fonts absPath of file",
+      "children": [],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "f050285cd551ccff1ec36e20f30a3c51",
+        "type": "Directory",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "src",
+      "absolutePath": "C:/Users/lukes/Documents/web-design-graphics/clients/Luke Secomb Digital/website/LSD_portfolio/src/fonts",
+      "relativePath": "fonts",
+      "extension": "",
+      "size": 0,
+      "prettySize": "0 B",
+      "modifiedTime": "2018-03-16T12:25:10.467Z",
+      "accessTime": "2018-03-16T12:25:10.467Z",
+      "changeTime": "2018-03-16T12:25:10.467Z",
+      "birthTime": "2018-03-16T12:24:02.371Z",
+      "root": "C:/",
+      "dir": "C:/Users/lukes/Documents/web-design-graphics/clients/Luke Secomb Digital/website/LSD_portfolio/src",
+      "base": "fonts",
+      "ext": "",
+      "name": "fonts",
+      "relativeDirectory": "",
+      "dev": 103622586,
+      "mode": 16822,
+      "nlink": 1,
+      "uid": 0,
+      "gid": 0,
+      "rdev": 0,
+      "ino": 1407374884643521,
+      "atimeMs": 1521203110467.1162,
+      "mtimeMs": 1521203110467.1162,
+      "ctimeMs": 1521203110467.1162,
+      "birthtimeMs": 1521203042370.9834,
+      "atime": "2018-03-16T12:25:10.467Z",
+      "mtime": "2018-03-16T12:25:10.467Z",
+      "ctime": "2018-03-16T12:25:10.467Z",
+      "birthtime": "2018-03-16T12:24:02.371Z"
+    },
+    "C:/Users/lukes/Documents/web-design-graphics/clients/Luke Secomb Digital/website/LSD_portfolio/src/images absPath of file": {
+      "id": "C:/Users/lukes/Documents/web-design-graphics/clients/Luke Secomb Digital/website/LSD_portfolio/src/images absPath of file",
+      "children": [],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "4e575f6817bd13192a551caa1569cf77",
+        "type": "Directory",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "src",
+      "absolutePath": "C:/Users/lukes/Documents/web-design-graphics/clients/Luke Secomb Digital/website/LSD_portfolio/src/images",
+      "relativePath": "images",
+      "extension": "",
+      "size": 0,
+      "prettySize": "0 B",
+      "modifiedTime": "2018-03-17T04:04:25.700Z",
+      "accessTime": "2018-03-17T04:04:25.700Z",
+      "changeTime": "2018-03-17T04:04:25.700Z",
+      "birthTime": "2018-03-16T08:47:58.393Z",
+      "root": "C:/",
+      "dir": "C:/Users/lukes/Documents/web-design-graphics/clients/Luke Secomb Digital/website/LSD_portfolio/src",
+      "base": "images",
+      "ext": "",
+      "name": "images",
+      "relativeDirectory": "",
+      "dev": 103622586,
+      "mode": 16822,
+      "nlink": 1,
+      "uid": 0,
+      "gid": 0,
+      "rdev": 0,
+      "ino": 3377699720807598,
+      "atimeMs": 1521259465699.6396,
+      "mtimeMs": 1521259465699.6396,
+      "ctimeMs": 1521259465699.6396,
+      "birthtimeMs": 1521190078392.9424,
+      "atime": "2018-03-17T04:04:25.700Z",
+      "mtime": "2018-03-17T04:04:25.700Z",
+      "ctime": "2018-03-17T04:04:25.700Z",
+      "birthtime": "2018-03-16T08:47:58.393Z"
+    },
+    "C:/Users/lukes/Documents/web-design-graphics/clients/Luke Secomb Digital/website/LSD_portfolio/src/layouts absPath of file": {
+      "id": "C:/Users/lukes/Documents/web-design-graphics/clients/Luke Secomb Digital/website/LSD_portfolio/src/layouts absPath of file",
+      "children": [],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "6d82a7b001808b5d2b6ac1ede9496618",
+        "type": "Directory",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "src",
+      "absolutePath": "C:/Users/lukes/Documents/web-design-graphics/clients/Luke Secomb Digital/website/LSD_portfolio/src/layouts",
+      "relativePath": "layouts",
+      "extension": "",
+      "size": 0,
+      "prettySize": "0 B",
+      "modifiedTime": "2018-03-18T11:15:49.616Z",
+      "accessTime": "2018-03-18T11:15:49.616Z",
+      "changeTime": "2018-03-18T11:15:49.616Z",
+      "birthTime": "2018-03-16T08:16:59.235Z",
+      "root": "C:/",
+      "dir": "C:/Users/lukes/Documents/web-design-graphics/clients/Luke Secomb Digital/website/LSD_portfolio/src",
+      "base": "layouts",
+      "ext": "",
+      "name": "layouts",
+      "relativeDirectory": "",
+      "dev": 103622586,
+      "mode": 16822,
+      "nlink": 1,
+      "uid": 0,
+      "gid": 0,
+      "rdev": 0,
+      "ino": 3940649674400223,
+      "atimeMs": 1521371749616.1035,
+      "mtimeMs": 1521371749616.1035,
+      "ctimeMs": 1521371749616.1035,
+      "birthtimeMs": 1521188219234.9927,
+      "atime": "2018-03-18T11:15:49.616Z",
+      "mtime": "2018-03-18T11:15:49.616Z",
+      "ctime": "2018-03-18T11:15:49.616Z",
+      "birthtime": "2018-03-16T08:16:59.235Z"
+    },
+    "C:/Users/lukes/Documents/web-design-graphics/clients/Luke Secomb Digital/website/LSD_portfolio/src/pages absPath of file": {
+      "id": "C:/Users/lukes/Documents/web-design-graphics/clients/Luke Secomb Digital/website/LSD_portfolio/src/pages absPath of file",
+      "children": [],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "03cd91cdabb124762c0572e8473f5315",
+        "type": "Directory",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "src",
+      "absolutePath": "C:/Users/lukes/Documents/web-design-graphics/clients/Luke Secomb Digital/website/LSD_portfolio/src/pages",
+      "relativePath": "pages",
+      "extension": "",
+      "size": 0,
+      "prettySize": "0 B",
+      "modifiedTime": "2018-03-16T12:00:34.390Z",
+      "accessTime": "2018-03-16T12:00:34.390Z",
+      "changeTime": "2018-03-16T12:00:34.390Z",
+      "birthTime": "2018-03-16T08:16:59.237Z",
+      "root": "C:/",
+      "dir": "C:/Users/lukes/Documents/web-design-graphics/clients/Luke Secomb Digital/website/LSD_portfolio/src",
+      "base": "pages",
+      "ext": "",
+      "name": "pages",
+      "relativeDirectory": "",
+      "dev": 103622586,
+      "mode": 16822,
+      "nlink": 1,
+      "uid": 0,
+      "gid": 0,
+      "rdev": 0,
+      "ino": 3940649674400226,
+      "atimeMs": 1521201634389.5227,
+      "mtimeMs": 1521201634389.5227,
+      "ctimeMs": 1521201634389.5227,
+      "birthtimeMs": 1521188219236.9978,
+      "atime": "2018-03-16T12:00:34.390Z",
+      "mtime": "2018-03-16T12:00:34.390Z",
+      "ctime": "2018-03-16T12:00:34.390Z",
+      "birthtime": "2018-03-16T08:16:59.237Z"
+    },
+    "C:/Users/lukes/Documents/web-design-graphics/clients/Luke Secomb Digital/website/LSD_portfolio/src/theme absPath of file": {
+      "id": "C:/Users/lukes/Documents/web-design-graphics/clients/Luke Secomb Digital/website/LSD_portfolio/src/theme absPath of file",
+      "children": [],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "6d6c9434d56f380416fc14c24053e99a",
+        "type": "Directory",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "src",
+      "absolutePath": "C:/Users/lukes/Documents/web-design-graphics/clients/Luke Secomb Digital/website/LSD_portfolio/src/theme",
+      "relativePath": "theme",
+      "extension": "",
+      "size": 0,
+      "prettySize": "0 B",
+      "modifiedTime": "2018-03-18T11:16:02.293Z",
+      "accessTime": "2018-03-18T11:16:02.293Z",
+      "changeTime": "2018-03-18T11:16:02.293Z",
+      "birthTime": "2018-03-18T11:15:30.596Z",
+      "root": "C:/",
+      "dir": "C:/Users/lukes/Documents/web-design-graphics/clients/Luke Secomb Digital/website/LSD_portfolio/src",
+      "base": "theme",
+      "ext": "",
+      "name": "theme",
+      "relativeDirectory": "",
+      "dev": 103622586,
+      "mode": 16822,
+      "nlink": 1,
+      "uid": 0,
+      "gid": 0,
+      "rdev": 0,
+      "ino": 5348024557654209,
+      "atimeMs": 1521371762292.7476,
+      "mtimeMs": 1521371762292.7476,
+      "ctimeMs": 1521371762292.7476,
+      "birthtimeMs": 1521371730596.4343,
+      "atime": "2018-03-18T11:16:02.293Z",
+      "mtime": "2018-03-18T11:16:02.293Z",
+      "ctime": "2018-03-18T11:16:02.293Z",
+      "birthtime": "2018-03-18T11:15:30.596Z"
+    },
+    "C:/Users/lukes/Documents/web-design-graphics/clients/Luke Secomb Digital/website/LSD_portfolio/src/components/LandingPage absPath of file": {
+      "id": "C:/Users/lukes/Documents/web-design-graphics/clients/Luke Secomb Digital/website/LSD_portfolio/src/components/LandingPage absPath of file",
+      "children": [],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "3e9164faaf8de18ace0e14b46a2f13d1",
+        "type": "Directory",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "src",
+      "absolutePath": "C:/Users/lukes/Documents/web-design-graphics/clients/Luke Secomb Digital/website/LSD_portfolio/src/components/LandingPage",
+      "relativePath": "components/LandingPage",
+      "extension": "",
+      "size": 0,
+      "prettySize": "0 B",
+      "modifiedTime": "2018-03-16T12:32:06.985Z",
+      "accessTime": "2018-03-16T12:32:06.985Z",
+      "changeTime": "2018-03-16T12:32:06.985Z",
+      "birthTime": "2018-03-16T12:31:59.801Z",
+      "root": "C:/",
+      "dir": "C:/Users/lukes/Documents/web-design-graphics/clients/Luke Secomb Digital/website/LSD_portfolio/src/components",
+      "base": "LandingPage",
+      "ext": "",
+      "name": "LandingPage",
+      "relativeDirectory": "components",
+      "dev": 103622586,
+      "mode": 16822,
+      "nlink": 1,
+      "uid": 0,
+      "gid": 0,
+      "rdev": 0,
+      "ino": 1407374884643590,
+      "atimeMs": 1521203526985.0908,
+      "mtimeMs": 1521203526985.0908,
+      "ctimeMs": 1521203526985.0908,
+      "birthtimeMs": 1521203519800.8381,
+      "atime": "2018-03-16T12:32:06.985Z",
+      "mtime": "2018-03-16T12:32:06.985Z",
+      "ctime": "2018-03-16T12:32:06.985Z",
+      "birthtime": "2018-03-16T12:31:59.801Z"
+    },
+    "C:/Users/lukes/Documents/web-design-graphics/clients/Luke Secomb Digital/website/LSD_portfolio/src/components/Header absPath of file": {
+      "id": "C:/Users/lukes/Documents/web-design-graphics/clients/Luke Secomb Digital/website/LSD_portfolio/src/components/Header absPath of file",
+      "children": [],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "b4201f685aaaafd15bbc186d5a253c22",
+        "type": "Directory",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "src",
+      "absolutePath": "C:/Users/lukes/Documents/web-design-graphics/clients/Luke Secomb Digital/website/LSD_portfolio/src/components/Header",
+      "relativePath": "components/Header",
+      "extension": "",
+      "size": 0,
+      "prettySize": "0 B",
+      "modifiedTime": "2018-03-16T08:16:59.234Z",
+      "accessTime": "2018-03-16T08:16:59.234Z",
+      "changeTime": "2018-03-16T08:16:59.234Z",
+      "birthTime": "2018-03-16T08:16:59.234Z",
+      "root": "C:/",
+      "dir": "C:/Users/lukes/Documents/web-design-graphics/clients/Luke Secomb Digital/website/LSD_portfolio/src/components",
+      "base": "Header",
+      "ext": "",
+      "name": "Header",
+      "relativeDirectory": "components",
+      "dev": 103622586,
+      "mode": 16822,
+      "nlink": 1,
+      "uid": 0,
+      "gid": 0,
+      "rdev": 0,
+      "ino": 4503599627821533,
+      "atimeMs": 1521188219233.9897,
+      "mtimeMs": 1521188219233.9897,
+      "ctimeMs": 1521188219233.9897,
+      "birthtimeMs": 1521188219233.9897,
+      "atime": "2018-03-16T08:16:59.234Z",
+      "mtime": "2018-03-16T08:16:59.234Z",
+      "ctime": "2018-03-16T08:16:59.234Z",
+      "birthtime": "2018-03-16T08:16:59.234Z"
+    },
+    "C:/Users/lukes/Documents/web-design-graphics/clients/Luke Secomb Digital/website/LSD_portfolio/src/components/globalCompontents absPath of file": {
+      "id": "C:/Users/lukes/Documents/web-design-graphics/clients/Luke Secomb Digital/website/LSD_portfolio/src/components/globalCompontents absPath of file",
+      "children": [],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "4f785849bf2bcfc12c72daa3cb31d118",
+        "type": "Directory",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "src",
+      "absolutePath": "C:/Users/lukes/Documents/web-design-graphics/clients/Luke Secomb Digital/website/LSD_portfolio/src/components/globalCompontents",
+      "relativePath": "components/globalCompontents",
+      "extension": "",
+      "size": 0,
+      "prettySize": "0 B",
+      "modifiedTime": "2018-03-22T02:35:54.136Z",
+      "accessTime": "2018-03-22T02:35:54.136Z",
+      "changeTime": "2018-03-22T02:35:54.136Z",
+      "birthTime": "2018-03-22T02:35:35.107Z",
+      "root": "C:/",
+      "dir": "C:/Users/lukes/Documents/web-design-graphics/clients/Luke Secomb Digital/website/LSD_portfolio/src/components",
+      "base": "globalCompontents",
+      "ext": "",
+      "name": "globalCompontents",
+      "relativeDirectory": "components",
+      "dev": 103622586,
+      "mode": 16822,
+      "nlink": 1,
+      "uid": 0,
+      "gid": 0,
+      "rdev": 0,
+      "ino": 1407374883633793,
+      "atimeMs": 1521686154135.9824,
+      "mtimeMs": 1521686154135.9824,
+      "ctimeMs": 1521686154135.9824,
+      "birthtimeMs": 1521686135107.4,
+      "atime": "2018-03-22T02:35:54.136Z",
+      "mtime": "2018-03-22T02:35:54.136Z",
+      "ctime": "2018-03-22T02:35:54.136Z",
+      "birthtime": "2018-03-22T02:35:35.107Z"
+    },
+    "C:/Users/lukes/Documents/web-design-graphics/clients/Luke Secomb Digital/website/LSD_portfolio/src/components/Footer absPath of file": {
+      "id": "C:/Users/lukes/Documents/web-design-graphics/clients/Luke Secomb Digital/website/LSD_portfolio/src/components/Footer absPath of file",
+      "children": [],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "e714894db694d7d6011c40bb013a03d2",
+        "type": "Directory",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "src",
+      "absolutePath": "C:/Users/lukes/Documents/web-design-graphics/clients/Luke Secomb Digital/website/LSD_portfolio/src/components/Footer",
+      "relativePath": "components/Footer",
+      "extension": "",
+      "size": 0,
+      "prettySize": "0 B",
+      "modifiedTime": "2018-03-16T12:29:23.345Z",
+      "accessTime": "2018-03-16T12:29:23.345Z",
+      "changeTime": "2018-03-16T12:29:23.345Z",
+      "birthTime": "2018-03-16T12:29:12.846Z",
+      "root": "C:/",
+      "dir": "C:/Users/lukes/Documents/web-design-graphics/clients/Luke Secomb Digital/website/LSD_portfolio/src/components",
+      "base": "Footer",
+      "ext": "",
+      "name": "Footer",
+      "relativeDirectory": "components",
+      "dev": 103622586,
+      "mode": 16822,
+      "nlink": 1,
+      "uid": 0,
+      "gid": 0,
+      "rdev": 0,
+      "ino": 1125899907932890,
+      "atimeMs": 1521203363345.23,
+      "mtimeMs": 1521203363345.23,
+      "ctimeMs": 1521203363345.23,
+      "birthtimeMs": 1521203352845.842,
+      "atime": "2018-03-16T12:29:23.345Z",
+      "mtime": "2018-03-16T12:29:23.345Z",
+      "ctime": "2018-03-16T12:29:23.345Z",
+      "birthtime": "2018-03-16T12:29:12.846Z"
+    },
+    "C:/Users/lukes/Documents/web-design-graphics/clients/Luke Secomb Digital/website/LSD_portfolio/src/images/luke-secomb-digital-logo.svg absPath of file": {
+      "id": "C:/Users/lukes/Documents/web-design-graphics/clients/Luke Secomb Digital/website/LSD_portfolio/src/images/luke-secomb-digital-logo.svg absPath of file",
+      "children": [],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "d28ae431159f57e62c98b5c36c48847f",
+        "mediaType": "image/svg+xml",
+        "type": "File",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "src",
+      "absolutePath": "C:/Users/lukes/Documents/web-design-graphics/clients/Luke Secomb Digital/website/LSD_portfolio/src/images/luke-secomb-digital-logo.svg",
+      "relativePath": "images/luke-secomb-digital-logo.svg",
+      "extension": "svg",
+      "size": 746,
+      "prettySize": "746 B",
+      "modifiedTime": "2018-03-18T12:49:05.635Z",
+      "accessTime": "2018-03-17T04:04:25.700Z",
+      "changeTime": "2018-03-18T12:49:05.635Z",
+      "birthTime": "2018-03-17T04:04:25.700Z",
+      "root": "C:/",
+      "dir": "C:/Users/lukes/Documents/web-design-graphics/clients/Luke Secomb Digital/website/LSD_portfolio/src/images",
+      "base": "luke-secomb-digital-logo.svg",
+      "ext": ".svg",
+      "name": "luke-secomb-digital-logo",
+      "relativeDirectory": "images",
+      "dev": 103622586,
+      "mode": 33206,
+      "nlink": 1,
+      "uid": 0,
+      "gid": 0,
+      "rdev": 0,
+      "ino": 3940649675037167,
+      "atimeMs": 1521259465699.6396,
+      "mtimeMs": 1521377345634.6282,
+      "ctimeMs": 1521377345634.6282,
+      "birthtimeMs": 1521259465699.6396,
+      "atime": "2018-03-17T04:04:25.700Z",
+      "mtime": "2018-03-18T12:49:05.635Z",
+      "ctime": "2018-03-18T12:49:05.635Z",
+      "birthtime": "2018-03-17T04:04:25.700Z"
+    },
+    "C:/Users/lukes/Documents/web-design-graphics/clients/Luke Secomb Digital/website/LSD_portfolio/src/layouts/index.css absPath of file": {
+      "id": "C:/Users/lukes/Documents/web-design-graphics/clients/Luke Secomb Digital/website/LSD_portfolio/src/layouts/index.css absPath of file",
+      "children": [],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "57b18a3eb1a6e1a678e6d5b02dc25ea9",
+        "mediaType": "text/css",
+        "type": "File",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "src",
+      "absolutePath": "C:/Users/lukes/Documents/web-design-graphics/clients/Luke Secomb Digital/website/LSD_portfolio/src/layouts/index.css",
+      "relativePath": "layouts/index.css",
+      "extension": "css",
+      "size": 11868,
+      "prettySize": "11.9 kB",
+      "modifiedTime": "2018-03-16T08:16:59.236Z",
+      "accessTime": "2018-03-16T08:16:59.235Z",
+      "changeTime": "2018-03-16T08:16:59.236Z",
+      "birthTime": "2018-03-16T08:16:59.235Z",
+      "root": "C:/",
+      "dir": "C:/Users/lukes/Documents/web-design-graphics/clients/Luke Secomb Digital/website/LSD_portfolio/src/layouts",
+      "base": "index.css",
+      "ext": ".css",
+      "name": "index",
+      "relativeDirectory": "layouts",
+      "dev": 103622586,
+      "mode": 33206,
+      "nlink": 1,
+      "uid": 0,
+      "gid": 0,
+      "rdev": 0,
+      "ino": 5066549581242848,
+      "atimeMs": 1521188219234.9927,
+      "mtimeMs": 1521188219235.995,
+      "ctimeMs": 1521188219235.995,
+      "birthtimeMs": 1521188219234.9927,
+      "atime": "2018-03-16T08:16:59.235Z",
+      "mtime": "2018-03-16T08:16:59.236Z",
+      "ctime": "2018-03-16T08:16:59.236Z",
+      "birthtime": "2018-03-16T08:16:59.235Z"
+    },
+    "C:/Users/lukes/Documents/web-design-graphics/clients/Luke Secomb Digital/website/LSD_portfolio/src/pages/404.js absPath of file": {
+      "id": "C:/Users/lukes/Documents/web-design-graphics/clients/Luke Secomb Digital/website/LSD_portfolio/src/pages/404.js absPath of file",
+      "children": [],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "8857de246387175d85e2e874b3d29120",
+        "mediaType": "application/javascript",
+        "type": "File",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "src",
+      "absolutePath": "C:/Users/lukes/Documents/web-design-graphics/clients/Luke Secomb Digital/website/LSD_portfolio/src/pages/404.js",
+      "relativePath": "pages/404.js",
+      "extension": "js",
+      "size": 208,
+      "prettySize": "208 B",
+      "modifiedTime": "2018-03-16T08:16:59.238Z",
+      "accessTime": "2018-03-16T08:16:59.237Z",
+      "changeTime": "2018-03-16T08:16:59.238Z",
+      "birthTime": "2018-03-16T08:16:59.237Z",
+      "root": "C:/",
+      "dir": "C:/Users/lukes/Documents/web-design-graphics/clients/Luke Secomb Digital/website/LSD_portfolio/src/pages",
+      "base": "404.js",
+      "ext": ".js",
+      "name": "404",
+      "relativeDirectory": "pages",
+      "dev": 103622586,
+      "mode": 33206,
+      "nlink": 1,
+      "uid": 0,
+      "gid": 0,
+      "rdev": 0,
+      "ino": 3940649674400227,
+      "atimeMs": 1521188219236.9978,
+      "mtimeMs": 1521188219238.0007,
+      "ctimeMs": 1521188219238.0007,
+      "birthtimeMs": 1521188219236.9978,
+      "atime": "2018-03-16T08:16:59.237Z",
+      "mtime": "2018-03-16T08:16:59.238Z",
+      "ctime": "2018-03-16T08:16:59.238Z",
+      "birthtime": "2018-03-16T08:16:59.237Z"
+    },
+    "C:/Users/lukes/Documents/web-design-graphics/clients/Luke Secomb Digital/website/LSD_portfolio/src/pages/index.js absPath of file": {
+      "id": "C:/Users/lukes/Documents/web-design-graphics/clients/Luke Secomb Digital/website/LSD_portfolio/src/pages/index.js absPath of file",
+      "children": [],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "9dbb32bc6012a11d9da702852f34a246",
+        "mediaType": "application/javascript",
+        "type": "File",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "src",
+      "absolutePath": "C:/Users/lukes/Documents/web-design-graphics/clients/Luke Secomb Digital/website/LSD_portfolio/src/pages/index.js",
+      "relativePath": "pages/index.js",
+      "extension": "js",
+      "size": 702,
+      "prettySize": "702 B",
+      "modifiedTime": "2018-03-22T06:00:43.836Z",
+      "accessTime": "2018-03-22T06:00:43.836Z",
+      "changeTime": "2018-03-22T06:00:43.836Z",
+      "birthTime": "2018-03-16T08:16:59.238Z",
+      "root": "C:/",
+      "dir": "C:/Users/lukes/Documents/web-design-graphics/clients/Luke Secomb Digital/website/LSD_portfolio/src/pages",
+      "base": "index.js",
+      "ext": ".js",
+      "name": "index",
+      "relativeDirectory": "pages",
+      "dev": 103622586,
+      "mode": 33206,
+      "nlink": 1,
+      "uid": 0,
+      "gid": 0,
+      "rdev": 0,
+      "ino": 5629499534664164,
+      "atimeMs": 1521698443836,
+      "mtimeMs": 1521698443836,
+      "ctimeMs": 1521698443836.441,
+      "birthtimeMs": 1521188219238.0007,
+      "atime": "2018-03-22T06:00:43.836Z",
+      "mtime": "2018-03-22T06:00:43.836Z",
+      "ctime": "2018-03-22T06:00:43.836Z",
+      "birthtime": "2018-03-16T08:16:59.238Z"
+    },
+    "C:/Users/lukes/Documents/web-design-graphics/clients/Luke Secomb Digital/website/LSD_portfolio/src/pages/resume.js absPath of file": {
+      "id": "C:/Users/lukes/Documents/web-design-graphics/clients/Luke Secomb Digital/website/LSD_portfolio/src/pages/resume.js absPath of file",
+      "children": [],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "f7ba5a15a65db9e94d458b50615c423c",
+        "mediaType": "application/javascript",
+        "type": "File",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "src",
+      "absolutePath": "C:/Users/lukes/Documents/web-design-graphics/clients/Luke Secomb Digital/website/LSD_portfolio/src/pages/resume.js",
+      "relativePath": "pages/resume.js",
+      "extension": "js",
+      "size": 257,
+      "prettySize": "257 B",
+      "modifiedTime": "2018-03-16T12:00:34.391Z",
+      "accessTime": "2018-03-16T08:16:59.239Z",
+      "changeTime": "2018-03-16T12:00:34.392Z",
+      "birthTime": "2018-03-16T08:16:59.239Z",
+      "root": "C:/",
+      "dir": "C:/Users/lukes/Documents/web-design-graphics/clients/Luke Secomb Digital/website/LSD_portfolio/src/pages",
+      "base": "resume.js",
+      "ext": ".js",
+      "name": "resume",
+      "relativeDirectory": "pages",
+      "dev": 103622586,
+      "mode": 33206,
+      "nlink": 1,
+      "uid": 0,
+      "gid": 0,
+      "rdev": 0,
+      "ino": 4222124651110885,
+      "atimeMs": 1521188219239,
+      "mtimeMs": 1521201634391,
+      "ctimeMs": 1521201634391.5269,
+      "birthtimeMs": 1521188219239.0024,
+      "atime": "2018-03-16T08:16:59.239Z",
+      "mtime": "2018-03-16T12:00:34.391Z",
+      "ctime": "2018-03-16T12:00:34.392Z",
+      "birthtime": "2018-03-16T08:16:59.239Z"
+    },
+    "C:/Users/lukes/Documents/web-design-graphics/clients/Luke Secomb Digital/website/LSD_portfolio/src/theme/variables.js absPath of file": {
+      "id": "C:/Users/lukes/Documents/web-design-graphics/clients/Luke Secomb Digital/website/LSD_portfolio/src/theme/variables.js absPath of file",
+      "children": [],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "9f0ac2990cc943edbf60e0fe28c3c7d8",
+        "mediaType": "application/javascript",
+        "type": "File",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "src",
+      "absolutePath": "C:/Users/lukes/Documents/web-design-graphics/clients/Luke Secomb Digital/website/LSD_portfolio/src/theme/variables.js",
+      "relativePath": "theme/variables.js",
+      "extension": "js",
+      "size": 625,
+      "prettySize": "625 B",
+      "modifiedTime": "2018-03-22T02:53:33.498Z",
+      "accessTime": "2018-03-22T02:53:26.921Z",
+      "changeTime": "2018-03-22T02:53:33.498Z",
+      "birthTime": "2018-03-18T10:31:14.574Z",
+      "root": "C:/",
+      "dir": "C:/Users/lukes/Documents/web-design-graphics/clients/Luke Secomb Digital/website/LSD_portfolio/src/theme",
+      "base": "variables.js",
+      "ext": ".js",
+      "name": "variables",
+      "relativeDirectory": "theme",
+      "dev": 103622586,
+      "mode": 33206,
+      "nlink": 1,
+      "uid": 0,
+      "gid": 0,
+      "rdev": 0,
+      "ino": 562949954652697,
+      "atimeMs": 1521687206921,
+      "mtimeMs": 1521687213498.3289,
+      "ctimeMs": 1521687213498.3289,
+      "birthtimeMs": 1521369074574.412,
+      "atime": "2018-03-22T02:53:26.921Z",
+      "mtime": "2018-03-22T02:53:33.498Z",
+      "ctime": "2018-03-22T02:53:33.498Z",
+      "birthtime": "2018-03-18T10:31:14.574Z"
+    },
+    "C:/Users/lukes/Documents/web-design-graphics/clients/Luke Secomb Digital/website/LSD_portfolio/src/components/LandingPage/index.js absPath of file": {
+      "id": "C:/Users/lukes/Documents/web-design-graphics/clients/Luke Secomb Digital/website/LSD_portfolio/src/components/LandingPage/index.js absPath of file",
+      "children": [],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "a885073a97b35dbf28f71e821f4e443e",
+        "mediaType": "application/javascript",
+        "type": "File",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "src",
+      "absolutePath": "C:/Users/lukes/Documents/web-design-graphics/clients/Luke Secomb Digital/website/LSD_portfolio/src/components/LandingPage/index.js",
+      "relativePath": "components/LandingPage/index.js",
+      "extension": "js",
+      "size": 2426,
+      "prettySize": "2.43 kB",
+      "modifiedTime": "2018-03-22T02:48:43.240Z",
+      "accessTime": "2018-03-22T02:45:32.675Z",
+      "changeTime": "2018-03-22T02:48:43.240Z",
+      "birthTime": "2018-03-16T12:32:06.985Z",
+      "root": "C:/",
+      "dir": "C:/Users/lukes/Documents/web-design-graphics/clients/Luke Secomb Digital/website/LSD_portfolio/src/components/LandingPage",
+      "base": "index.js",
+      "ext": ".js",
+      "name": "index",
+      "relativeDirectory": "components\\LandingPage",
+      "dev": 103622586,
+      "mode": 33206,
+      "nlink": 1,
+      "uid": 0,
+      "gid": 0,
+      "rdev": 0,
+      "ino": 1125899907932945,
+      "atimeMs": 1521686732675,
+      "mtimeMs": 1521686923240.3914,
+      "ctimeMs": 1521686923240.3914,
+      "birthtimeMs": 1521203526985.0908,
+      "atime": "2018-03-22T02:45:32.675Z",
+      "mtime": "2018-03-22T02:48:43.240Z",
+      "ctime": "2018-03-22T02:48:43.240Z",
+      "birthtime": "2018-03-16T12:32:06.985Z"
+    },
+    "C:/Users/lukes/Documents/web-design-graphics/clients/Luke Secomb Digital/website/LSD_portfolio/src/components/Header/index.js absPath of file": {
+      "id": "C:/Users/lukes/Documents/web-design-graphics/clients/Luke Secomb Digital/website/LSD_portfolio/src/components/Header/index.js absPath of file",
+      "children": [],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "da6fdd823a011033f8a691c312372163",
+        "mediaType": "application/javascript",
+        "type": "File",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "src",
+      "absolutePath": "C:/Users/lukes/Documents/web-design-graphics/clients/Luke Secomb Digital/website/LSD_portfolio/src/components/Header/index.js",
+      "relativePath": "components/Header/index.js",
+      "extension": "js",
+      "size": 3104,
+      "prettySize": "3.1 kB",
+      "modifiedTime": "2018-03-22T05:44:33.737Z",
+      "accessTime": "2018-03-22T05:44:33.737Z",
+      "changeTime": "2018-03-22T05:44:33.738Z",
+      "birthTime": "2018-03-16T08:16:59.234Z",
+      "root": "C:/",
+      "dir": "C:/Users/lukes/Documents/web-design-graphics/clients/Luke Secomb Digital/website/LSD_portfolio/src/components/Header",
+      "base": "index.js",
+      "ext": ".js",
+      "name": "index",
+      "relativeDirectory": "components\\Header",
+      "dev": 103622586,
+      "mode": 33206,
+      "nlink": 1,
+      "uid": 0,
+      "gid": 0,
+      "rdev": 0,
+      "ino": 4785074604532190,
+      "atimeMs": 1521697473737,
+      "mtimeMs": 1521697473737,
+      "ctimeMs": 1521697473737.7573,
+      "birthtimeMs": 1521188219233.9897,
+      "atime": "2018-03-22T05:44:33.737Z",
+      "mtime": "2018-03-22T05:44:33.737Z",
+      "ctime": "2018-03-22T05:44:33.738Z",
+      "birthtime": "2018-03-16T08:16:59.234Z"
+    },
+    "C:/Users/lukes/Documents/web-design-graphics/clients/Luke Secomb Digital/website/LSD_portfolio/src/components/globalCompontents/SocialMediaIcons.js absPath of file": {
+      "id": "C:/Users/lukes/Documents/web-design-graphics/clients/Luke Secomb Digital/website/LSD_portfolio/src/components/globalCompontents/SocialMediaIcons.js absPath of file",
+      "children": [],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "d436b44069f20a29fb7f766ee114715b",
+        "mediaType": "application/javascript",
+        "type": "File",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "src",
+      "absolutePath": "C:/Users/lukes/Documents/web-design-graphics/clients/Luke Secomb Digital/website/LSD_portfolio/src/components/globalCompontents/SocialMediaIcons.js",
+      "relativePath": "components/globalCompontents/SocialMediaIcons.js",
+      "extension": "js",
+      "size": 810,
+      "prettySize": "810 B",
+      "modifiedTime": "2018-03-22T03:42:51.014Z",
+      "accessTime": "2018-03-22T02:35:44.512Z",
+      "changeTime": "2018-03-22T03:42:51.014Z",
+      "birthTime": "2018-03-22T02:35:44.513Z",
+      "root": "C:/",
+      "dir": "C:/Users/lukes/Documents/web-design-graphics/clients/Luke Secomb Digital/website/LSD_portfolio/src/components/globalCompontents",
+      "base": "SocialMediaIcons.js",
+      "ext": ".js",
+      "name": "SocialMediaIcons",
+      "relativeDirectory": "components\\globalCompontents",
+      "dev": 103622586,
+      "mode": 33206,
+      "nlink": 1,
+      "uid": 0,
+      "gid": 0,
+      "rdev": 0,
+      "ino": 1407374883633794,
+      "atimeMs": 1521686144512,
+      "mtimeMs": 1521690171013.966,
+      "ctimeMs": 1521690171013.966,
+      "birthtimeMs": 1521686144512.8547,
+      "atime": "2018-03-22T02:35:44.512Z",
+      "mtime": "2018-03-22T03:42:51.014Z",
+      "ctime": "2018-03-22T03:42:51.014Z",
+      "birthtime": "2018-03-22T02:35:44.513Z"
+    },
+    "C:/Users/lukes/Documents/web-design-graphics/clients/Luke Secomb Digital/website/LSD_portfolio/src/components/Footer/index.js absPath of file": {
+      "id": "C:/Users/lukes/Documents/web-design-graphics/clients/Luke Secomb Digital/website/LSD_portfolio/src/components/Footer/index.js absPath of file",
+      "children": [],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "33eada4d9da6b1183759faa3d28ea5d3",
+        "mediaType": "application/javascript",
+        "type": "File",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "src",
+      "absolutePath": "C:/Users/lukes/Documents/web-design-graphics/clients/Luke Secomb Digital/website/LSD_portfolio/src/components/Footer/index.js",
+      "relativePath": "components/Footer/index.js",
+      "extension": "js",
+      "size": 471,
+      "prettySize": "471 B",
+      "modifiedTime": "2018-03-16T12:31:33.566Z",
+      "accessTime": "2018-03-16T12:29:23.345Z",
+      "changeTime": "2018-03-16T12:31:33.566Z",
+      "birthTime": "2018-03-16T12:29:23.345Z",
+      "root": "C:/",
+      "dir": "C:/Users/lukes/Documents/web-design-graphics/clients/Luke Secomb Digital/website/LSD_portfolio/src/components/Footer",
+      "base": "index.js",
+      "ext": ".js",
+      "name": "index",
+      "relativeDirectory": "components\\Footer",
+      "dev": 103622586,
+      "mode": 33206,
+      "nlink": 1,
+      "uid": 0,
+      "gid": 0,
+      "rdev": 0,
+      "ino": 1125899907932891,
+      "atimeMs": 1521203363345.23,
+      "mtimeMs": 1521203493566.246,
+      "ctimeMs": 1521203493566.246,
+      "birthtimeMs": 1521203363345.23,
+      "atime": "2018-03-16T12:29:23.345Z",
+      "mtime": "2018-03-16T12:31:33.566Z",
+      "ctime": "2018-03-16T12:31:33.566Z",
+      "birthtime": "2018-03-16T12:29:23.345Z"
+    },
+    "C:/Users/lukes/Documents/web-design-graphics/clients/Luke Secomb Digital/website/LSD_portfolio/src/layouts/index.js absPath of file": {
+      "id": "C:/Users/lukes/Documents/web-design-graphics/clients/Luke Secomb Digital/website/LSD_portfolio/src/layouts/index.js absPath of file",
+      "children": [],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "bf8c6b29689fb4f8d45d618495d97f1e",
+        "mediaType": "application/javascript",
+        "type": "File",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "src",
+      "absolutePath": "C:/Users/lukes/Documents/web-design-graphics/clients/Luke Secomb Digital/website/LSD_portfolio/src/layouts/index.js",
+      "relativePath": "layouts/index.js",
+      "extension": "js",
+      "size": 2047,
+      "prettySize": "2.05 kB",
+      "modifiedTime": "2018-03-22T02:40:11.721Z",
+      "accessTime": "2018-03-21T03:33:37.074Z",
+      "changeTime": "2018-03-22T02:40:11.721Z",
+      "birthTime": "2018-03-16T08:16:59.236Z",
+      "root": "C:/",
+      "dir": "C:/Users/lukes/Documents/web-design-graphics/clients/Luke Secomb Digital/website/LSD_portfolio/src/layouts",
+      "base": "index.js",
+      "ext": ".js",
+      "name": "index",
+      "relativeDirectory": "layouts",
+      "dev": 103622586,
+      "mode": 33206,
+      "nlink": 1,
+      "uid": 0,
+      "gid": 0,
+      "rdev": 0,
+      "ino": 3940649674400225,
+      "atimeMs": 1521603217073.9998,
+      "mtimeMs": 1521686411721.0798,
+      "ctimeMs": 1521686411721.0798,
+      "birthtimeMs": 1521188219235.995,
+      "atime": "2018-03-21T03:33:37.074Z",
+      "mtime": "2018-03-22T02:40:11.721Z",
+      "ctime": "2018-03-22T02:40:11.721Z",
+      "birthtime": "2018-03-16T08:16:59.236Z"
+    },
+    "C:/Users/lukes/Documents/web-design-graphics/clients/Luke Secomb Digital/website/LSD_portfolio/src/fonts/axen-bold.otf absPath of file": {
+      "id": "C:/Users/lukes/Documents/web-design-graphics/clients/Luke Secomb Digital/website/LSD_portfolio/src/fonts/axen-bold.otf absPath of file",
+      "children": [],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "0036ad7cc9bd5f4ddbf34f7f5bd653d0",
+        "mediaType": "font/otf",
+        "type": "File",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "src",
+      "absolutePath": "C:/Users/lukes/Documents/web-design-graphics/clients/Luke Secomb Digital/website/LSD_portfolio/src/fonts/axen-bold.otf",
+      "relativePath": "fonts/axen-bold.otf",
+      "extension": "otf",
+      "size": 68368,
+      "prettySize": "68.4 kB",
+      "modifiedTime": "2018-03-16T12:24:11.550Z",
+      "accessTime": "2018-03-16T12:24:10.227Z",
+      "changeTime": "2018-03-16T12:24:57.125Z",
+      "birthTime": "2018-03-16T12:24:10.227Z",
+      "root": "C:/",
+      "dir": "C:/Users/lukes/Documents/web-design-graphics/clients/Luke Secomb Digital/website/LSD_portfolio/src/fonts",
+      "base": "axen-bold.otf",
+      "ext": ".otf",
+      "name": "axen-bold",
+      "relativeDirectory": "fonts",
+      "dev": 103622586,
+      "mode": 33206,
+      "nlink": 1,
+      "uid": 0,
+      "gid": 0,
+      "rdev": 0,
+      "ino": 1125899907932867,
+      "atimeMs": 1521203050226.6714,
+      "mtimeMs": 1521203051550.0918,
+      "ctimeMs": 1521203097124.551,
+      "birthtimeMs": 1521203050226.6714,
+      "atime": "2018-03-16T12:24:10.227Z",
+      "mtime": "2018-03-16T12:24:11.550Z",
+      "ctime": "2018-03-16T12:24:57.125Z",
+      "birthtime": "2018-03-16T12:24:10.227Z"
+    },
+    "C:/Users/lukes/Documents/web-design-graphics/clients/Luke Secomb Digital/website/LSD_portfolio/src/fonts/axen-light.otf absPath of file": {
+      "id": "C:/Users/lukes/Documents/web-design-graphics/clients/Luke Secomb Digital/website/LSD_portfolio/src/fonts/axen-light.otf absPath of file",
+      "children": [],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "faabc1eb1eb4e63dd41b4934b3129fce",
+        "mediaType": "font/otf",
+        "type": "File",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "src",
+      "absolutePath": "C:/Users/lukes/Documents/web-design-graphics/clients/Luke Secomb Digital/website/LSD_portfolio/src/fonts/axen-light.otf",
+      "relativePath": "fonts/axen-light.otf",
+      "extension": "otf",
+      "size": 68036,
+      "prettySize": "68 kB",
+      "modifiedTime": "2018-03-16T12:24:21.377Z",
+      "accessTime": "2018-03-16T12:24:13.356Z",
+      "changeTime": "2018-03-16T12:25:10.467Z",
+      "birthTime": "2018-03-16T12:24:13.356Z",
+      "root": "C:/",
+      "dir": "C:/Users/lukes/Documents/web-design-graphics/clients/Luke Secomb Digital/website/LSD_portfolio/src/fonts",
+      "base": "axen-light.otf",
+      "ext": ".otf",
+      "name": "axen-light",
+      "relativeDirectory": "fonts",
+      "dev": 103622586,
+      "mode": 33206,
+      "nlink": 1,
+      "uid": 0,
+      "gid": 0,
+      "rdev": 0,
+      "ino": 1125899907932870,
+      "atimeMs": 1521203053355.954,
+      "mtimeMs": 1521203061377.3923,
+      "ctimeMs": 1521203110467.1162,
+      "birthtimeMs": 1521203053355.954,
+      "atime": "2018-03-16T12:24:13.356Z",
+      "mtime": "2018-03-16T12:24:21.377Z",
+      "ctime": "2018-03-16T12:25:10.467Z",
+      "birthtime": "2018-03-16T12:24:13.356Z"
+    },
+    "C:/Users/lukes/Documents/web-design-graphics/clients/Luke Secomb Digital/website/LSD_portfolio/src/fonts/axen-regular.otf absPath of file": {
+      "id": "C:/Users/lukes/Documents/web-design-graphics/clients/Luke Secomb Digital/website/LSD_portfolio/src/fonts/axen-regular.otf absPath of file",
+      "children": [],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "3a93bf9bd5dfcef5dce98b0582d3905c",
+        "mediaType": "font/otf",
+        "type": "File",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "src",
+      "absolutePath": "C:/Users/lukes/Documents/web-design-graphics/clients/Luke Secomb Digital/website/LSD_portfolio/src/fonts/axen-regular.otf",
+      "relativePath": "fonts/axen-regular.otf",
+      "extension": "otf",
+      "size": 74320,
+      "prettySize": "74.3 kB",
+      "modifiedTime": "2018-03-16T12:24:23.409Z",
+      "accessTime": "2018-03-16T12:24:21.401Z",
+      "changeTime": "2018-03-16T12:25:05.042Z",
+      "birthTime": "2018-03-16T12:24:21.401Z",
+      "root": "C:/",
+      "dir": "C:/Users/lukes/Documents/web-design-graphics/clients/Luke Secomb Digital/website/LSD_portfolio/src/fonts",
+      "base": "axen-regular.otf",
+      "ext": ".otf",
+      "name": "axen-regular",
+      "relativeDirectory": "fonts",
+      "dev": 103622586,
+      "mode": 33206,
+      "nlink": 1,
+      "uid": 0,
+      "gid": 0,
+      "rdev": 0,
+      "ino": 1970324837055516,
+      "atimeMs": 1521203061401.4927,
+      "mtimeMs": 1521203063408.8604,
+      "ctimeMs": 1521203105042.4592,
+      "birthtimeMs": 1521203061401.4927,
+      "atime": "2018-03-16T12:24:21.401Z",
+      "mtime": "2018-03-16T12:24:23.409Z",
+      "ctime": "2018-03-16T12:25:05.042Z",
+      "birthtime": "2018-03-16T12:24:21.401Z"
+    },
+    "C:/Users/lukes/Documents/web-design-graphics/clients/Luke Secomb Digital/website/LSD_portfolio/src/images/logo.jpg absPath of file": {
+      "id": "C:/Users/lukes/Documents/web-design-graphics/clients/Luke Secomb Digital/website/LSD_portfolio/src/images/logo.jpg absPath of file",
+      "children": [
+        "C:/Users/lukes/Documents/web-design-graphics/clients/Luke Secomb Digital/website/LSD_portfolio/src/images/logo.jpg absPath of file >> ImageSharp"
+      ],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "838ca8d9f75fcbd42316c5a72e2f4ab9",
+        "mediaType": "image/jpeg",
+        "type": "File",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "src",
+      "absolutePath": "C:/Users/lukes/Documents/web-design-graphics/clients/Luke Secomb Digital/website/LSD_portfolio/src/images/logo.jpg",
+      "relativePath": "images/logo.jpg",
+      "extension": "jpg",
+      "size": 198610,
+      "prettySize": "199 kB",
+      "modifiedTime": "2018-01-31T00:11:35.000Z",
+      "accessTime": "2018-03-16T08:48:02.902Z",
+      "changeTime": "2018-03-16T08:48:06.763Z",
+      "birthTime": "2018-03-16T08:48:02.902Z",
+      "root": "C:/",
+      "dir": "C:/Users/lukes/Documents/web-design-graphics/clients/Luke Secomb Digital/website/LSD_portfolio/src/images",
+      "base": "logo.jpg",
+      "ext": ".jpg",
+      "name": "logo",
+      "relativeDirectory": "images",
+      "dev": 103622586,
+      "mode": 33206,
+      "nlink": 1,
+      "uid": 0,
+      "gid": 0,
+      "rdev": 0,
+      "ino": 2814749767169978,
+      "atimeMs": 1521190082902.1914,
+      "mtimeMs": 1517357495000,
+      "ctimeMs": 1521190086763.4973,
+      "birthtimeMs": 1521190082902.1914,
+      "atime": "2018-03-16T08:48:02.902Z",
+      "mtime": "2018-01-31T00:11:35.000Z",
+      "ctime": "2018-03-16T08:48:06.763Z",
+      "birthtime": "2018-03-16T08:48:02.902Z"
+    },
+    "C:/Users/lukes/Documents/web-design-graphics/clients/Luke Secomb Digital/website/LSD_portfolio/src/images/logo.jpg absPath of file >> ImageSharp": {
+      "id": "C:/Users/lukes/Documents/web-design-graphics/clients/Luke Secomb Digital/website/LSD_portfolio/src/images/logo.jpg absPath of file >> ImageSharp",
+      "children": [],
+      "parent": "C:/Users/lukes/Documents/web-design-graphics/clients/Luke Secomb Digital/website/LSD_portfolio/src/images/logo.jpg absPath of file",
+      "internal": {
+        "contentDigest": "838ca8d9f75fcbd42316c5a72e2f4ab9",
+        "type": "ImageSharp",
+        "owner": "gatsby-transformer-sharp"
       }
     },
     "SitePage /404/": {
@@ -490,7 +2012,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "e2a18d0c5f03d5d442d34d324b2a8c43",
+        "contentDigest": "3cf0274645381bb6f71ada667efd9312",
         "owner": "internal-data-bridge"
       }
     },
@@ -510,7 +2032,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "1f40695a3125fd8f3fc4800258edafe4",
+        "contentDigest": "6a6a574722c71efa16821d30d7a72be5",
         "owner": "internal-data-bridge"
       }
     },
@@ -530,7 +2052,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "431e1bbbe61323461c5d7a25e5b52e52",
+        "contentDigest": "5ae382cf3589f95f535630e64de3cdaa",
         "owner": "internal-data-bridge"
       }
     },
@@ -550,14 +2072,14 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "24411b3fc93ba55a4175184be31f087e",
+        "contentDigest": "1f0a1a54e8f5d9084805897db29fc03e",
         "owner": "internal-data-bridge"
       }
     }
   },
   "status": {
     "plugins": {},
-    "PLUGINS_HASH": "8c3a158040d61a79439b5216f363c6c1"
+    "PLUGINS_HASH": "c4ca988876abdbc4e6202699f96bbd9a"
   },
   "componentDataDependencies": {
     "nodes": {},
