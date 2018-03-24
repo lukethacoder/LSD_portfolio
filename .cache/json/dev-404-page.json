@@ -1,1 +1,1 @@
-{"data":{"allSitePage":{"totalCount":4,"edges":[{"node":{"path":"/404/"}},{"node":{"path":"/"}},{"node":{"path":"/resume/"}},{"node":{"path":"/404.html"}}]}},"pathContext":{}}
+{"data":{"allSitePage":{"totalCount":5,"edges":[{"node":{"path":"/posts/test_post/"}},{"node":{"path":"/404/"}},{"node":{"path":"/"}},{"node":{"path":"/resume/"}},{"node":{"path":"/404.html"}}]}},"pathContext":{}}

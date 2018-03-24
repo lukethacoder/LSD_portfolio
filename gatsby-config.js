@@ -22,7 +22,7 @@ module.exports = {
     {
       resolve: "gatsby-transformer-remark",
       options: {
-        excerpt_separator: `<!-- 420 -->`
+        excerpt_separator: `<!-- end -->`
       }
     },
     "gatsby-transformer-sharp",

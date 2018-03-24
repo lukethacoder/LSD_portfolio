@@ -8,34 +8,53 @@ import FontAwesomeIcon from '@fortawesome/react-fontawesome'
 import brands from '@fortawesome/fontawesome-free-brands'
 import { faCoffee } from '@fortawesome/fontawesome-free-solid'
 
-import { primaryDarkGrey, primaryGold, primaryWhite, primaryFont, secondaryFont, tertiaryFont } from '../theme/variables';
+import bg_img from '../images/bg_img.jpg'
+
+import { primaryDarkGrey, primaryGold, primaryWhite, primaryFont, secondaryFont, tertiaryFont, backgroundDarkGrey } from '../theme/variables';
 
 import Header from '../components/Header'
 import Footer from '../components/Footer'
 import './index.css'
 
-const TheBody = styled.div`
-  width: 100%;
-  height: 100%;
-  background-color: ${primaryDarkGrey};
-`;
-
-const BodyContainer = styled.div`
+const BackgroundImage = styled.div`
   width: 100%;
   height: 100%;
   margin: 0;
   padding: 0;
+  background: url(${bg_img});
+  background-position: 0 -250px;
+  background-size: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  overflow: hidden;
+`
+
+const TheBody = styled.div`
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+`;
+
+const BodyContainer = styled.div`
+  width: 100vw;
+  margin: 0;
+  padding: 0;
+  position: relative;
+  background-color: ${backgroundDarkGrey};
+  overflow: hidden;
 `;
 
 const ChildrenContainer = styled.div`
   width: 100%;
-  height: 100%;
   margin: 0;
-  background-color: ${primaryDarkGrey};
+  padding: 0;
 `;
 // theme={mainTheme}
 const TemplateWrapper = ({ children }) => (
   <TheBody>
+    <BackgroundImage />
     <BodyContainer>
       <Helmet
         title="Luke Secomb - Web Developer | Digital Designer"
@@ -49,7 +68,8 @@ const TemplateWrapper = ({ children }) => (
         ]}
         script={[
           {"src": "https://use.fontawesome.com/releases/v5.0.6/js/all.js", "type": "text/javascript"},
-          {"src": "https://fonts.googleapis.com/css?family=GFS+Didot|Montserrat:300,400", "type": "text/stylesheet"}
+          {"src": "https://fonts.googleapis.com/css?family=Montserrat:300,400", "type": "text/stylesheet"},
+          {"src": "https://fonts.googleapis.com/css?family=Abril+Fatface", "type": "text/stylesheet"}
         ]}
       />
       <Header />

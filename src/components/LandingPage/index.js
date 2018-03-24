@@ -41,7 +41,7 @@ const LandingPageContainer = styled.div`
   h1 {
     font-family: ${tertiaryFont};
     color: ${primaryWhite};
-    font-size: 94px;
+    font-size: 6em;
   }
   h3 {
     font-family: ${primaryFont};
