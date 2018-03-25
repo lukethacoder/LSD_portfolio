@@ -17,10 +17,15 @@
     "gatsby-source-filesystem": "^1.5.27",
     "gatsby-transformer-remark": "^1.7.37",
     "gatsby-transformer-sharp": "^1.6.22",
+    "particlesjs": "^2.2.2",
     "react-helmet": "^5.2.0",
+    "react-particles-js": "^2.1.1",
     "react-svg": "^2.2.14",
     "styled-components": "^3.2.3",
-    "styled-components-theme": "^1.0.5"
+    "styled-components-theme": "^1.0.5",
+    "typeface-abril-fatface": "0.0.54",
+    "typeface-montserrat": "0.0.54",
+    "webfontloader": "^1.6.28"
   },
   "keywords": [
     "gatsby"

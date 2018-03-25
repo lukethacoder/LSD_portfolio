@@ -1,10 +1,13 @@
-import React from 'react'
+import React, { Component } from 'react'
 import Link from 'gatsby-link'
 import styled from 'styled-components'
 
 import LandingPage from '../components/LandingPage';
-import bg_img from '../images/bg_img.jpg'
+import DayOfWeek from '../components/DayOfWeek';
+import RandomWord from '../components/RandomWord';
+import bg_img from '../images/bg_img.jpg';
 import { primaryWhite, primaryDarkGrey, primaryGold, primaryFont, pageWidth } from '../theme/variables';
+
 
 const IndexPageContainer = styled.div` 
   width: 100%;
@@ -14,19 +17,19 @@ const IndexPageContainer = styled.div`
 `;
 
 const WorkContainer = styled.div`
-  background-color: ${primaryDarkGrey};
+  background-color: transparent;
   padding: 5% 0;
   div {
     width: ${pageWidth};
     margin: 0 auto;
     p {
-      width: 75%;
-      font-size: 2.8em;
+      width: 45%;
+      font-size: 2.9em;
       line-height: 1.1;
       color: ${primaryWhite};
       font-family: ${primaryFont};
       font-weight: 400;
-      margin-bottom: 1em;
+      margin-bottom: 1.5em;
       strong {
         color: ${primaryGold};
         font-style: normal;
@@ -66,11 +69,10 @@ const IndexPage = () => (
           Cool stuff, eh? If you are <strong>keen for a chat</strong>, hit me up at <strong><a href="#">hello@lukesecomb.digital</a></strong>
         </p>
         <p>
-          <strong>Stay creative and have an awesome Friday</strong>
+          <strong>Stay creative and have <RandomWord/> <DayOfWeek/></strong>
         </p>
       </div>
     </WorkContainer>
-    <Link to="/resume/">Go to page 2</Link>
   </IndexPageContainer>
 )
 

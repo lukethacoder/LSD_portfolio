@@ -1,7 +1,6 @@
 /node_modules
 .cache
 
-
 # Logs
 logs
 *.log

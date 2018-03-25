@@ -8,6 +8,9 @@ import FontAwesomeIcon from '@fortawesome/react-fontawesome'
 import brands from '@fortawesome/fontawesome-free-brands'
 import { faCoffee } from '@fortawesome/fontawesome-free-solid'
 
+require("typeface-montserrat");
+require("typeface-abril-fatface");
+
 import bg_img from '../images/bg_img.jpg'
 
 import { primaryDarkGrey, primaryGold, primaryWhite, primaryFont, secondaryFont, tertiaryFont, backgroundDarkGrey } from '../theme/variables';
@@ -51,7 +54,7 @@ const ChildrenContainer = styled.div`
   margin: 0;
   padding: 0;
 `;
-// theme={mainTheme}
+
 const TemplateWrapper = ({ children }) => (
   <TheBody>
     <BackgroundImage />
@@ -67,9 +70,7 @@ const TemplateWrapper = ({ children }) => (
           { property: 'og:image', content: ''}
         ]}
         script={[
-          {"src": "https://use.fontawesome.com/releases/v5.0.6/js/all.js", "type": "text/javascript"},
-          {"src": "https://fonts.googleapis.com/css?family=Montserrat:300,400", "type": "text/stylesheet"},
-          {"src": "https://fonts.googleapis.com/css?family=Abril+Fatface", "type": "text/stylesheet"}
+          {"src": "https://use.fontawesome.com/releases/v5.0.6/js/all.js", "type": "text/javascript"}
         ]}
       />
       <Header />
@@ -78,6 +79,7 @@ const TemplateWrapper = ({ children }) => (
       </ChildrenContainer>
       <Footer />
     </BodyContainer>
+    
   </TheBody>
 )
 
