@@ -1,8 +1,8 @@
 {
-  "name": "gatsby-starter-default",
+  "name": "Luke Secomb",
   "description": "Luke Secomb",
   "version": "1.0.0",
-  "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+  "author": "Luke Secomb <hello@lukesecomb.digital>",
   "dependencies": {
     "@fortawesome/fontawesome": "^1.1.4",
     "@fortawesome/fontawesome-free-brands": "^5.0.8",

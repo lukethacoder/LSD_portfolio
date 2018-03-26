@@ -25,28 +25,32 @@ import {
 
 const LandingPageWrapper = styled.div`
     width: ${pageWidth};
-    height: 100vh;
+    height: 80vh;
     margin: 0 auto 1.45rem auto;
+    position: relative;
 `;
 
 const LandingPageContainer = styled.div`
   margin: 0 auto;
-  height: 100vh;
+  height: auto;
   display: grid;
   align-content: center;
   padding-bottom: 5%;
+  position: absolute;
+  bottom: 0;
+  left: 0;
   h1 {
     font-family: ${primaryFont};
     color: ${primaryWhite};
     font-weight: 700;
-    font-size: 10em;
+    font-size: 10vw;
     line-height: .85;
   }
   h3 {
     font-family: ${primaryFont};
     color: ${primaryGold};
     font-weight: 400;
-    font-size: 2.5em;
+    font-size: 3vw;
   }
 `;
 
