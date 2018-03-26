@@ -1,32 +1,29 @@
-// import React, { Component } from 'react'
-// import Link from 'gatsby-link'
-// import getScrollTop from 'get-scroll'
-// import styled from 'styled-components'
+import React, { Component } from 'react'
 
-// export const BgStyle = (blurValue) => ({
-//     filter: `blur(` + (blurValue) + `)`
-// })
+class ScrollPlease extends Component {
+    constructor() {
+      super();
+      this.state = {
+        blurValue : "blur(1px)"
+      }
+    }
+    componentDidMount() {
+      setInterval( () => {
+        let scrollVal = 100;
+        console.log(scrollVal);
+        let blurFinalValue = "blur(" + (scrollVal / 100) + ")";
+        console.log(blurFinalValue);
+        this.setState({
+            blurValue : blurFinalValue
+        })
+      },3000)
+    }
+  
+    render() {
+        return(
+            <p>{this.state.blurFinalValue}</p>
+        );
+      }
+}
 
-// class GetScrollPosition extends Component {
-//     render() {
-//         let scrollPosition = window.pageYOffset;
-
-//         if (scrollPosition > 200) {
-//             return 
-//                 let blurValue = scrollPosition / 100;
-//         }
-//         else {
-//             return 
-//                 let blurValue = 5;
-//         }
-//         return (
-//             <BgStyle
-//                 style={
-//                     filter=blur(blurValue)
-//                 }
-//             />
-//         )
-//     }
-//   }
-
-// export default GetScrollPosition
+export default ScrollPlease

@@ -16,7 +16,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "edf4f96ab24c0bd45c7ffd675fbce59b",
+        "contentDigest": "d7d5b1ceea2409f8eb4b53546cb85fc6",
         "owner": "internal-data-bridge"
       }
     },
@@ -920,12 +920,12 @@
       "host": "localhost",
       "pathPrefix": "",
       "polyfill": true,
-      "buildTime": "2018-03-26T11:06:17.885Z",
+      "buildTime": "2018-03-26T12:01:06.103Z",
       "id": "Site",
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "a0cfbe8847757e3e1d2b37040447c28f",
+        "contentDigest": "37956e10b9333c22cb99ba91a3d69979",
         "type": "Site",
         "owner": "internal-data-bridge"
       }
@@ -1595,7 +1595,7 @@
       "children": [],
       "parent": "___SOURCE___",
       "internal": {
-        "contentDigest": "bbb2f832e322191f7dcbc45fc99ffab7",
+        "contentDigest": "caf1661f2f74490c5770d8a7aecc22d0",
         "mediaType": "application/javascript",
         "type": "File",
         "owner": "gatsby-source-filesystem"
@@ -1604,11 +1604,11 @@
       "absolutePath": "C:/Users/lukes/Documents/web-design-graphics/clients/Luke Secomb Digital/website/LSD_portfolio/src/layouts/index.js",
       "relativePath": "layouts/index.js",
       "extension": "js",
-      "size": 2855,
-      "prettySize": "2.85 kB",
-      "modifiedTime": "2018-03-26T10:56:58.771Z",
-      "accessTime": "2018-03-26T09:24:31.057Z",
-      "changeTime": "2018-03-26T10:56:58.771Z",
+      "size": 3526,
+      "prettySize": "3.53 kB",
+      "modifiedTime": "2018-03-26T12:37:26.339Z",
+      "accessTime": "2018-03-26T12:32:22.537Z",
+      "changeTime": "2018-03-26T12:37:26.339Z",
       "birthTime": "2018-03-16T08:16:59.236Z",
       "root": "C:/",
       "dir": "C:/Users/lukes/Documents/web-design-graphics/clients/Luke Secomb Digital/website/LSD_portfolio/src/layouts",
@@ -1623,13 +1623,13 @@
       "gid": 0,
       "rdev": 0,
       "ino": 3940649674400225,
-      "atimeMs": 1522056271057,
-      "mtimeMs": 1522061818770.9966,
-      "ctimeMs": 1522061818770.9966,
+      "atimeMs": 1522067542537,
+      "mtimeMs": 1522067846339.483,
+      "ctimeMs": 1522067846339.483,
       "birthtimeMs": 1521188219235.995,
-      "atime": "2018-03-26T09:24:31.057Z",
-      "mtime": "2018-03-26T10:56:58.771Z",
-      "ctime": "2018-03-26T10:56:58.771Z",
+      "atime": "2018-03-26T12:32:22.537Z",
+      "mtime": "2018-03-26T12:37:26.339Z",
+      "ctime": "2018-03-26T12:37:26.339Z",
       "birthtime": "2018-03-16T08:16:59.236Z"
     },
     "C:/Users/lukes/Documents/web-design-graphics/clients/Luke Secomb Digital/website/LSD_portfolio/src/pages/index.js absPath of file": {
@@ -2017,7 +2017,7 @@
       "children": [],
       "parent": "___SOURCE___",
       "internal": {
-        "contentDigest": "19054e8b578c0c5d07c2a87e0ff766c5",
+        "contentDigest": "0a5fb32e08ef68348c61c801ae6eedaf",
         "mediaType": "application/javascript",
         "type": "File",
         "owner": "gatsby-source-filesystem"
@@ -2026,11 +2026,11 @@
       "absolutePath": "C:/Users/lukes/Documents/web-design-graphics/clients/Luke Secomb Digital/website/LSD_portfolio/src/components/globalCompontents/getScroll.js",
       "relativePath": "components/globalCompontents/getScroll.js",
       "extension": "js",
-      "size": 850,
-      "prettySize": "850 B",
-      "modifiedTime": "2018-03-26T06:05:46.483Z",
-      "accessTime": "2018-03-26T05:53:33.551Z",
-      "changeTime": "2018-03-26T06:05:46.483Z",
+      "size": 650,
+      "prettySize": "650 B",
+      "modifiedTime": "2018-03-26T12:06:06.250Z",
+      "accessTime": "2018-03-26T11:38:24.621Z",
+      "changeTime": "2018-03-26T12:06:06.250Z",
       "birthTime": "2018-03-26T04:12:48.518Z",
       "root": "C:/",
       "dir": "C:/Users/lukes/Documents/web-design-graphics/clients/Luke Secomb Digital/website/LSD_portfolio/src/components/globalCompontents",
@@ -2045,13 +2045,13 @@
       "gid": 0,
       "rdev": 0,
       "ino": 3659174697487298,
-      "atimeMs": 1522043613551.0002,
-      "mtimeMs": 1522044346482.5493,
-      "ctimeMs": 1522044346482.5493,
+      "atimeMs": 1522064304621,
+      "mtimeMs": 1522065966249.917,
+      "ctimeMs": 1522065966249.917,
       "birthtimeMs": 1522037568517.8389,
-      "atime": "2018-03-26T05:53:33.551Z",
-      "mtime": "2018-03-26T06:05:46.483Z",
-      "ctime": "2018-03-26T06:05:46.483Z",
+      "atime": "2018-03-26T11:38:24.621Z",
+      "mtime": "2018-03-26T12:06:06.250Z",
+      "ctime": "2018-03-26T12:06:06.250Z",
       "birthtime": "2018-03-26T04:12:48.518Z"
     },
     "C:/Users/lukes/Documents/web-design-graphics/clients/Luke Secomb Digital/website/LSD_portfolio/src/components/globalCompontents/SocialMediaIcons.js absPath of file": {
@@ -2469,7 +2469,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "f34395284f68c56dfc019e2766bed486",
+        "contentDigest": "199665300587b247abfba16551cf4c72",
         "owner": "internal-data-bridge"
       }
     },
@@ -2489,7 +2489,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "d4b6c70762be3656abd3f86732d820ca",
+        "contentDigest": "bd91f62bc4fc49c51f82021b01160e29",
         "owner": "internal-data-bridge"
       }
     },
@@ -2509,7 +2509,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "db1dc0923114375fecec5d7d4366a04f",
+        "contentDigest": "f490ba7b05a936f03f01b632dfc3c0f0",
         "owner": "internal-data-bridge"
       }
     },
@@ -2529,7 +2529,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "053d6bdd0de24ce5be3f086580d3603d",
+        "contentDigest": "5a53ee1db46eb594ec700ec85cbae283",
         "owner": "internal-data-bridge"
       }
     },
@@ -2549,7 +2549,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "ad9dc130a796d68a136e742df3723528",
+        "contentDigest": "497c2bf43a2936f48b9bca2349cbcab6",
         "owner": "internal-data-bridge"
       }
     }

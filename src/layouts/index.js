@@ -2,6 +2,7 @@ import React, { Component } from 'react'
 import PropTypes from 'prop-types'
 import Helmet from 'react-helmet'
 import styled from 'styled-components'
+import './index.css'
 
 import fontawesome from '@fortawesome/fontawesome'
 import FontAwesomeIcon from '@fortawesome/react-fontawesome'
@@ -17,7 +18,7 @@ import { primaryDarkGrey, primaryGold, primaryWhite, primaryFont, secondaryFont,
 
 import Header from '../components/Header'
 import Footer from '../components/Footer'
-import './index.css'
+import Bluryness from '../components/globalCompontents/getScroll'
 
 
 const TheBody = styled.div`
@@ -43,27 +44,24 @@ const ChildrenContainer = styled.div`
   padding: 0;
 `;
 
-class GetScrollPosition extends React.Component {
-  render() {
-      let scrollPosition = window.pageYOffset;
-      let blurValue = "blur(5px)";
+// class GetScrollPosition extends React.Component {
+//   render() {
+//       let scrollPosition = window.pageYOffset;
+//       let blurValue = "blur(5px)";
 
-      if (scrollPosition > 200) {
-        blurValue = 'blur(100)';
-      }
-      else {
-        blurValue = 'blur(5px)';
-      }
+//       if (scrollPosition > 200) {
+//         blurValue = 'blur(100)';
+//       }
+//       else {
+//         blurValue = 'blur(5px)';
+//       }
       
-      return <div style={{ filter: blurValue }}></div>
-  }
-}
-const ScrollYo = styled(GetScrollPosition)``;
+//       return <div style={{ filter: blurValue }}></div>
+//   }
+// }
+// const ScrollYo = styled(GetScrollPosition)``;
 
 const BackgroundImage = styled.div`
-${ScrollYo} {
-
-}
   width: 100%;
   height: 100%;
   margin: 0;
@@ -78,9 +76,35 @@ ${ScrollYo} {
   overflow: hidden;
 `
 
+class ScrollyPlease extends Component {
+  componentDidMount() {
+    window.addEventListener('scroll', this.listenScrollEvent);
+  }
+  componentWillUnmount() {
+    window.removeEventListener('scroll', this.listenScrollEvent);
+  }
+
+  handleScroll() {
+    let scrollVal = 200;
+    console.log(scrollVal);
+    let blurFinalValue = "blur(" + (scrollVal / 100) + "px)";
+    console.log(blurFinalValue);
+    return blurFinalValue
+  }
+  render() {
+    let stevo = handleScroll();
+    return (
+      
+      <BackgroundImage style={{filter: stevo}}/>
+    );
+  }
+  
+}
+
 const TemplateWrapper = ({ children }) => (
+
   <TheBody>
-    <BackgroundImage/>
+    <ScrollyPlease/>
     <BodyContainer>
       <Helmet
         title="Luke Secomb - Web Developer | Digital Designer"
