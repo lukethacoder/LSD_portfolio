@@ -2,10 +2,15 @@ import React, { Component } from 'react'
 import Link from 'gatsby-link'
 
 class RandomWord extends Component {
-    render() {
-      // const todaysDate = new Date();
-      // const theDate = todaysDate.getDate();
-      const dayofweek = [
+  constructor() {
+    super();
+    this.state = {
+      curTime : null
+    }
+  }
+  componentDidMount() {
+    setInterval( () => {
+      const wordsOfNiceness = [
         "an Amazing",
         "an Awesome",
         "a Blithesome",
@@ -22,11 +27,20 @@ class RandomWord extends Component {
         "a Stellar",
         "a Wondrous",
       ]
-      const today = (dayofweek[new Date().getDay()]);
-      console.log(today);
-      return (
-        <strong>{today}</strong>
-      )
+      let randomIndex = Math.floor(Math.random() * wordsOfNiceness.length);
+      const niceWords = (wordsOfNiceness[randomIndex]);
+      console.log(niceWords);
+      
+      this.setState({
+        curTime : niceWords
+      })
+    },3000)
+  }
+
+  render() {
+      return(
+          <strong>{this.state.curTime}</strong>
+      );
     }
   }
 

@@ -1,18 +1,15 @@
 import React from 'react'
-import PropTypes from 'prop-types'
-import Helmet from 'react-helmet'
 
 import fontawesome from '@fortawesome/fontawesome'
 import FontAwesomeIcon from '@fortawesome/react-fontawesome'
 import brands from '@fortawesome/fontawesome-free-brands'
-import { faAlignRight } from '@fortawesome/fontawesome-free-solid'
 
 const SocialMediaIcons = () => (
     <ul>
-        <li><a href="#" target="_blank"><FontAwesomeIcon icon={["fab","linkedin"]}/></a></li>
-        <li><a href="#" target="_blank"><FontAwesomeIcon icon={["fab","github"]}/></a></li>
-        <li><a href="#" target="_blank"><FontAwesomeIcon icon={["fab","instagram"]}/></a></li>
-        <li><a href="#" target="_blank"><FontAwesomeIcon icon={["fab","500px"]}/></a></li>
+        <li><a href="https://www.linkedin.com/in/luke-secomb/" target="_blank"><FontAwesomeIcon icon={["fab","linkedin"]}/></a></li>
+        <li><a href="https://github.com/lukethacoder" target="_blank"><FontAwesomeIcon icon={["fab","github"]}/></a></li>
+        <li><a href="https://www.instagram.com/lukesecombdigital/" target="_blank"><FontAwesomeIcon icon={["fab","instagram"]}/></a></li>
+        <li><a href="500px.com/lukesecomb" target="_blank"><FontAwesomeIcon icon={["fab","500px"]}/></a></li>
     </ul>
 )
 

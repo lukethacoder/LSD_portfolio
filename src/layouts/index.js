@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { Component } from 'react'
 import PropTypes from 'prop-types'
 import Helmet from 'react-helmet'
 import styled from 'styled-components'
@@ -19,25 +19,13 @@ import Header from '../components/Header'
 import Footer from '../components/Footer'
 import './index.css'
 
-const BackgroundImage = styled.div`
-  width: 100%;
-  height: 100%;
-  margin: 0;
-  padding: 0;
-  background: url(${bg_img});
-  background-position: 0 -250px;
-  background-size: 100%;
-  position: fixed;
-  top: 0;
-  left: 0;
-  overflow: hidden;
-`
 
 const TheBody = styled.div`
   width: 100%;
   margin: 0;
   padding: 0;
   overflow: hidden;
+  background-color: ${primaryDarkGrey};
 `;
 
 const BodyContainer = styled.div`
@@ -55,9 +43,44 @@ const ChildrenContainer = styled.div`
   padding: 0;
 `;
 
+class GetScrollPosition extends React.Component {
+  render() {
+      let scrollPosition = window.pageYOffset;
+      let blurValue = "blur(5px)";
+
+      if (scrollPosition > 200) {
+        blurValue = 'blur(100)';
+      }
+      else {
+        blurValue = 'blur(5px)';
+      }
+      
+      return <div style={{ filter: blurValue }}></div>
+  }
+}
+const ScrollYo = styled(GetScrollPosition)``;
+
+const BackgroundImage = styled.div`
+${ScrollYo} {
+
+}
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  background-image: url(${bg_img});
+  background-position: 0;
+  background-size: 100vw;
+  opacity: .7;
+  position: fixed;
+  top: 0;
+  left: 0;
+  overflow: hidden;
+`
+
 const TemplateWrapper = ({ children }) => (
   <TheBody>
-    <BackgroundImage />
+    <BackgroundImage/>
     <BodyContainer>
       <Helmet
         title="Luke Secomb - Web Developer | Digital Designer"

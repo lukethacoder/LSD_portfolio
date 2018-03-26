@@ -45,11 +45,19 @@ const SvgWrapper = styled.div`
   height: auto;
   width: auto;
   margin: 0;
-  padding: 5% 5% 5% 0;
-  height: 100%;
+  /* padding: 5% 5% 5% 0; */
+  height: 50px;
+  width: 50px;
+  justify-content: center;
+  align-content: center;
   a {
-    justify-self: start;
+    width: 100%;
+    height: 100%;
+    display: block;
+    justify-content: center;
+    align-content: center;
     svg {
+      display: block;
       fill: ${primaryGold};
       height: 100%;
       /* min-height: 0; */
@@ -87,7 +95,7 @@ const NavIcon = styled.a`
   justify-self: end;
   color: ${primaryGold};
   svg {
-    font-size: 24px;
+    font-size: 26px;
     padding: 5% 0;
     justify-self: end;
   }

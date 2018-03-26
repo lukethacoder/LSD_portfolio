@@ -22,7 +22,6 @@ import {
   pageWidth
 } from '../../theme/variables';
 
-
 const LandingPageWrapper = styled.div`
     width: ${pageWidth};
     height: 80vh;

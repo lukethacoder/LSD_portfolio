@@ -3,7 +3,7 @@ export const primaryDarkGrey = '#212024';
 export const primaryGold = '#D9B262';
 export const primaryWhite = '#F9F9F9';
 
-export const backgroundDarkGrey = 'rgba( 33, 32, 36, 0.9)';
+export const backgroundDarkGrey = 'rgba( 33, 32, 36, 0.75)';
 
 export const secondaryGrey = '#47464D';
 export const secondaryGold = '#F2C76D';
