@@ -19,4 +19,4 @@ export const secondaryFont = "'Montserrat', sans-serif";
 export const tertiaryFont = "'Abril Fatface'";
 
 // Margins
-export const pageWidth = "70%";
+export const pageWidth = "80%";

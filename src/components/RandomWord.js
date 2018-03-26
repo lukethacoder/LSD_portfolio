@@ -5,7 +5,7 @@ class RandomWord extends Component {
   constructor() {
     super();
     this.state = {
-      curTime : null
+      curTime : "an Awesome"
     }
   }
   componentDidMount() {
