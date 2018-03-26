@@ -77,25 +77,30 @@ const BackgroundImage = styled.div`
 `
 
 class ScrollyPlease extends Component {
+  constructor(props) {
+    super(props);
+  }
+
   componentDidMount() {
     window.addEventListener('scroll', this.listenScrollEvent);
   }
   componentWillUnmount() {
     window.removeEventListener('scroll', this.listenScrollEvent);
   }
-
+  
   handleScroll() {
-    let scrollVal = 200;
+    let scrollVal = window.pageYOffset;
     console.log(scrollVal);
     let blurFinalValue = "blur(" + (scrollVal / 100) + "px)";
     console.log(blurFinalValue);
     return blurFinalValue
   }
   render() {
-    let stevo = handleScroll();
     return (
-      
-      <BackgroundImage style={{filter: stevo}}/>
+      <BackgroundImage style={{
+        filter: "blur(" + `${window.pageYOffset / 10}` + "px)",
+        opacity: `${window.pageYOffset / 1000}`
+      }}/>
     );
   }
   

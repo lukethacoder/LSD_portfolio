@@ -4,7 +4,7 @@ import styled from 'styled-components'
 
 import LandingPage from '../components/LandingPage';
 import DayOfWeek from '../components/DayOfWeek';
-import RandomWord from '../components/RandomWord';
+import RandomWord from '../components/globalCompontents/RandomWord';
 import bg_img from '../images/bg_img.jpg';
 import { primaryWhite, primaryDarkGrey, primaryGold, primaryFont, pageWidth } from '../theme/variables';
 

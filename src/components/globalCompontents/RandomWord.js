@@ -29,8 +29,7 @@ class RandomWord extends Component {
       ]
       let randomIndex = Math.floor(Math.random() * wordsOfNiceness.length);
       const niceWords = (wordsOfNiceness[randomIndex]);
-      console.log(niceWords);
-      
+      // console.log(niceWords);
       this.setState({
         curTime : niceWords
       })
