@@ -16,7 +16,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "d7d5b1ceea2409f8eb4b53546cb85fc6",
+        "contentDigest": "3700d7c834530783ef806ef4a173dff3",
         "owner": "internal-data-bridge"
       }
     },
@@ -920,12 +920,12 @@
       "host": "localhost",
       "pathPrefix": "",
       "polyfill": true,
-      "buildTime": "2018-03-26T12:01:06.103Z",
+      "buildTime": "2018-03-26T22:52:28.190Z",
       "id": "Site",
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "37956e10b9333c22cb99ba91a3d69979",
+        "contentDigest": "24ddfba80ebbf097144d6f1fb41c46ac",
         "type": "Site",
         "owner": "internal-data-bridge"
       }
@@ -976,7 +976,7 @@
       "children": [],
       "parent": "___SOURCE___",
       "internal": {
-        "contentDigest": "bbc0d3aebd345cc673f9b1a74b5ebffe",
+        "contentDigest": "3e886f2c39eeb2e6ddb4f54934e11c93",
         "type": "Directory",
         "owner": "gatsby-source-filesystem"
       },
@@ -986,9 +986,9 @@
       "extension": "",
       "size": 0,
       "prettySize": "0 B",
-      "modifiedTime": "2018-03-26T00:57:14.503Z",
-      "accessTime": "2018-03-26T00:57:14.503Z",
-      "changeTime": "2018-03-26T00:57:14.503Z",
+      "modifiedTime": "2018-03-26T13:04:43.554Z",
+      "accessTime": "2018-03-26T13:04:43.554Z",
+      "changeTime": "2018-03-26T13:04:43.554Z",
       "birthTime": "2018-03-16T08:16:59.233Z",
       "root": "C:/",
       "dir": "C:/Users/lukes/Documents/web-design-graphics/clients/Luke Secomb Digital/website/LSD_portfolio/src",
@@ -1003,13 +1003,13 @@
       "gid": 0,
       "rdev": 0,
       "ino": 5348024557953500,
-      "atimeMs": 1522025834503.4387,
-      "mtimeMs": 1522025834503.4387,
-      "ctimeMs": 1522025834503.4387,
+      "atimeMs": 1522069483553.5393,
+      "mtimeMs": 1522069483553.5393,
+      "ctimeMs": 1522069483553.5393,
       "birthtimeMs": 1521188219232.988,
-      "atime": "2018-03-26T00:57:14.503Z",
-      "mtime": "2018-03-26T00:57:14.503Z",
-      "ctime": "2018-03-26T00:57:14.503Z",
+      "atime": "2018-03-26T13:04:43.554Z",
+      "mtime": "2018-03-26T13:04:43.554Z",
+      "ctime": "2018-03-26T13:04:43.554Z",
       "birthtime": "2018-03-16T08:16:59.233Z"
     },
     "C:/Users/lukes/Documents/web-design-graphics/clients/Luke Secomb Digital/website/LSD_portfolio/src/fonts absPath of file": {
@@ -1386,7 +1386,7 @@
       "children": [],
       "parent": "___SOURCE___",
       "internal": {
-        "contentDigest": "9e1ea9db98d66971a4d110d8ea4f5c7f",
+        "contentDigest": "4932de17d8875e352a66c0c11d7a841e",
         "type": "Directory",
         "owner": "gatsby-source-filesystem"
       },
@@ -1396,9 +1396,9 @@
       "extension": "",
       "size": 0,
       "prettySize": "0 B",
-      "modifiedTime": "2018-03-26T04:12:48.518Z",
-      "accessTime": "2018-03-26T04:12:48.518Z",
-      "changeTime": "2018-03-26T04:12:48.518Z",
+      "modifiedTime": "2018-03-26T13:04:43.554Z",
+      "accessTime": "2018-03-26T13:04:43.554Z",
+      "changeTime": "2018-03-26T13:04:43.554Z",
       "birthTime": "2018-03-22T02:35:35.107Z",
       "root": "C:/",
       "dir": "C:/Users/lukes/Documents/web-design-graphics/clients/Luke Secomb Digital/website/LSD_portfolio/src/components",
@@ -1413,13 +1413,13 @@
       "gid": 0,
       "rdev": 0,
       "ino": 1407374883633793,
-      "atimeMs": 1522037568517.8389,
-      "mtimeMs": 1522037568517.8389,
-      "ctimeMs": 1522037568517.8389,
+      "atimeMs": 1522069483553.5393,
+      "mtimeMs": 1522069483553.5393,
+      "ctimeMs": 1522069483553.5393,
       "birthtimeMs": 1521686135107.4,
-      "atime": "2018-03-26T04:12:48.518Z",
-      "mtime": "2018-03-26T04:12:48.518Z",
-      "ctime": "2018-03-26T04:12:48.518Z",
+      "atime": "2018-03-26T13:04:43.554Z",
+      "mtime": "2018-03-26T13:04:43.554Z",
+      "ctime": "2018-03-26T13:04:43.554Z",
       "birthtime": "2018-03-22T02:35:35.107Z"
     },
     "C:/Users/lukes/Documents/web-design-graphics/clients/Luke Secomb Digital/website/LSD_portfolio/src/components/DayOfWeek.js absPath of file": {
@@ -1553,7 +1553,7 @@
       "children": [],
       "parent": "___SOURCE___",
       "internal": {
-        "contentDigest": "0b7ed0b6755f9436bbca67584e4dc2b0",
+        "contentDigest": "07e49f8bdc35ecf1f391713bd878b9de",
         "mediaType": "application/javascript",
         "type": "File",
         "owner": "gatsby-source-filesystem"
@@ -1562,11 +1562,11 @@
       "absolutePath": "C:/Users/lukes/Documents/web-design-graphics/clients/Luke Secomb Digital/website/LSD_portfolio/src/layouts/index.js",
       "relativePath": "layouts/index.js",
       "extension": "js",
-      "size": 3661,
-      "prettySize": "3.66 kB",
-      "modifiedTime": "2018-03-26T13:04:00.211Z",
-      "accessTime": "2018-03-26T12:39:31.767Z",
-      "changeTime": "2018-03-26T13:04:00.211Z",
+      "size": 4594,
+      "prettySize": "4.59 kB",
+      "modifiedTime": "2018-03-27T00:54:56.682Z",
+      "accessTime": "2018-03-27T00:51:02.621Z",
+      "changeTime": "2018-03-27T00:54:56.682Z",
       "birthTime": "2018-03-16T08:16:59.236Z",
       "root": "C:/",
       "dir": "C:/Users/lukes/Documents/web-design-graphics/clients/Luke Secomb Digital/website/LSD_portfolio/src/layouts",
@@ -1581,13 +1581,13 @@
       "gid": 0,
       "rdev": 0,
       "ino": 3940649674400225,
-      "atimeMs": 1522067971767,
-      "mtimeMs": 1522069440210.6985,
-      "ctimeMs": 1522069440210.6985,
+      "atimeMs": 1522111862621,
+      "mtimeMs": 1522112096682.2,
+      "ctimeMs": 1522112096682.2,
       "birthtimeMs": 1521188219235.995,
-      "atime": "2018-03-26T12:39:31.767Z",
-      "mtime": "2018-03-26T13:04:00.211Z",
-      "ctime": "2018-03-26T13:04:00.211Z",
+      "atime": "2018-03-27T00:51:02.621Z",
+      "mtime": "2018-03-27T00:54:56.682Z",
+      "ctime": "2018-03-27T00:54:56.682Z",
       "birthtime": "2018-03-16T08:16:59.236Z"
     },
     "C:/Users/lukes/Documents/web-design-graphics/clients/Luke Secomb Digital/website/LSD_portfolio/src/pages/index.js absPath of file": {
@@ -2409,108 +2409,6 @@
         "owner": "gatsby-transformer-sharp"
       }
     },
-    "SitePage /posts/test_post/": {
-      "layout": "index",
-      "jsonName": "posts-test-post.json",
-      "internalComponentName": "ComponentPostsTestPost",
-      "path": "/posts/test_post/",
-      "component": "C:/Users/lukes/Documents/web-design-graphics/clients/Luke Secomb Digital/website/LSD_portfolio/src/posts/PostPage.js",
-      "componentChunkName": "component---src-posts-post-page-js",
-      "context": {
-        "slug": "/posts/test_post/"
-      },
-      "pluginCreator___NODE": "Plugin default-site-plugin",
-      "pluginCreatorId": "Plugin default-site-plugin",
-      "componentPath": "C:/Users/lukes/Documents/web-design-graphics/clients/Luke Secomb Digital/website/LSD_portfolio/src/posts/PostPage.js",
-      "id": "SitePage /posts/test_post/",
-      "parent": "SOURCE",
-      "children": [],
-      "internal": {
-        "type": "SitePage",
-        "contentDigest": "41c1e68015edfa7abfa1fb930fecf33c",
-        "owner": "internal-data-bridge"
-      }
-    },
-    "SitePage /404/": {
-      "layout": "index",
-      "jsonName": "404.json",
-      "internalComponentName": "Component404",
-      "path": "/404/",
-      "component": "C:/Users/lukes/Documents/web-design-graphics/clients/Luke Secomb Digital/website/LSD_portfolio/src/pages/404.js",
-      "componentChunkName": "component---src-pages-404-js",
-      "context": {},
-      "pluginCreator___NODE": "Plugin component-page-creator",
-      "pluginCreatorId": "Plugin component-page-creator",
-      "componentPath": "C:/Users/lukes/Documents/web-design-graphics/clients/Luke Secomb Digital/website/LSD_portfolio/src/pages/404.js",
-      "id": "SitePage /404/",
-      "parent": "SOURCE",
-      "children": [],
-      "internal": {
-        "type": "SitePage",
-        "contentDigest": "bd91f62bc4fc49c51f82021b01160e29",
-        "owner": "internal-data-bridge"
-      }
-    },
-    "SitePage /": {
-      "layout": "index",
-      "jsonName": "index.json",
-      "internalComponentName": "ComponentIndex",
-      "path": "/",
-      "component": "C:/Users/lukes/Documents/web-design-graphics/clients/Luke Secomb Digital/website/LSD_portfolio/src/pages/index.js",
-      "componentChunkName": "component---src-pages-index-js",
-      "context": {},
-      "pluginCreator___NODE": "Plugin component-page-creator",
-      "pluginCreatorId": "Plugin component-page-creator",
-      "componentPath": "C:/Users/lukes/Documents/web-design-graphics/clients/Luke Secomb Digital/website/LSD_portfolio/src/pages/index.js",
-      "id": "SitePage /",
-      "parent": "SOURCE",
-      "children": [],
-      "internal": {
-        "type": "SitePage",
-        "contentDigest": "f490ba7b05a936f03f01b632dfc3c0f0",
-        "owner": "internal-data-bridge"
-      }
-    },
-    "SitePage /resume/": {
-      "layout": "index",
-      "jsonName": "resume.json",
-      "internalComponentName": "ComponentResume",
-      "path": "/resume/",
-      "component": "C:/Users/lukes/Documents/web-design-graphics/clients/Luke Secomb Digital/website/LSD_portfolio/src/pages/resume.js",
-      "componentChunkName": "component---src-pages-resume-js",
-      "context": {},
-      "pluginCreator___NODE": "Plugin component-page-creator",
-      "pluginCreatorId": "Plugin component-page-creator",
-      "componentPath": "C:/Users/lukes/Documents/web-design-graphics/clients/Luke Secomb Digital/website/LSD_portfolio/src/pages/resume.js",
-      "id": "SitePage /resume/",
-      "parent": "SOURCE",
-      "children": [],
-      "internal": {
-        "type": "SitePage",
-        "contentDigest": "5a53ee1db46eb594ec700ec85cbae283",
-        "owner": "internal-data-bridge"
-      }
-    },
-    "SitePage /404.html": {
-      "layout": "index",
-      "jsonName": "404-html.json",
-      "internalComponentName": "Component404Html",
-      "path": "/404.html",
-      "component": "C:/Users/lukes/Documents/web-design-graphics/clients/Luke Secomb Digital/website/LSD_portfolio/src/pages/404.js",
-      "componentChunkName": "component---src-pages-404-js",
-      "context": {},
-      "pluginCreator___NODE": "Plugin prod-404",
-      "pluginCreatorId": "Plugin prod-404",
-      "componentPath": "C:/Users/lukes/Documents/web-design-graphics/clients/Luke Secomb Digital/website/LSD_portfolio/src/pages/404.js",
-      "id": "SitePage /404.html",
-      "parent": "SOURCE",
-      "children": [],
-      "internal": {
-        "type": "SitePage",
-        "contentDigest": "497c2bf43a2936f48b9bca2349cbcab6",
-        "owner": "internal-data-bridge"
-      }
-    },
     "C:/Users/lukes/Documents/web-design-graphics/clients/Luke Secomb Digital/website/LSD_portfolio/src/components/globalCompontents/RandomWord.js absPath of file": {
       "id": "C:/Users/lukes/Documents/web-design-graphics/clients/Luke Secomb Digital/website/LSD_portfolio/src/components/globalCompontents/RandomWord.js absPath of file",
       "children": [],
@@ -2552,6 +2450,108 @@
       "mtime": "2018-03-26T13:05:52.275Z",
       "ctime": "2018-03-26T13:05:52.275Z",
       "birthtime": "2018-03-25T10:29:43.885Z"
+    },
+    "SitePage /posts/test_post/": {
+      "layout": "index",
+      "jsonName": "posts-test-post.json",
+      "internalComponentName": "ComponentPostsTestPost",
+      "path": "/posts/test_post/",
+      "component": "C:/Users/lukes/Documents/web-design-graphics/clients/Luke Secomb Digital/website/LSD_portfolio/src/posts/PostPage.js",
+      "componentChunkName": "component---src-posts-post-page-js",
+      "context": {
+        "slug": "/posts/test_post/"
+      },
+      "pluginCreator___NODE": "Plugin default-site-plugin",
+      "pluginCreatorId": "Plugin default-site-plugin",
+      "componentPath": "C:/Users/lukes/Documents/web-design-graphics/clients/Luke Secomb Digital/website/LSD_portfolio/src/posts/PostPage.js",
+      "id": "SitePage /posts/test_post/",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "a61290161dccb7f242e6053e614eb8c0",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /404/": {
+      "layout": "index",
+      "jsonName": "404.json",
+      "internalComponentName": "Component404",
+      "path": "/404/",
+      "component": "C:/Users/lukes/Documents/web-design-graphics/clients/Luke Secomb Digital/website/LSD_portfolio/src/pages/404.js",
+      "componentChunkName": "component---src-pages-404-js",
+      "context": {},
+      "pluginCreator___NODE": "Plugin component-page-creator",
+      "pluginCreatorId": "Plugin component-page-creator",
+      "componentPath": "C:/Users/lukes/Documents/web-design-graphics/clients/Luke Secomb Digital/website/LSD_portfolio/src/pages/404.js",
+      "id": "SitePage /404/",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "f021a302dc980ac9bb0eccaffd587af9",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /": {
+      "layout": "index",
+      "jsonName": "index.json",
+      "internalComponentName": "ComponentIndex",
+      "path": "/",
+      "component": "C:/Users/lukes/Documents/web-design-graphics/clients/Luke Secomb Digital/website/LSD_portfolio/src/pages/index.js",
+      "componentChunkName": "component---src-pages-index-js",
+      "context": {},
+      "pluginCreator___NODE": "Plugin component-page-creator",
+      "pluginCreatorId": "Plugin component-page-creator",
+      "componentPath": "C:/Users/lukes/Documents/web-design-graphics/clients/Luke Secomb Digital/website/LSD_portfolio/src/pages/index.js",
+      "id": "SitePage /",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "2937affe231f614cf94da5a5edd095d8",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /resume/": {
+      "layout": "index",
+      "jsonName": "resume.json",
+      "internalComponentName": "ComponentResume",
+      "path": "/resume/",
+      "component": "C:/Users/lukes/Documents/web-design-graphics/clients/Luke Secomb Digital/website/LSD_portfolio/src/pages/resume.js",
+      "componentChunkName": "component---src-pages-resume-js",
+      "context": {},
+      "pluginCreator___NODE": "Plugin component-page-creator",
+      "pluginCreatorId": "Plugin component-page-creator",
+      "componentPath": "C:/Users/lukes/Documents/web-design-graphics/clients/Luke Secomb Digital/website/LSD_portfolio/src/pages/resume.js",
+      "id": "SitePage /resume/",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "b3f6fbed125d56cf76b4dffb1eb685b2",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /404.html": {
+      "layout": "index",
+      "jsonName": "404-html.json",
+      "internalComponentName": "Component404Html",
+      "path": "/404.html",
+      "component": "C:/Users/lukes/Documents/web-design-graphics/clients/Luke Secomb Digital/website/LSD_portfolio/src/pages/404.js",
+      "componentChunkName": "component---src-pages-404-js",
+      "context": {},
+      "pluginCreator___NODE": "Plugin prod-404",
+      "pluginCreatorId": "Plugin prod-404",
+      "componentPath": "C:/Users/lukes/Documents/web-design-graphics/clients/Luke Secomb Digital/website/LSD_portfolio/src/pages/404.js",
+      "id": "SitePage /404.html",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "c72df1f6bff64a3300bab4fcdb6380df",
+        "owner": "internal-data-bridge"
+      }
     }
   },
   "status": {

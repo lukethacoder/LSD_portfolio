@@ -76,30 +76,68 @@ const BackgroundImage = styled.div`
   overflow: hidden;
 `
 
-class ScrollyPlease extends Component {
+class ScrollPrettyPlease extends Component {
   constructor(props) {
-    super(props);
+    super(props)
+    this.state = {
+      filter: 'blur(0px)',
+      opacity: ''
+    }
+    this.handleScroll = this.handleScroll.bind(this);
   }
-
   componentDidMount() {
-    window.addEventListener('scroll', this.listenScrollEvent);
+    window.addEventListener('scroll', this.handleScroll);
   }
   componentWillUnmount() {
-    window.removeEventListener('scroll', this.listenScrollEvent);
+    window.removeEventListener('scroll', this.handleScroll);
   }
-  
-  handleScroll() {
-    let scrollVal = window.pageYOffset;
-    console.log(scrollVal);
-    let blurFinalValue = "blur(" + (scrollVal / 100) + "px)";
-    console.log(blurFinalValue);
-    return blurFinalValue
+  handleScroll(e) {
+    e = window.pageYOffset;
+
+    this.setState({
+      filter: "blur(" + `${e / 50}` + "px)",
+      opacity: `${1 / (e / 200)}`
+    })
+
   }
+
   render() {
     return (
-      <BackgroundImage style={{
-        filter: "blur(" + `${window.pageYOffset / 10}` + "px)",
-        opacity: `${window.pageYOffset / 1000}`
+       <BackgroundImage style={{
+         filter: this.state.filter,
+         opacity: this.state.opacity
+       }} />
+    );
+  }
+}
+
+class ScrollyPlease extends Component {
+
+  componentDidMount() {
+    window.addEventListener('scroll', this.handleScroll.bind(this));
+  }
+  componentWillUnmount() {
+    window.removeEventListener('scroll', this.handleScroll.bind(this));
+  }
+  handleScroll(e) {
+    // let scrollVal = window.pageYOffset;
+    // console.log(scrollVal);
+    // let blurFinalValue = "blur(" + (scrollVal / 100) + "px)";
+    // console.log(blurFinalValue);
+    // return blurFinalValue
+
+    
+    // filter: "blur(" + `${window.pageYOffset / 10}` + "px)",
+    // opacity: `${window.pageYOffset / 1000}`
+    console.log('scroll event');
+    console.log(e);
+  }
+  
+  render() {
+    return (
+      <BackgroundImage onscroll={this.handleScroll} style={{
+        filter: "blur(" + `${this.handleScroll / 10}` + "px)",
+        opacity: `${this.handleScroll / 1000}`
       }}/>
     );
   }
@@ -109,7 +147,7 @@ class ScrollyPlease extends Component {
 const TemplateWrapper = ({ children }) => (
 
   <TheBody>
-    <ScrollyPlease/>
+    <ScrollPrettyPlease/>
     <BodyContainer>
       <Helmet
         title="Luke Secomb - Web Developer | Digital Designer"
