@@ -95,16 +95,16 @@ class ScrollPrettyPlease extends Component {
   handleScroll(e) {
     e = window.pageYOffset;
     let bgSize = ''
-    if (e < 100) {
-      bgSize = "10" + `${( e / 10 )}` + "%"
+    if (e < 250) {
+      bgSize = "10" + `${( e / 25 )}` + "%"
     }
     else {
-      bgSize = "1" + `${( e / 10 )}` + "%"
+      bgSize = "1" + `${( e / 25 )}` + "%"
     }
 
     this.setState({
       filter: "blur(" + `${e / 50}` + "px)",
-      opacity: `${1 / (e / 300)}`,
+      opacity: `${1 / (e / 200)}`,
       backgroundSize: `${(bgSize)}`
     })
 

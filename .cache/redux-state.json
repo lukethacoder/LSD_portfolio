@@ -1553,7 +1553,7 @@
       "children": [],
       "parent": "___SOURCE___",
       "internal": {
-        "contentDigest": "5369c82949c205bd92cd26bb50c95ede",
+        "contentDigest": "99c0726d08b3f717fab06dd165230639",
         "mediaType": "application/javascript",
         "type": "File",
         "owner": "gatsby-source-filesystem"
@@ -1564,9 +1564,9 @@
       "extension": "js",
       "size": 4912,
       "prettySize": "4.91 kB",
-      "modifiedTime": "2018-03-27T03:14:32.878Z",
+      "modifiedTime": "2018-03-27T03:24:42.612Z",
       "accessTime": "2018-03-27T03:07:12.734Z",
-      "changeTime": "2018-03-27T03:14:32.878Z",
+      "changeTime": "2018-03-27T03:24:42.612Z",
       "birthTime": "2018-03-16T08:16:59.236Z",
       "root": "C:/",
       "dir": "C:/Users/lukes/Documents/web-design-graphics/clients/Luke Secomb Digital/website/LSD_portfolio/src/layouts",
@@ -1582,12 +1582,12 @@
       "rdev": 0,
       "ino": 3940649674400225,
       "atimeMs": 1522120032734,
-      "mtimeMs": 1522120472878.2976,
-      "ctimeMs": 1522120472878.2976,
+      "mtimeMs": 1522121082612.0696,
+      "ctimeMs": 1522121082612.0696,
       "birthtimeMs": 1521188219235.995,
       "atime": "2018-03-27T03:07:12.734Z",
-      "mtime": "2018-03-27T03:14:32.878Z",
-      "ctime": "2018-03-27T03:14:32.878Z",
+      "mtime": "2018-03-27T03:24:42.612Z",
+      "ctime": "2018-03-27T03:24:42.612Z",
       "birthtime": "2018-03-16T08:16:59.236Z"
     },
     "C:/Users/lukes/Documents/web-design-graphics/clients/Luke Secomb Digital/website/LSD_portfolio/src/pages/index.js absPath of file": {
@@ -2469,7 +2469,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "3b30e762df91db31ad7123906ed5dfe2",
+        "contentDigest": "1322e772d368ae4bbc96d11cd9063c0a",
         "owner": "internal-data-bridge"
       }
     },
