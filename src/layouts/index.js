@@ -81,7 +81,8 @@ class ScrollPrettyPlease extends Component {
     super(props)
     this.state = {
       filter: 'blur(0px)',
-      opacity: ''
+      opacity: '',
+      backgroundSize: '100%'
     }
     this.handleScroll = this.handleScroll.bind(this);
   }
@@ -93,10 +94,18 @@ class ScrollPrettyPlease extends Component {
   }
   handleScroll(e) {
     e = window.pageYOffset;
+    let bgSize = ''
+    if (e < 100) {
+      bgSize = "10" + `${( e / 10 )}` + "%"
+    }
+    else {
+      bgSize = "1" + `${( e / 10 )}` + "%"
+    }
 
     this.setState({
       filter: "blur(" + `${e / 50}` + "px)",
-      opacity: `${1 / (e / 200)}`
+      opacity: `${1 / (e / 300)}`,
+      backgroundSize: `${(bgSize)}`
     })
 
   }
@@ -105,7 +114,9 @@ class ScrollPrettyPlease extends Component {
     return (
        <BackgroundImage style={{
          filter: this.state.filter,
-         opacity: this.state.opacity
+         opacity: this.state.opacity,
+         backgroundSize: this.state.backgroundSize,
+         backgroundPosition: 'center'
        }} />
     );
   }
