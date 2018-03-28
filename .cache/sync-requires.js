@@ -11,6 +11,7 @@ exports.components = {
   "component---cache-dev-404-page-js": preferDefault(require("C:\\Users\\lukes\\Documents\\web-design-graphics\\clients\\Luke Secomb Digital\\website\\LSD_portfolio\\.cache\\dev-404-page.js")),
   "component---src-pages-404-js": preferDefault(require("C:\\Users\\lukes\\Documents\\web-design-graphics\\clients\\Luke Secomb Digital\\website\\LSD_portfolio\\src\\pages\\404.js")),
   "component---src-pages-index-js": preferDefault(require("C:\\Users\\lukes\\Documents\\web-design-graphics\\clients\\Luke Secomb Digital\\website\\LSD_portfolio\\src\\pages\\index.js")),
+  "component---src-pages-portfolio-js": preferDefault(require("C:\\Users\\lukes\\Documents\\web-design-graphics\\clients\\Luke Secomb Digital\\website\\LSD_portfolio\\src\\pages\\portfolio.js")),
   "component---src-pages-resume-js": preferDefault(require("C:\\Users\\lukes\\Documents\\web-design-graphics\\clients\\Luke Secomb Digital\\website\\LSD_portfolio\\src\\pages\\resume.js"))
 }
 
@@ -23,6 +24,8 @@ exports.json = {
   "404.json": require("C:\\Users\\lukes\\Documents\\web-design-graphics\\clients\\Luke Secomb Digital\\website\\LSD_portfolio\\.cache\\json\\404.json"),
   "layout-index.json": require("C:\\Users\\lukes\\Documents\\web-design-graphics\\clients\\Luke Secomb Digital\\website\\LSD_portfolio\\.cache\\json\\layout-index.json"),
   "index.json": require("C:\\Users\\lukes\\Documents\\web-design-graphics\\clients\\Luke Secomb Digital\\website\\LSD_portfolio\\.cache\\json\\index.json"),
+  "layout-index.json": require("C:\\Users\\lukes\\Documents\\web-design-graphics\\clients\\Luke Secomb Digital\\website\\LSD_portfolio\\.cache\\json\\layout-index.json"),
+  "portfolio.json": require("C:\\Users\\lukes\\Documents\\web-design-graphics\\clients\\Luke Secomb Digital\\website\\LSD_portfolio\\.cache\\json\\portfolio.json"),
   "layout-index.json": require("C:\\Users\\lukes\\Documents\\web-design-graphics\\clients\\Luke Secomb Digital\\website\\LSD_portfolio\\.cache\\json\\layout-index.json"),
   "resume.json": require("C:\\Users\\lukes\\Documents\\web-design-graphics\\clients\\Luke Secomb Digital\\website\\LSD_portfolio\\.cache\\json\\resume.json"),
   "layout-index.json": require("C:\\Users\\lukes\\Documents\\web-design-graphics\\clients\\Luke Secomb Digital\\website\\LSD_portfolio\\.cache\\json\\layout-index.json"),

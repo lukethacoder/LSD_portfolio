@@ -28,6 +28,13 @@
         "path": "/"
     },
     {
+        "componentChunkName": "component---src-pages-portfolio-js",
+        "layout": "layout---index",
+        "layoutComponentChunkName": "component---src-layouts-index-js",
+        "jsonName": "portfolio.json",
+        "path": "/portfolio/"
+    },
+    {
         "componentChunkName": "component---src-pages-resume-js",
         "layout": "layout---index",
         "layoutComponentChunkName": "component---src-layouts-index-js",
