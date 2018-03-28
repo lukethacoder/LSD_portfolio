@@ -1,6 +1,8 @@
 ---
-title: "hola - this is the test post"
+title: "Artventure"
 date: "2018-03-24"
+tools: { AdobeXD, Illustrator, Gatsby }
+
 ---
 
 Lorem ipsum dolor amet activated charcoal hexagon palo santo chambray banjo keytar. Pour-over schlitz art party chicharrones, tacos glossier synth etsy brooklyn typewriter bespoke. Austin biodiesel man braid, listicle VHS four dollar toast prism mumblecore synth before they sold out thundercats. Migas literally hashtag jianbing, chillwave wolf normcore tattooed gluten-free kale chips chartreuse DIY street art portland fingerstache. Migas subway tile sustainable meggings occupy. Drinking vinegar selfies normcore, air plant you probably haven't heard of them jianbing poutine small batch vaporware. Pickled hashtag kombucha cronut gochujang.

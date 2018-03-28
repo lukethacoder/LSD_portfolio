@@ -8,6 +8,7 @@ import RandomWord from '../components/globalCompontents/RandomWord';
 import bg_img from '../images/bg_img.jpg';
 import { primaryWhite, primaryDarkGrey, primaryGold, primaryFont, pageWidth } from '../theme/variables';
 
+import PostList from '../components/postList/PostList'
 
 const PortfolioContainer = styled.div` 
   width: 100%;
@@ -16,12 +17,35 @@ const PortfolioContainer = styled.div`
   /* background-color: rgba( 33, 32, 36, 0.5); */
 `;
 
-const Portfolio = () => (
+const Portfolio = ({ data }) => (
     <PortfolioContainer>
-        <div>
-            
-        </div>
+        {data.allMarkdownRemark.edges.map(( { node }) => (        
+            <PostList key={node.id} post={node}/>
+        ))}
     </PortfolioContainer>
 )
 
 export default Portfolio
+
+export const query = graphql`
+    query SiteMeta {
+
+        allMarkdownRemark(sort: { fields: [frontmatter___date], order: DESC }) {
+            edges {
+                node {
+                    id
+                    frontmatter {
+                        title
+                        date(formatString: "MMMM DD YYYY")
+                        tools
+                    }
+                    fields {
+                        slug
+                    }
+                    html
+                    excerpt
+                }
+            }
+        }
+    }
+`

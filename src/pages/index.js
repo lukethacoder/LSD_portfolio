@@ -55,7 +55,7 @@ const IndexPage = () => (
     <WorkContainer>
       <div>
         <p>
-          Gday, I am <strong>Luke</strong>,<br/>Web Developer and<br/>Digital Designer
+          Hello, I am <strong>Luke</strong>,<br/>Web Developer and<br/>Digital Designer
         </p>
         <p>
           Welcome to <strong>my<br/>website</strong>, it's great<br/>to have <strong>you</strong> here.
