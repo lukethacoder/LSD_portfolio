@@ -41,6 +41,7 @@ const BodyContainer = styled.div`
 
 const ChildrenContainer = styled.div`
   width: 100%;
+  min-height: 100vh;
   margin: 0;
   padding: 0;
 `;

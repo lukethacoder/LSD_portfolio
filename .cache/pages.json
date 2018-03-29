@@ -28,13 +28,6 @@
         "path": "/"
     },
     {
-        "componentChunkName": "component---src-pages-portfolio-js",
-        "layout": "layout---index",
-        "layoutComponentChunkName": "component---src-layouts-index-js",
-        "jsonName": "portfolio.json",
-        "path": "/portfolio/"
-    },
-    {
         "componentChunkName": "component---src-pages-resume-js",
         "layout": "layout---index",
         "layoutComponentChunkName": "component---src-layouts-index-js",
@@ -42,10 +35,45 @@
         "path": "/resume/"
     },
     {
+        "componentChunkName": "component---src-pages-work-js",
+        "layout": "layout---index",
+        "layoutComponentChunkName": "component---src-layouts-index-js",
+        "jsonName": "work.json",
+        "path": "/work/"
+    },
+    {
         "componentChunkName": "component---src-pages-404-js",
         "layout": "layout---index",
         "layoutComponentChunkName": "component---src-layouts-index-js",
         "jsonName": "404-html.json",
         "path": "/404.html"
+    },
+    {
+        "componentChunkName": "component---src-posts-post-page-js",
+        "layout": "layout---index",
+        "layoutComponentChunkName": "component---src-layouts-index-js",
+        "jsonName": "posts-assassins-creed-case-study.json",
+        "path": "/posts/AssassinsCreed_Case_study/"
+    },
+    {
+        "componentChunkName": "component---src-posts-post-page-js",
+        "layout": "layout---index",
+        "layoutComponentChunkName": "component---src-layouts-index-js",
+        "jsonName": "posts-nanga-mai-services.json",
+        "path": "/posts/NangaMaiServices/"
+    },
+    {
+        "componentChunkName": "component---src-posts-post-page-js",
+        "layout": "layout---index",
+        "layoutComponentChunkName": "component---src-layouts-index-js",
+        "jsonName": "posts-ignite-driving.json",
+        "path": "/posts/IgniteDriving/"
+    },
+    {
+        "componentChunkName": "component---src-posts-post-page-js",
+        "layout": "layout---index",
+        "layoutComponentChunkName": "component---src-layouts-index-js",
+        "jsonName": "posts-australian-roundhouses.json",
+        "path": "/posts/AustralianRoundhouses/"
     }
 ]

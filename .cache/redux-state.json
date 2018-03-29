@@ -16,7 +16,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "437c63fc247f89c36d44e8c77421bdf1",
+        "contentDigest": "b32dae5b8f58eb98076da57d8babf680",
         "owner": "internal-data-bridge"
       }
     },
@@ -920,12 +920,12 @@
       "host": "localhost",
       "pathPrefix": "",
       "polyfill": true,
-      "buildTime": "2018-03-28T06:56:43.081Z",
+      "buildTime": "2018-03-29T01:58:02.136Z",
       "id": "Site",
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "bb2491ce31ac581713d8e8a9b517ea35",
+        "contentDigest": "14c281a44fa00e946ebc2050ee5f6f04",
         "type": "Site",
         "owner": "internal-data-bridge"
       }
@@ -1140,7 +1140,7 @@
       "children": [],
       "parent": "___SOURCE___",
       "internal": {
-        "contentDigest": "158feb5e9388a6f0eced435b589fbbc0",
+        "contentDigest": "aaa8b94b50d2b119021fe7f19fae3cc2",
         "type": "Directory",
         "owner": "gatsby-source-filesystem"
       },
@@ -1150,9 +1150,9 @@
       "extension": "",
       "size": 0,
       "prettySize": "0 B",
-      "modifiedTime": "2018-03-28T00:30:18.080Z",
-      "accessTime": "2018-03-28T00:30:18.080Z",
-      "changeTime": "2018-03-28T00:30:18.080Z",
+      "modifiedTime": "2018-03-29T00:41:01.911Z",
+      "accessTime": "2018-03-29T00:41:01.911Z",
+      "changeTime": "2018-03-29T00:41:01.911Z",
       "birthTime": "2018-03-16T08:16:59.237Z",
       "root": "C:/",
       "dir": "C:/Users/lukes/Documents/web-design-graphics/clients/Luke Secomb Digital/website/LSD_portfolio/src",
@@ -1167,13 +1167,13 @@
       "gid": 0,
       "rdev": 0,
       "ino": 3940649674400226,
-      "atimeMs": 1522197018079.9675,
-      "mtimeMs": 1522197018079.9675,
-      "ctimeMs": 1522197018079.9675,
+      "atimeMs": 1522284061911.2588,
+      "mtimeMs": 1522284061911.2588,
+      "ctimeMs": 1522284061911.2588,
       "birthtimeMs": 1521188219236.9978,
-      "atime": "2018-03-28T00:30:18.080Z",
-      "mtime": "2018-03-28T00:30:18.080Z",
-      "ctime": "2018-03-28T00:30:18.080Z",
+      "atime": "2018-03-29T00:41:01.911Z",
+      "mtime": "2018-03-29T00:41:01.911Z",
+      "ctime": "2018-03-29T00:41:01.911Z",
       "birthtime": "2018-03-16T08:16:59.237Z"
     },
     "C:/Users/lukes/Documents/web-design-graphics/clients/Luke Secomb Digital/website/LSD_portfolio/src/posts absPath of file": {
@@ -1553,7 +1553,7 @@
       "children": [],
       "parent": "___SOURCE___",
       "internal": {
-        "contentDigest": "cb962323992c7ab8c8b0a5865c6f15d4",
+        "contentDigest": "aac536cd750b8734bf964eb0242ab0fa",
         "mediaType": "application/javascript",
         "type": "File",
         "owner": "gatsby-source-filesystem"
@@ -1562,11 +1562,11 @@
       "absolutePath": "C:/Users/lukes/Documents/web-design-graphics/clients/Luke Secomb Digital/website/LSD_portfolio/src/layouts/index.js",
       "relativePath": "layouts/index.js",
       "extension": "js",
-      "size": 3265,
-      "prettySize": "3.27 kB",
-      "modifiedTime": "2018-03-28T00:18:31.011Z",
+      "size": 3287,
+      "prettySize": "3.29 kB",
+      "modifiedTime": "2018-03-28T12:26:24.363Z",
       "accessTime": "2018-03-27T23:46:05.469Z",
-      "changeTime": "2018-03-28T00:18:31.011Z",
+      "changeTime": "2018-03-28T12:26:24.363Z",
       "birthTime": "2018-03-16T08:16:59.236Z",
       "root": "C:/",
       "dir": "C:/Users/lukes/Documents/web-design-graphics/clients/Luke Secomb Digital/website/LSD_portfolio/src/layouts",
@@ -1582,12 +1582,12 @@
       "rdev": 0,
       "ino": 3940649674400225,
       "atimeMs": 1522194365469.0002,
-      "mtimeMs": 1522196311011.4543,
-      "ctimeMs": 1522196311011.4543,
+      "mtimeMs": 1522239984363.0044,
+      "ctimeMs": 1522239984363.0044,
       "birthtimeMs": 1521188219235.995,
       "atime": "2018-03-27T23:46:05.469Z",
-      "mtime": "2018-03-28T00:18:31.011Z",
-      "ctime": "2018-03-28T00:18:31.011Z",
+      "mtime": "2018-03-28T12:26:24.363Z",
+      "ctime": "2018-03-28T12:26:24.363Z",
       "birthtime": "2018-03-16T08:16:59.236Z"
     },
     "C:/Users/lukes/Documents/web-design-graphics/clients/Luke Secomb Digital/website/LSD_portfolio/src/pages/index.js absPath of file": {
@@ -1637,7 +1637,7 @@
       "children": [],
       "parent": "___SOURCE___",
       "internal": {
-        "contentDigest": "301799061494e13d108b11cfa07fac0f",
+        "contentDigest": "5c2439bf852196790f18ec8f8c1767d3",
         "mediaType": "application/javascript",
         "type": "File",
         "owner": "gatsby-source-filesystem"
@@ -1646,11 +1646,11 @@
       "absolutePath": "C:/Users/lukes/Documents/web-design-graphics/clients/Luke Secomb Digital/website/LSD_portfolio/src/posts/PostPage.js",
       "relativePath": "posts/PostPage.js",
       "extension": "js",
-      "size": 796,
-      "prettySize": "796 B",
-      "modifiedTime": "2018-03-28T12:06:15.518Z",
+      "size": 873,
+      "prettySize": "873 B",
+      "modifiedTime": "2018-03-29T02:39:08.133Z",
       "accessTime": "2018-03-25T22:31:23.546Z",
-      "changeTime": "2018-03-28T12:06:15.518Z",
+      "changeTime": "2018-03-29T02:39:08.133Z",
       "birthTime": "2018-03-24T07:35:50.500Z",
       "root": "C:/",
       "dir": "C:/Users/lukes/Documents/web-design-graphics/clients/Luke Secomb Digital/website/LSD_portfolio/src/posts",
@@ -1666,12 +1666,12 @@
       "rdev": 0,
       "ino": 6192449487712775,
       "atimeMs": 1522017083546,
-      "mtimeMs": 1522238775518.2676,
-      "ctimeMs": 1522238775518.2676,
+      "mtimeMs": 1522291148133.469,
+      "ctimeMs": 1522291148133.469,
       "birthtimeMs": 1521876950499.5654,
       "atime": "2018-03-25T22:31:23.546Z",
-      "mtime": "2018-03-28T12:06:15.518Z",
-      "ctime": "2018-03-28T12:06:15.518Z",
+      "mtime": "2018-03-29T02:39:08.133Z",
+      "ctime": "2018-03-29T02:39:08.133Z",
       "birthtime": "2018-03-24T07:35:50.500Z"
     },
     "C:/Users/lukes/Documents/web-design-graphics/clients/Luke Secomb Digital/website/LSD_portfolio/src/theme/variables.js absPath of file": {
@@ -1679,7 +1679,7 @@
       "children": [],
       "parent": "___SOURCE___",
       "internal": {
-        "contentDigest": "372fcf98d879e0176036276a2485912f",
+        "contentDigest": "784b22805b0167c8773871aa3c872db2",
         "mediaType": "application/javascript",
         "type": "File",
         "owner": "gatsby-source-filesystem"
@@ -1688,11 +1688,11 @@
       "absolutePath": "C:/Users/lukes/Documents/web-design-graphics/clients/Luke Secomb Digital/website/LSD_portfolio/src/theme/variables.js",
       "relativePath": "theme/variables.js",
       "extension": "js",
-      "size": 686,
-      "prettySize": "686 B",
-      "modifiedTime": "2018-03-27T02:53:24.923Z",
-      "accessTime": "2018-03-26T11:20:48.687Z",
-      "changeTime": "2018-03-27T02:53:24.923Z",
+      "size": 728,
+      "prettySize": "728 B",
+      "modifiedTime": "2018-03-29T03:20:01.711Z",
+      "accessTime": "2018-03-29T03:19:25.675Z",
+      "changeTime": "2018-03-29T03:20:01.711Z",
       "birthTime": "2018-03-18T10:31:14.574Z",
       "root": "C:/",
       "dir": "C:/Users/lukes/Documents/web-design-graphics/clients/Luke Secomb Digital/website/LSD_portfolio/src/theme",
@@ -1707,13 +1707,13 @@
       "gid": 0,
       "rdev": 0,
       "ino": 562949954652697,
-      "atimeMs": 1522063248687,
-      "mtimeMs": 1522119204922.961,
-      "ctimeMs": 1522119204922.961,
+      "atimeMs": 1522293565675,
+      "mtimeMs": 1522293601710.8467,
+      "ctimeMs": 1522293601710.8467,
       "birthtimeMs": 1521369074574.412,
-      "atime": "2018-03-26T11:20:48.687Z",
-      "mtime": "2018-03-27T02:53:24.923Z",
-      "ctime": "2018-03-27T02:53:24.923Z",
+      "atime": "2018-03-29T03:19:25.675Z",
+      "mtime": "2018-03-29T03:20:01.711Z",
+      "ctime": "2018-03-29T03:20:01.711Z",
       "birthtime": "2018-03-18T10:31:14.574Z"
     },
     "C:/Users/lukes/Documents/web-design-graphics/clients/Luke Secomb Digital/website/LSD_portfolio/src/components/Footer/index.js absPath of file": {
@@ -1757,50 +1757,6 @@
       "mtime": "2018-03-26T01:52:50.357Z",
       "ctime": "2018-03-26T01:52:50.357Z",
       "birthtime": "2018-03-16T12:29:23.345Z"
-    },
-    "C:/Users/lukes/Documents/web-design-graphics/clients/Luke Secomb Digital/website/LSD_portfolio/src/posts/test_post.md absPath of file": {
-      "id": "C:/Users/lukes/Documents/web-design-graphics/clients/Luke Secomb Digital/website/LSD_portfolio/src/posts/test_post.md absPath of file",
-      "children": [
-        "C:/Users/lukes/Documents/web-design-graphics/clients/Luke Secomb Digital/website/LSD_portfolio/src/posts/test_post.md absPath of file >>> MarkdownRemark"
-      ],
-      "parent": "___SOURCE___",
-      "internal": {
-        "contentDigest": "51607ad2a3f7d84a00f8b7c8c93fc0a9",
-        "mediaType": "text/markdown",
-        "type": "File",
-        "owner": "gatsby-source-filesystem"
-      },
-      "sourceInstanceName": "src",
-      "absolutePath": "C:/Users/lukes/Documents/web-design-graphics/clients/Luke Secomb Digital/website/LSD_portfolio/src/posts/test_post.md",
-      "relativePath": "posts/test_post.md",
-      "extension": "md",
-      "size": 1400,
-      "prettySize": "1.4 kB",
-      "modifiedTime": "2018-03-28T12:09:08.767Z",
-      "accessTime": "2018-03-28T06:56:36.356Z",
-      "changeTime": "2018-03-28T12:09:08.767Z",
-      "birthTime": "2018-03-24T07:42:15.055Z",
-      "root": "C:/",
-      "dir": "C:/Users/lukes/Documents/web-design-graphics/clients/Luke Secomb Digital/website/LSD_portfolio/src/posts",
-      "base": "test_post.md",
-      "ext": ".md",
-      "name": "test_post",
-      "relativeDirectory": "posts",
-      "dev": 103622586,
-      "mode": 33206,
-      "nlink": 1,
-      "uid": 0,
-      "gid": 0,
-      "rdev": 0,
-      "ino": 3096224744795269,
-      "atimeMs": 1522220196356,
-      "mtimeMs": 1522238948766.901,
-      "ctimeMs": 1522238948766.901,
-      "birthtimeMs": 1521877335054.6934,
-      "atime": "2018-03-28T06:56:36.356Z",
-      "mtime": "2018-03-28T12:09:08.767Z",
-      "ctime": "2018-03-28T12:09:08.767Z",
-      "birthtime": "2018-03-24T07:42:15.055Z"
     },
     "C:/Users/lukes/Documents/web-design-graphics/clients/Luke Secomb Digital/website/LSD_portfolio/src/pages/404.js absPath of file": {
       "id": "C:/Users/lukes/Documents/web-design-graphics/clients/Luke Secomb Digital/website/LSD_portfolio/src/pages/404.js absPath of file",
@@ -2059,7 +2015,7 @@
       "children": [],
       "parent": "___SOURCE___",
       "internal": {
-        "contentDigest": "8cb1e857f2b578a906e94b7d9e7d3f0b",
+        "contentDigest": "c12f2a59405dab82c300f75278259f06",
         "mediaType": "application/javascript",
         "type": "File",
         "owner": "gatsby-source-filesystem"
@@ -2068,11 +2024,11 @@
       "absolutePath": "C:/Users/lukes/Documents/web-design-graphics/clients/Luke Secomb Digital/website/LSD_portfolio/src/components/globalCompontents/navigationMenu.js",
       "relativePath": "components/globalCompontents/navigationMenu.js",
       "extension": "js",
-      "size": 1300,
-      "prettySize": "1.3 kB",
-      "modifiedTime": "2018-03-26T01:58:13.292Z",
+      "size": 1182,
+      "prettySize": "1.18 kB",
+      "modifiedTime": "2018-03-29T03:34:28.071Z",
       "accessTime": "2018-03-26T01:55:16.598Z",
-      "changeTime": "2018-03-26T01:58:13.292Z",
+      "changeTime": "2018-03-29T03:34:28.071Z",
       "birthTime": "2018-03-26T00:56:50.852Z",
       "root": "C:/",
       "dir": "C:/Users/lukes/Documents/web-design-graphics/clients/Luke Secomb Digital/website/LSD_portfolio/src/components/globalCompontents",
@@ -2088,12 +2044,12 @@
       "rdev": 0,
       "ino": 1688849860508858,
       "atimeMs": 1522029316598,
-      "mtimeMs": 1522029493291.8748,
-      "ctimeMs": 1522029493291.8748,
+      "mtimeMs": 1522294468070.6592,
+      "ctimeMs": 1522294468070.6592,
       "birthtimeMs": 1522025810852.0574,
       "atime": "2018-03-26T01:55:16.598Z",
-      "mtime": "2018-03-26T01:58:13.292Z",
-      "ctime": "2018-03-26T01:58:13.292Z",
+      "mtime": "2018-03-29T03:34:28.071Z",
+      "ctime": "2018-03-29T03:34:28.071Z",
       "birthtime": "2018-03-26T00:56:50.852Z"
     },
     "C:/Users/lukes/Documents/web-design-graphics/clients/Luke Secomb Digital/website/LSD_portfolio/src/fonts/axen-bold.otf absPath of file": {
@@ -2426,48 +2382,6 @@
       "ctime": "2018-03-26T13:05:52.275Z",
       "birthtime": "2018-03-25T10:29:43.885Z"
     },
-    "C:/Users/lukes/Documents/web-design-graphics/clients/Luke Secomb Digital/website/LSD_portfolio/src/pages/portfolio.js absPath of file": {
-      "id": "C:/Users/lukes/Documents/web-design-graphics/clients/Luke Secomb Digital/website/LSD_portfolio/src/pages/portfolio.js absPath of file",
-      "children": [],
-      "parent": "___SOURCE___",
-      "internal": {
-        "contentDigest": "683e5593771c8ed70a785ac64ae62a04",
-        "mediaType": "application/javascript",
-        "type": "File",
-        "owner": "gatsby-source-filesystem"
-      },
-      "sourceInstanceName": "src",
-      "absolutePath": "C:/Users/lukes/Documents/web-design-graphics/clients/Luke Secomb Digital/website/LSD_portfolio/src/pages/portfolio.js",
-      "relativePath": "pages/portfolio.js",
-      "extension": "js",
-      "size": 1477,
-      "prettySize": "1.48 kB",
-      "modifiedTime": "2018-03-28T12:07:06.832Z",
-      "accessTime": "2018-03-28T06:33:11.027Z",
-      "changeTime": "2018-03-28T12:07:06.832Z",
-      "birthTime": "2018-03-28T00:30:18.080Z",
-      "root": "C:/",
-      "dir": "C:/Users/lukes/Documents/web-design-graphics/clients/Luke Secomb Digital/website/LSD_portfolio/src/pages",
-      "base": "portfolio.js",
-      "ext": ".js",
-      "name": "portfolio",
-      "relativeDirectory": "pages",
-      "dev": 103622586,
-      "mode": 33206,
-      "nlink": 1,
-      "uid": 0,
-      "gid": 0,
-      "rdev": 0,
-      "ino": 1970324837233237,
-      "atimeMs": 1522218791027,
-      "mtimeMs": 1522238826831.8762,
-      "ctimeMs": 1522238826831.8762,
-      "birthtimeMs": 1522197018079.9675,
-      "atime": "2018-03-28T06:33:11.027Z",
-      "mtime": "2018-03-28T12:07:06.832Z",
-      "ctime": "2018-03-28T12:07:06.832Z",
-      "birthtime": "2018-03-28T00:30:18.080Z"
-    },
     "C:/Users/lukes/Documents/web-design-graphics/clients/Luke Secomb Digital/website/LSD_portfolio/src/components/postList absPath of file": {
       "id": "C:/Users/lukes/Documents/web-design-graphics/clients/Luke Secomb Digital/website/LSD_portfolio/src/components/postList absPath of file",
       "children": [],
@@ -2514,7 +2428,7 @@
       "children": [],
       "parent": "___SOURCE___",
       "internal": {
-        "contentDigest": "4537bdd513bcebd035736a73a1fde42a",
+        "contentDigest": "7dcea143f0f4b3c31915c00ca7d46d00",
         "mediaType": "application/javascript",
         "type": "File",
         "owner": "gatsby-source-filesystem"
@@ -2523,11 +2437,11 @@
       "absolutePath": "C:/Users/lukes/Documents/web-design-graphics/clients/Luke Secomb Digital/website/LSD_portfolio/src/components/postList/PostList.js",
       "relativePath": "components/postList/PostList.js",
       "extension": "js",
-      "size": 334,
-      "prettySize": "334 B",
-      "modifiedTime": "2018-03-28T12:06:20.153Z",
-      "accessTime": "2018-03-28T06:36:04.053Z",
-      "changeTime": "2018-03-28T12:06:20.153Z",
+      "size": 2535,
+      "prettySize": "2.54 kB",
+      "modifiedTime": "2018-03-29T03:35:05.555Z",
+      "accessTime": "2018-03-29T03:19:28.060Z",
+      "changeTime": "2018-03-29T03:35:05.555Z",
       "birthTime": "2018-03-28T06:36:04.053Z",
       "root": "C:/",
       "dir": "C:/Users/lukes/Documents/web-design-graphics/clients/Luke Secomb Digital/website/LSD_portfolio/src/components/postList",
@@ -2542,14 +2456,56 @@
       "gid": 0,
       "rdev": 0,
       "ino": 3940649673987514,
-      "atimeMs": 1522218964053,
-      "mtimeMs": 1522238780153.1177,
-      "ctimeMs": 1522238780153.1177,
+      "atimeMs": 1522293568060,
+      "mtimeMs": 1522294505555.4702,
+      "ctimeMs": 1522294505555.4702,
       "birthtimeMs": 1522218964053.0955,
-      "atime": "2018-03-28T06:36:04.053Z",
-      "mtime": "2018-03-28T12:06:20.153Z",
-      "ctime": "2018-03-28T12:06:20.153Z",
+      "atime": "2018-03-29T03:19:28.060Z",
+      "mtime": "2018-03-29T03:35:05.555Z",
+      "ctime": "2018-03-29T03:35:05.555Z",
       "birthtime": "2018-03-28T06:36:04.053Z"
+    },
+    "C:/Users/lukes/Documents/web-design-graphics/clients/Luke Secomb Digital/website/LSD_portfolio/src/pages/work.js absPath of file": {
+      "id": "C:/Users/lukes/Documents/web-design-graphics/clients/Luke Secomb Digital/website/LSD_portfolio/src/pages/work.js absPath of file",
+      "children": [],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "b93d80f55f2dd05ac680e6e53a92c4c0",
+        "mediaType": "application/javascript",
+        "type": "File",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "src",
+      "absolutePath": "C:/Users/lukes/Documents/web-design-graphics/clients/Luke Secomb Digital/website/LSD_portfolio/src/pages/work.js",
+      "relativePath": "pages/work.js",
+      "extension": "js",
+      "size": 1514,
+      "prettySize": "1.51 kB",
+      "modifiedTime": "2018-03-29T01:49:27.347Z",
+      "accessTime": "2018-03-29T00:47:10.188Z",
+      "changeTime": "2018-03-29T01:49:27.347Z",
+      "birthTime": "2018-03-28T00:30:18.080Z",
+      "root": "C:/",
+      "dir": "C:/Users/lukes/Documents/web-design-graphics/clients/Luke Secomb Digital/website/LSD_portfolio/src/pages",
+      "base": "work.js",
+      "ext": ".js",
+      "name": "work",
+      "relativeDirectory": "pages",
+      "dev": 103622586,
+      "mode": 33206,
+      "nlink": 1,
+      "uid": 0,
+      "gid": 0,
+      "rdev": 0,
+      "ino": 1970324837233237,
+      "atimeMs": 1522284430188,
+      "mtimeMs": 1522288167347.033,
+      "ctimeMs": 1522288167347.033,
+      "birthtimeMs": 1522197018079.9675,
+      "atime": "2018-03-29T00:47:10.188Z",
+      "mtime": "2018-03-29T01:49:27.347Z",
+      "ctime": "2018-03-29T01:49:27.347Z",
+      "birthtime": "2018-03-28T00:30:18.080Z"
     },
     "SitePage /posts/test_post/": {
       "layout": "index",
@@ -2569,7 +2525,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "7c0ae5a435781b3543b9223323e2fba8",
+        "contentDigest": "da7a0dac111fbfbeaccecb58710e7312",
         "owner": "internal-data-bridge"
       }
     },
@@ -2589,7 +2545,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "890902c49ad97c064244903f89cb8b12",
+        "contentDigest": "62354c8b1dd75e60616dc4e2c669067e",
         "owner": "internal-data-bridge"
       }
     },
@@ -2609,27 +2565,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "4e48bbe45395d7523d1d42215a239a1e",
-        "owner": "internal-data-bridge"
-      }
-    },
-    "SitePage /portfolio/": {
-      "layout": "index",
-      "jsonName": "portfolio.json",
-      "internalComponentName": "ComponentPortfolio",
-      "path": "/portfolio/",
-      "component": "C:/Users/lukes/Documents/web-design-graphics/clients/Luke Secomb Digital/website/LSD_portfolio/src/pages/portfolio.js",
-      "componentChunkName": "component---src-pages-portfolio-js",
-      "context": {},
-      "pluginCreator___NODE": "Plugin component-page-creator",
-      "pluginCreatorId": "Plugin component-page-creator",
-      "componentPath": "C:/Users/lukes/Documents/web-design-graphics/clients/Luke Secomb Digital/website/LSD_portfolio/src/pages/portfolio.js",
-      "id": "SitePage /portfolio/",
-      "parent": "SOURCE",
-      "children": [],
-      "internal": {
-        "type": "SitePage",
-        "contentDigest": "69c4b6c7ef4d186472d7d26fa75f189a",
+        "contentDigest": "943a5badb8fff9435e9155e8067a27a5",
         "owner": "internal-data-bridge"
       }
     },
@@ -2649,7 +2585,27 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "2d14294263aa1365985c32151bc02d5d",
+        "contentDigest": "1a5b1d09ea18b8c46b22efb28cb84228",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /work/": {
+      "layout": "index",
+      "jsonName": "work.json",
+      "internalComponentName": "ComponentWork",
+      "path": "/work/",
+      "component": "C:/Users/lukes/Documents/web-design-graphics/clients/Luke Secomb Digital/website/LSD_portfolio/src/pages/work.js",
+      "componentChunkName": "component---src-pages-work-js",
+      "context": {},
+      "pluginCreator___NODE": "Plugin component-page-creator",
+      "pluginCreatorId": "Plugin component-page-creator",
+      "componentPath": "C:/Users/lukes/Documents/web-design-graphics/clients/Luke Secomb Digital/website/LSD_portfolio/src/pages/work.js",
+      "id": "SitePage /work/",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "d6cac331407123ed210d9382912b6eca",
         "owner": "internal-data-bridge"
       }
     },
@@ -2669,38 +2625,312 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "54b466e6eb1038a4a74465fbda6e18d1",
+        "contentDigest": "b6a8c65be983690703323407c76ad610",
         "owner": "internal-data-bridge"
       }
     },
-    "C:/Users/lukes/Documents/web-design-graphics/clients/Luke Secomb Digital/website/LSD_portfolio/src/posts/test_post.md absPath of file >>> MarkdownRemark": {
-      "id": "C:/Users/lukes/Documents/web-design-graphics/clients/Luke Secomb Digital/website/LSD_portfolio/src/posts/test_post.md absPath of file >>> MarkdownRemark",
+    "SitePage /posts/AssassinsCreed_Case_study/": {
+      "layout": "index",
+      "jsonName": "posts-assassins-creed-case-study.json",
+      "internalComponentName": "ComponentPostsAssassinsCreedCaseStudy",
+      "path": "/posts/AssassinsCreed_Case_study/",
+      "component": "C:/Users/lukes/Documents/web-design-graphics/clients/Luke Secomb Digital/website/LSD_portfolio/src/posts/PostPage.js",
+      "componentChunkName": "component---src-posts-post-page-js",
+      "context": {
+        "slug": "/posts/AssassinsCreed_Case_study/"
+      },
+      "pluginCreator___NODE": "Plugin default-site-plugin",
+      "pluginCreatorId": "Plugin default-site-plugin",
+      "componentPath": "C:/Users/lukes/Documents/web-design-graphics/clients/Luke Secomb Digital/website/LSD_portfolio/src/posts/PostPage.js",
+      "id": "SitePage /posts/AssassinsCreed_Case_study/",
+      "parent": "SOURCE",
       "children": [],
-      "parent": "C:/Users/lukes/Documents/web-design-graphics/clients/Luke Secomb Digital/website/LSD_portfolio/src/posts/test_post.md absPath of file",
       "internal": {
-        "content": "---\r\ntitle: \"Artventure\"\r\ndate: \"2018-03-24\"\r\ntools: { AdobeXD, Illustrator, Gatsby }\r\n\r\n---\r\n\r\nLorem ipsum dolor amet activated charcoal hexagon palo santo chambray banjo keytar. Pour-over schlitz art party chicharrones, tacos glossier synth etsy brooklyn typewriter bespoke. Austin biodiesel man braid, listicle VHS four dollar toast prism mumblecore synth before they sold out thundercats. Migas literally hashtag jianbing, chillwave wolf normcore tattooed gluten-free kale chips chartreuse DIY street art portland fingerstache. Migas subway tile sustainable meggings occupy. Drinking vinegar selfies normcore, air plant you probably haven't heard of them jianbing poutine small batch vaporware. Pickled hashtag kombucha cronut gochujang.\r\n\r\n* Wakanda...\r\n* Welcome\r\n\r\nLocavore kinfolk blue bottle, hoodie green juice hammock hell of portland deep v PBR&B jean shorts shabby chic wolf squid. Fanny pack helvetica vegan YOLO vinyl. Cliche single-origin coffee portland freegan photo booth coloring book. Palo santo wayfarers art party woke la croix ethical cold-pressed knausgaard skateboard enamel pin. Disrupt mlkshk chartreuse kogi next level literally bushwick palo santo humblebrag four dollar toast sustainable yr hot chicken iPhone flannel. Ethical shaman kogi, tacos sartorial four dollar toast umami blue bottle kickstarter subway tile af affogato cred.\r\n\r\n* just a bit of good ol markdown",
+        "type": "SitePage",
+        "contentDigest": "6b82d139aad67a221c84ea8272b444d4",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "C:/Users/lukes/Documents/web-design-graphics/clients/Luke Secomb Digital/website/LSD_portfolio/src/posts/NangaMaiServices.md absPath of file": {
+      "id": "C:/Users/lukes/Documents/web-design-graphics/clients/Luke Secomb Digital/website/LSD_portfolio/src/posts/NangaMaiServices.md absPath of file",
+      "children": [
+        "C:/Users/lukes/Documents/web-design-graphics/clients/Luke Secomb Digital/website/LSD_portfolio/src/posts/NangaMaiServices.md absPath of file >>> MarkdownRemark"
+      ],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "878dd5169c964fbf882ea39207307613",
+        "mediaType": "text/markdown",
+        "type": "File",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "src",
+      "absolutePath": "C:/Users/lukes/Documents/web-design-graphics/clients/Luke Secomb Digital/website/LSD_portfolio/src/posts/NangaMaiServices.md",
+      "relativePath": "posts/NangaMaiServices.md",
+      "extension": "md",
+      "size": 1499,
+      "prettySize": "1.5 kB",
+      "modifiedTime": "2018-03-29T03:15:51.015Z",
+      "accessTime": "2018-03-29T03:14:08.921Z",
+      "changeTime": "2018-03-29T03:15:51.015Z",
+      "birthTime": "2018-03-29T03:13:27.899Z",
+      "root": "C:/",
+      "dir": "C:/Users/lukes/Documents/web-design-graphics/clients/Luke Secomb Digital/website/LSD_portfolio/src/posts",
+      "base": "NangaMaiServices.md",
+      "ext": ".md",
+      "name": "NangaMaiServices",
+      "relativeDirectory": "posts",
+      "dev": 103622586,
+      "mode": 33206,
+      "nlink": 1,
+      "uid": 0,
+      "gid": 0,
+      "rdev": 0,
+      "ino": 2251799813933109,
+      "atimeMs": 1522293248921,
+      "mtimeMs": 1522293351015.1155,
+      "ctimeMs": 1522293351015.1155,
+      "birthtimeMs": 1522293207899.1567,
+      "atime": "2018-03-29T03:14:08.921Z",
+      "mtime": "2018-03-29T03:15:51.015Z",
+      "ctime": "2018-03-29T03:15:51.015Z",
+      "birthtime": "2018-03-29T03:13:27.899Z"
+    },
+    "SitePage /posts/NangaMaiServices/": {
+      "layout": "index",
+      "jsonName": "posts-nanga-mai-services.json",
+      "internalComponentName": "ComponentPostsNangaMaiServices",
+      "path": "/posts/NangaMaiServices/",
+      "component": "C:/Users/lukes/Documents/web-design-graphics/clients/Luke Secomb Digital/website/LSD_portfolio/src/posts/PostPage.js",
+      "componentChunkName": "component---src-posts-post-page-js",
+      "context": {
+        "slug": "/posts/NangaMaiServices/"
+      },
+      "pluginCreator___NODE": "Plugin default-site-plugin",
+      "pluginCreatorId": "Plugin default-site-plugin",
+      "componentPath": "C:/Users/lukes/Documents/web-design-graphics/clients/Luke Secomb Digital/website/LSD_portfolio/src/posts/PostPage.js",
+      "id": "SitePage /posts/NangaMaiServices/",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "5f2e3de8f45f999b57f03ff48b814a00",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "C:/Users/lukes/Documents/web-design-graphics/clients/Luke Secomb Digital/website/LSD_portfolio/src/posts/NangaMaiServices.md absPath of file >>> MarkdownRemark": {
+      "id": "C:/Users/lukes/Documents/web-design-graphics/clients/Luke Secomb Digital/website/LSD_portfolio/src/posts/NangaMaiServices.md absPath of file >>> MarkdownRemark",
+      "children": [],
+      "parent": "C:/Users/lukes/Documents/web-design-graphics/clients/Luke Secomb Digital/website/LSD_portfolio/src/posts/NangaMaiServices.md absPath of file",
+      "internal": {
+        "content": "---\r\ntitle: \"Nanga Mai Services\"\r\nsubtitle: \"Branding | Web Design | Web Development\"\r\ncategory: \"Clients\"\r\ndate: \"2018-02-11\"\r\ntags: \"Adobe XD, Illustrator, GatsbyJS\"\r\n---\r\n<h1>Artventure</h1>\r\nLorem ipsum dolor amet activated charcoal hexagon palo santo chambray banjo keytar. Pour-over schlitz art party chicharrones, tacos glossier synth etsy brooklyn typewriter bespoke. Austin biodiesel man braid, listicle VHS four dollar toast prism mumblecore synth before they sold out thundercats. Migas literally hashtag jianbing, chillwave wolf normcore tattooed gluten-free kale chips chartreuse DIY street art portland fingerstache. Migas subway tile sustainable meggings occupy. Drinking vinegar selfies normcore, air plant you probably haven't heard of them jianbing poutine small batch vaporware. Pickled hashtag kombucha cronut gochujang.\r\n\r\n* Wakanda...\r\n* Welcome\r\n\r\nLocavore kinfolk blue bottle, hoodie green juice hammock hell of portland deep v PBR&B jean shorts shabby chic wolf squid. Fanny pack helvetica vegan YOLO vinyl. Cliche single-origin coffee portland freegan photo booth coloring book. Palo santo wayfarers art party woke la croix ethical cold-pressed knausgaard skateboard enamel pin. Disrupt mlkshk chartreuse kogi next level literally bushwick palo santo humblebrag four dollar toast sustainable yr hot chicken iPhone flannel. Ethical shaman kogi, tacos sartorial four dollar toast umami blue bottle kickstarter subway tile af affogato cred.\r\n\r\n* just a bit of good ol markdown",
         "type": "MarkdownRemark",
-        "contentDigest": "bc961abe0f7d3552ca05e1ee68f700c8",
+        "contentDigest": "e1dc805c4ff9060ab39fd67f653f413c",
         "owner": "gatsby-transformer-remark",
         "fieldOwners": {
           "slug": "default-site-plugin"
         }
       },
       "frontmatter": {
-        "title": "Artventure",
-        "date": "2018-03-24",
-        "tools": {
-          "AdobeXD": null,
-          "Illustrator": null,
-          "Gatsby": null
-        },
-        "_PARENT": "C:/Users/lukes/Documents/web-design-graphics/clients/Luke Secomb Digital/website/LSD_portfolio/src/posts/test_post.md absPath of file",
-        "parent": "C:/Users/lukes/Documents/web-design-graphics/clients/Luke Secomb Digital/website/LSD_portfolio/src/posts/test_post.md absPath of file"
+        "title": "Nanga Mai Services",
+        "subtitle": "Branding | Web Design | Web Development",
+        "category": "Clients",
+        "date": "2018-02-11",
+        "tags": "Adobe XD, Illustrator, GatsbyJS",
+        "_PARENT": "C:/Users/lukes/Documents/web-design-graphics/clients/Luke Secomb Digital/website/LSD_portfolio/src/posts/NangaMaiServices.md absPath of file",
+        "parent": "C:/Users/lukes/Documents/web-design-graphics/clients/Luke Secomb Digital/website/LSD_portfolio/src/posts/NangaMaiServices.md absPath of file"
       },
       "excerpt": "",
-      "fileAbsolutePath": "C:/Users/lukes/Documents/web-design-graphics/clients/Luke Secomb Digital/website/LSD_portfolio/src/posts/test_post.md",
+      "fileAbsolutePath": "C:/Users/lukes/Documents/web-design-graphics/clients/Luke Secomb Digital/website/LSD_portfolio/src/posts/NangaMaiServices.md",
       "fields": {
-        "slug": "/posts/test_post/"
+        "slug": "/posts/NangaMaiServices/"
+      }
+    },
+    "C:/Users/lukes/Documents/web-design-graphics/clients/Luke Secomb Digital/website/LSD_portfolio/src/posts/IgniteDriving.md absPath of file": {
+      "id": "C:/Users/lukes/Documents/web-design-graphics/clients/Luke Secomb Digital/website/LSD_portfolio/src/posts/IgniteDriving.md absPath of file",
+      "children": [
+        "C:/Users/lukes/Documents/web-design-graphics/clients/Luke Secomb Digital/website/LSD_portfolio/src/posts/IgniteDriving.md absPath of file >>> MarkdownRemark"
+      ],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "15de1005c4d83fc31156bd8d8632528d",
+        "mediaType": "text/markdown",
+        "type": "File",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "src",
+      "absolutePath": "C:/Users/lukes/Documents/web-design-graphics/clients/Luke Secomb Digital/website/LSD_portfolio/src/posts/IgniteDriving.md",
+      "relativePath": "posts/IgniteDriving.md",
+      "extension": "md",
+      "size": 1481,
+      "prettySize": "1.48 kB",
+      "modifiedTime": "2018-03-29T03:16:26.189Z",
+      "accessTime": "2018-03-29T03:16:04.294Z",
+      "changeTime": "2018-03-29T03:16:26.189Z",
+      "birthTime": "2018-03-29T03:16:04.294Z",
+      "root": "C:/",
+      "dir": "C:/Users/lukes/Documents/web-design-graphics/clients/Luke Secomb Digital/website/LSD_portfolio/src/posts",
+      "base": "IgniteDriving.md",
+      "ext": ".md",
+      "name": "IgniteDriving",
+      "relativeDirectory": "posts",
+      "dev": 103622586,
+      "mode": 33206,
+      "nlink": 1,
+      "uid": 0,
+      "gid": 0,
+      "rdev": 0,
+      "ino": 3377699720775795,
+      "atimeMs": 1522293364294.1323,
+      "mtimeMs": 1522293386188.6587,
+      "ctimeMs": 1522293386188.6587,
+      "birthtimeMs": 1522293364294.1323,
+      "atime": "2018-03-29T03:16:04.294Z",
+      "mtime": "2018-03-29T03:16:26.189Z",
+      "ctime": "2018-03-29T03:16:26.189Z",
+      "birthtime": "2018-03-29T03:16:04.294Z"
+    },
+    "SitePage /posts/IgniteDriving/": {
+      "layout": "index",
+      "jsonName": "posts-ignite-driving.json",
+      "internalComponentName": "ComponentPostsIgniteDriving",
+      "path": "/posts/IgniteDriving/",
+      "component": "C:/Users/lukes/Documents/web-design-graphics/clients/Luke Secomb Digital/website/LSD_portfolio/src/posts/PostPage.js",
+      "componentChunkName": "component---src-posts-post-page-js",
+      "context": {
+        "slug": "/posts/IgniteDriving/"
+      },
+      "pluginCreator___NODE": "Plugin default-site-plugin",
+      "pluginCreatorId": "Plugin default-site-plugin",
+      "componentPath": "C:/Users/lukes/Documents/web-design-graphics/clients/Luke Secomb Digital/website/LSD_portfolio/src/posts/PostPage.js",
+      "id": "SitePage /posts/IgniteDriving/",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "8e73ada58243b5d1e549205f2f6c1ce5",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "C:/Users/lukes/Documents/web-design-graphics/clients/Luke Secomb Digital/website/LSD_portfolio/src/posts/IgniteDriving.md absPath of file >>> MarkdownRemark": {
+      "id": "C:/Users/lukes/Documents/web-design-graphics/clients/Luke Secomb Digital/website/LSD_portfolio/src/posts/IgniteDriving.md absPath of file >>> MarkdownRemark",
+      "children": [],
+      "parent": "C:/Users/lukes/Documents/web-design-graphics/clients/Luke Secomb Digital/website/LSD_portfolio/src/posts/IgniteDriving.md absPath of file",
+      "internal": {
+        "content": "---\r\ntitle: \"Ignite Driving\"\r\nsubtitle: \"Branding | Web Design | Web Development\"\r\ncategory: \"Clients\"\r\ndate: \"2018-03-29\"\r\ntags: \"Adobe XD, Illustrator, GatsbyJS, React\"\r\n---\r\nLorem ipsum dolor amet activated charcoal hexagon palo santo chambray banjo keytar. Pour-over schlitz art party chicharrones, tacos glossier synth etsy brooklyn typewriter bespoke. Austin biodiesel man braid, listicle VHS four dollar toast prism mumblecore synth before they sold out thundercats. Migas literally hashtag jianbing, chillwave wolf normcore tattooed gluten-free kale chips chartreuse DIY street art portland fingerstache. Migas subway tile sustainable meggings occupy. Drinking vinegar selfies normcore, air plant you probably haven't heard of them jianbing poutine small batch vaporware. Pickled hashtag kombucha cronut gochujang.\r\n\r\n* Wakanda...\r\n* Welcome\r\n\r\nLocavore kinfolk blue bottle, hoodie green juice hammock hell of portland deep v PBR&B jean shorts shabby chic wolf squid. Fanny pack helvetica vegan YOLO vinyl. Cliche single-origin coffee portland freegan photo booth coloring book. Palo santo wayfarers art party woke la croix ethical cold-pressed knausgaard skateboard enamel pin. Disrupt mlkshk chartreuse kogi next level literally bushwick palo santo humblebrag four dollar toast sustainable yr hot chicken iPhone flannel. Ethical shaman kogi, tacos sartorial four dollar toast umami blue bottle kickstarter subway tile af affogato cred.\r\n\r\n* just a bit of good ol markdown",
+        "type": "MarkdownRemark",
+        "contentDigest": "21b8f6628983e36c383f7018b6fe0c4f",
+        "owner": "gatsby-transformer-remark",
+        "fieldOwners": {
+          "slug": "default-site-plugin"
+        }
+      },
+      "frontmatter": {
+        "title": "Ignite Driving",
+        "subtitle": "Branding | Web Design | Web Development",
+        "category": "Clients",
+        "date": "2018-03-29",
+        "tags": "Adobe XD, Illustrator, GatsbyJS, React",
+        "_PARENT": "C:/Users/lukes/Documents/web-design-graphics/clients/Luke Secomb Digital/website/LSD_portfolio/src/posts/IgniteDriving.md absPath of file",
+        "parent": "C:/Users/lukes/Documents/web-design-graphics/clients/Luke Secomb Digital/website/LSD_portfolio/src/posts/IgniteDriving.md absPath of file"
+      },
+      "excerpt": "",
+      "fileAbsolutePath": "C:/Users/lukes/Documents/web-design-graphics/clients/Luke Secomb Digital/website/LSD_portfolio/src/posts/IgniteDriving.md",
+      "fields": {
+        "slug": "/posts/IgniteDriving/"
+      }
+    },
+    "C:/Users/lukes/Documents/web-design-graphics/clients/Luke Secomb Digital/website/LSD_portfolio/src/posts/AustralianRoundhouses.md absPath of file": {
+      "id": "C:/Users/lukes/Documents/web-design-graphics/clients/Luke Secomb Digital/website/LSD_portfolio/src/posts/AustralianRoundhouses.md absPath of file",
+      "children": [
+        "C:/Users/lukes/Documents/web-design-graphics/clients/Luke Secomb Digital/website/LSD_portfolio/src/posts/AustralianRoundhouses.md absPath of file >>> MarkdownRemark"
+      ],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "03a7555003679d1e5c00d25f7b09a4bd",
+        "mediaType": "text/markdown",
+        "type": "File",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "src",
+      "absolutePath": "C:/Users/lukes/Documents/web-design-graphics/clients/Luke Secomb Digital/website/LSD_portfolio/src/posts/AustralianRoundhouses.md",
+      "relativePath": "posts/AustralianRoundhouses.md",
+      "extension": "md",
+      "size": 1481,
+      "prettySize": "1.48 kB",
+      "modifiedTime": "2018-03-29T03:21:19.146Z",
+      "accessTime": "2018-03-29T00:45:17.289Z",
+      "changeTime": "2018-03-29T03:21:19.146Z",
+      "birthTime": "2018-03-24T07:42:15.055Z",
+      "root": "C:/",
+      "dir": "C:/Users/lukes/Documents/web-design-graphics/clients/Luke Secomb Digital/website/LSD_portfolio/src/posts",
+      "base": "AustralianRoundhouses.md",
+      "ext": ".md",
+      "name": "AustralianRoundhouses",
+      "relativeDirectory": "posts",
+      "dev": 103622586,
+      "mode": 33206,
+      "nlink": 1,
+      "uid": 0,
+      "gid": 0,
+      "rdev": 0,
+      "ino": 3096224744795269,
+      "atimeMs": 1522284317289,
+      "mtimeMs": 1522293679145.538,
+      "ctimeMs": 1522293679145.538,
+      "birthtimeMs": 1521877335054.6934,
+      "atime": "2018-03-29T00:45:17.289Z",
+      "mtime": "2018-03-29T03:21:19.146Z",
+      "ctime": "2018-03-29T03:21:19.146Z",
+      "birthtime": "2018-03-24T07:42:15.055Z"
+    },
+    "SitePage /posts/AustralianRoundhouses/": {
+      "layout": "index",
+      "jsonName": "posts-australian-roundhouses.json",
+      "internalComponentName": "ComponentPostsAustralianRoundhouses",
+      "path": "/posts/AustralianRoundhouses/",
+      "component": "C:/Users/lukes/Documents/web-design-graphics/clients/Luke Secomb Digital/website/LSD_portfolio/src/posts/PostPage.js",
+      "componentChunkName": "component---src-posts-post-page-js",
+      "context": {
+        "slug": "/posts/AustralianRoundhouses/"
+      },
+      "pluginCreator___NODE": "Plugin default-site-plugin",
+      "pluginCreatorId": "Plugin default-site-plugin",
+      "componentPath": "C:/Users/lukes/Documents/web-design-graphics/clients/Luke Secomb Digital/website/LSD_portfolio/src/posts/PostPage.js",
+      "id": "SitePage /posts/AustralianRoundhouses/",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "39e598b5c44aa943df8bd8151a57e832",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "C:/Users/lukes/Documents/web-design-graphics/clients/Luke Secomb Digital/website/LSD_portfolio/src/posts/AustralianRoundhouses.md absPath of file >>> MarkdownRemark": {
+      "id": "C:/Users/lukes/Documents/web-design-graphics/clients/Luke Secomb Digital/website/LSD_portfolio/src/posts/AustralianRoundhouses.md absPath of file >>> MarkdownRemark",
+      "children": [],
+      "parent": "C:/Users/lukes/Documents/web-design-graphics/clients/Luke Secomb Digital/website/LSD_portfolio/src/posts/AustralianRoundhouses.md absPath of file",
+      "internal": {
+        "content": "---\r\ntitle: \"AustralianRoundhouses\"\r\nsubtitle: \"Branding | Web Design | Web Development\"\r\ncategory: \"Clients\"\r\ndate: \"2018-04-01\"\r\ntags: \"Adobe XD, Illustrator, GatsbyJS\"\r\n---\r\nLorem ipsum dolor amet activated charcoal hexagon palo santo chambray banjo keytar. Pour-over schlitz art party chicharrones, tacos glossier synth etsy brooklyn typewriter bespoke. Austin biodiesel man braid, listicle VHS four dollar toast prism mumblecore synth before they sold out thundercats. Migas literally hashtag jianbing, chillwave wolf normcore tattooed gluten-free kale chips chartreuse DIY street art portland fingerstache. Migas subway tile sustainable meggings occupy. Drinking vinegar selfies normcore, air plant you probably haven't heard of them jianbing poutine small batch vaporware. Pickled hashtag kombucha cronut gochujang.\r\n\r\n* Wakanda...\r\n* Welcome\r\n\r\nLocavore kinfolk blue bottle, hoodie green juice hammock hell of portland deep v PBR&B jean shorts shabby chic wolf squid. Fanny pack helvetica vegan YOLO vinyl. Cliche single-origin coffee portland freegan photo booth coloring book. Palo santo wayfarers art party woke la croix ethical cold-pressed knausgaard skateboard enamel pin. Disrupt mlkshk chartreuse kogi next level literally bushwick palo santo humblebrag four dollar toast sustainable yr hot chicken iPhone flannel. Ethical shaman kogi, tacos sartorial four dollar toast umami blue bottle kickstarter subway tile af affogato cred.\r\n\r\n* just a bit of good ol markdown",
+        "type": "MarkdownRemark",
+        "contentDigest": "f68b29d60142837465a07d57b393a0aa",
+        "owner": "gatsby-transformer-remark",
+        "fieldOwners": {
+          "slug": "default-site-plugin"
+        }
+      },
+      "frontmatter": {
+        "title": "AustralianRoundhouses",
+        "subtitle": "Branding | Web Design | Web Development",
+        "category": "Clients",
+        "date": "2018-04-01",
+        "tags": "Adobe XD, Illustrator, GatsbyJS",
+        "_PARENT": "C:/Users/lukes/Documents/web-design-graphics/clients/Luke Secomb Digital/website/LSD_portfolio/src/posts/AustralianRoundhouses.md absPath of file",
+        "parent": "C:/Users/lukes/Documents/web-design-graphics/clients/Luke Secomb Digital/website/LSD_portfolio/src/posts/AustralianRoundhouses.md absPath of file"
+      },
+      "excerpt": "",
+      "fileAbsolutePath": "C:/Users/lukes/Documents/web-design-graphics/clients/Luke Secomb Digital/website/LSD_portfolio/src/posts/AustralianRoundhouses.md",
+      "fields": {
+        "slug": "/posts/AustralianRoundhouses/"
       }
     }
   },
@@ -2712,6 +2942,18 @@
     "nodes": {
       "C:/Users/lukes/Documents/web-design-graphics/clients/Luke Secomb Digital/website/LSD_portfolio/src/posts/test_post.md absPath of file >>> MarkdownRemark": [
         "/posts/test_post/"
+      ],
+      "C:/Users/lukes/Documents/web-design-graphics/clients/Luke Secomb Digital/website/LSD_portfolio/src/posts/AssassinsCreed_Case_study.md absPath of file >>> MarkdownRemark": [
+        "/posts/AssassinsCreed_Case_study/"
+      ],
+      "C:/Users/lukes/Documents/web-design-graphics/clients/Luke Secomb Digital/website/LSD_portfolio/src/posts/NangaMaiServices.md absPath of file >>> MarkdownRemark": [
+        "/posts/NangaMaiServices/"
+      ],
+      "C:/Users/lukes/Documents/web-design-graphics/clients/Luke Secomb Digital/website/LSD_portfolio/src/posts/IgniteDriving.md absPath of file >>> MarkdownRemark": [
+        "/posts/IgniteDriving/"
+      ],
+      "C:/Users/lukes/Documents/web-design-graphics/clients/Luke Secomb Digital/website/LSD_portfolio/src/posts/AustralianRoundhouses.md absPath of file >>> MarkdownRemark": [
+        "/posts/AustralianRoundhouses/"
       ]
     },
     "connections": {
@@ -2719,7 +2961,8 @@
         "/dev-404-page/"
       ],
       "MarkdownRemark": [
-        "/portfolio/"
+        "/portfolio/",
+        "/work/"
       ]
     }
   }

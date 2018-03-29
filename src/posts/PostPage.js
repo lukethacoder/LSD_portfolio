@@ -5,8 +5,8 @@ export default class PostPage extends Component {
         const { data } = this.props;
         return (
             <div>
-                <span>{data.markdownRemark.frontmatter.date}</span>
-                <h1>{data.markdownRemark.frontmatter.tools}</h1>
+                <span>{data.markdownRemark.frontmatter.subtitle}</span>
+                <h1>{data.markdownRemark.frontmatter.title}</h1>
                 <div
                     dangerouslySetInnerHTML={{
                         __html: data.markdownRemark.html
@@ -23,7 +23,10 @@ export const query = graphql`
             html
             frontmatter {
                 title
-                tools
+                subtitle
+                category
+                date
+                tags
             }
         }
     }

@@ -36,8 +36,10 @@ export const query = graphql`
                     id
                     frontmatter {
                         title
-                        date(formatString: "MMMM DD YYYY")
-                        tools
+                        subtitle
+                        category
+                        date
+                        tags
                     }
                     fields {
                         slug
