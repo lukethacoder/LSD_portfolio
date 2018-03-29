@@ -1,40 +1,56 @@
 {
   "assetsByChunkName": {
+    "path---posts-australian-roundhouses-australian-roundhouses": [
+      "path---posts-australian-roundhouses-australian-roundhouses-d807fd58c60c6f15a766.js",
+      "path---posts-australian-roundhouses-australian-roundhouses-d807fd58c60c6f15a766.js.map"
+    ],
+    "path---posts-nanga-mai-services-nanga-mai-services": [
+      "path---posts-nanga-mai-services-nanga-mai-services-2d45526fe42519527c08.js",
+      "path---posts-nanga-mai-services-nanga-mai-services-2d45526fe42519527c08.js.map"
+    ],
+    "component---src-pages-work-js": [
+      "component---src-pages-work-js-e001f94ee757682ab13e.js",
+      "component---src-pages-work-js-e001f94ee757682ab13e.js.map"
+    ],
+    "path---work": [
+      "path---work-32e5359ef0555ed7e0ec.js",
+      "path---work-32e5359ef0555ed7e0ec.js.map"
+    ],
     "component---src-pages-index-js": [
-      "component---src-pages-index-js-cd4a57143fa97beb80af.js",
-      "component---src-pages-index-js-cd4a57143fa97beb80af.js.map"
+      "component---src-pages-index-js-2e82b14629bf820b9ff9.js",
+      "component---src-pages-index-js-2e82b14629bf820b9ff9.js.map"
     ],
     "path---": [
       "path----557518bd178906f8d58a.js",
       "path----557518bd178906f8d58a.js.map"
     ],
     "component---src-posts-post-page-js": [
-      "component---src-posts-post-page-js-534aedeec393fe8c66d6.js",
-      "component---src-posts-post-page-js-534aedeec393fe8c66d6.js.map"
+      "component---src-posts-post-page-js-a10f469434a0bb246af4.js",
+      "component---src-posts-post-page-js-a10f469434a0bb246af4.js.map"
     ],
     "component---src-layouts-index-js": [
-      "component---src-layouts-index-js-e0eb15a2ab1dc771cd07.js",
-      "component---src-layouts-index-js-e0eb15a2ab1dc771cd07.js.map"
+      "component---src-layouts-index-js-62561bbc52ddbe8f6e48.js",
+      "component---src-layouts-index-js-62561bbc52ddbe8f6e48.js.map"
     ],
     "path---index": [
       "path---index-a0e39f21c11f6a62c5ab.js",
       "path---index-a0e39f21c11f6a62c5ab.js.map"
     ],
-    "path---posts-test-post": [
-      "path---posts-test-post-725486201815e4dfca8f.js",
-      "path---posts-test-post-725486201815e4dfca8f.js.map"
+    "path---posts-ignite-driving-ignite-driving": [
+      "path---posts-ignite-driving-ignite-driving-fd5ad49d1bd0ba7d1f20.js",
+      "path---posts-ignite-driving-ignite-driving-fd5ad49d1bd0ba7d1f20.js.map"
     ],
     "component---src-pages-resume-js": [
-      "component---src-pages-resume-js-65f0147ecb0dc4da2a2b.js",
-      "component---src-pages-resume-js-65f0147ecb0dc4da2a2b.js.map"
+      "component---src-pages-resume-js-075954cd9c4544c7dcd8.js",
+      "component---src-pages-resume-js-075954cd9c4544c7dcd8.js.map"
     ],
     "component---src-pages-404-js": [
       "component---src-pages-404-js-4503918ea3a16cfcdb75.js",
       "component---src-pages-404-js-4503918ea3a16cfcdb75.js.map"
     ],
     "commons": [
-      "commons-37e7ec241aad23eaba66.js",
-      "commons-37e7ec241aad23eaba66.js.map"
+      "commons-480ab81d4c9d9b68eedb.js",
+      "commons-480ab81d4c9d9b68eedb.js.map"
     ],
     "path---404-html": [
       "path---404-html-a0e39f21c11f6a62c5ab.js",
@@ -45,9 +61,9 @@
       "path---resume-a0e39f21c11f6a62c5ab.js.map"
     ],
     "app": [
-      "app-70f0715ff4d76b252efb.js",
+      "app-242bd00085329aa81da0.js",
       "build-js-styles.css",
-      "app-70f0715ff4d76b252efb.js.map",
+      "app-242bd00085329aa81da0.js.map",
       "build-js-styles.css.map"
     ],
     "path---404": [

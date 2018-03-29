@@ -3,15 +3,22 @@
         "componentChunkName": "component---src-posts-post-page-js",
         "layout": "layout---index",
         "layoutComponentChunkName": "component---src-layouts-index-js",
-        "jsonName": "posts-test-post.json",
-        "path": "/posts/test_post/"
+        "jsonName": "posts-ignite-driving-ignite-driving.json",
+        "path": "/posts/IgniteDriving/IgniteDriving/"
     },
     {
-        "componentChunkName": "component---cache-dev-404-page-js",
+        "componentChunkName": "component---src-posts-post-page-js",
         "layout": "layout---index",
         "layoutComponentChunkName": "component---src-layouts-index-js",
-        "jsonName": "dev-404-page.json",
-        "path": "/dev-404-page/"
+        "jsonName": "posts-australian-roundhouses-australian-roundhouses.json",
+        "path": "/posts/AustralianRoundhouses/AustralianRoundhouses/"
+    },
+    {
+        "componentChunkName": "component---src-posts-post-page-js",
+        "layout": "layout---index",
+        "layoutComponentChunkName": "component---src-layouts-index-js",
+        "jsonName": "posts-nanga-mai-services-nanga-mai-services.json",
+        "path": "/posts/NangaMaiServices/NangaMaiServices/"
     },
     {
         "componentChunkName": "component---src-pages-404-js",
@@ -47,33 +54,5 @@
         "layoutComponentChunkName": "component---src-layouts-index-js",
         "jsonName": "404-html.json",
         "path": "/404.html"
-    },
-    {
-        "componentChunkName": "component---src-posts-post-page-js",
-        "layout": "layout---index",
-        "layoutComponentChunkName": "component---src-layouts-index-js",
-        "jsonName": "posts-assassins-creed-case-study.json",
-        "path": "/posts/AssassinsCreed_Case_study/"
-    },
-    {
-        "componentChunkName": "component---src-posts-post-page-js",
-        "layout": "layout---index",
-        "layoutComponentChunkName": "component---src-layouts-index-js",
-        "jsonName": "posts-nanga-mai-services.json",
-        "path": "/posts/NangaMaiServices/"
-    },
-    {
-        "componentChunkName": "component---src-posts-post-page-js",
-        "layout": "layout---index",
-        "layoutComponentChunkName": "component---src-layouts-index-js",
-        "jsonName": "posts-ignite-driving.json",
-        "path": "/posts/IgniteDriving/"
-    },
-    {
-        "componentChunkName": "component---src-posts-post-page-js",
-        "layout": "layout---index",
-        "layoutComponentChunkName": "component---src-layouts-index-js",
-        "jsonName": "posts-australian-roundhouses.json",
-        "path": "/posts/AustralianRoundhouses/"
     }
 ]

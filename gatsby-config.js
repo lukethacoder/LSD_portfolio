@@ -15,17 +15,27 @@ module.exports = {
     {
       resolve: "gatsby-source-filesystem",
       options: {
-        name: "img",
-        path: `${__dirname}/src/images`
+        name: 'content',
+        path: `${__dirname}/src/posts`
       }
     },
     {
       resolve: "gatsby-transformer-remark",
       options: {
-        excerpt_separator: `<!-- end -->`
+        excerpt_separator: `<!-- end -->`,
+        plugins: [
+          {
+            resolve: `gatsby-remark-images`,
+            options: {
+              maxWidth: 1080,
+              quality: 90,
+              linkImagesToOriginal: false
+            }
+          }
+        ]
       }
     },
-    "gatsby-transformer-sharp",
-    "gatsby-plugin-sharp"
+    `gatsby-transformer-sharp`,
+    `gatsby-plugin-sharp`
   ],
 };

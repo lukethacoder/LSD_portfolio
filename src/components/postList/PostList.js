@@ -9,7 +9,7 @@ const PostListWrapper = styled.div`
         text-decoration: none;
         width: 100%;
         display: block;
-        padding: 5% 10%;
+        padding: 150px 10%;
         transition: .5s;
         &:hover{
             background-color: ${evenDarkerGrey};
@@ -26,9 +26,10 @@ const PostListWrapper = styled.div`
             color: ${primaryWhite};
             font-family: ${primaryFont};
             font-weight: 400;
-            font-size: 1.75vw;
+            font-size: 1.95vw;
         }
         ul {
+            display: block;
             color: ${primaryGold};
             font-family: ${primaryFont};
             list-style-type: none;
@@ -37,7 +38,7 @@ const PostListWrapper = styled.div`
             li {
                 display: inline-block;
                 margin-right: 20px;
-                font-size: 24px;
+                font-size: 28px;
             }
         }
     }
@@ -65,8 +66,9 @@ export default class PostList extends Component {
         return (
             <PostListWrapper>
                 <Link to={this.props.post.fields.slug}>
-                    <h1>{this.props.post.frontmatter.title}</h1>
+                    
                     <h2>{this.props.post.frontmatter.subtitle}</h2>
+                    <h1>{this.props.post.frontmatter.title}</h1>
                     <ul>{this.state.postTags.map(d => <li>
                         {d}
                         </li>)}
@@ -76,14 +78,3 @@ export default class PostList extends Component {
         )
     }
 }
-
-// const HolaMate = ({ post }) => (
-//     <article>
-//         <h3>
-//             <Link to={post.fields.slug}>{post.frontmatter.title}</Link>
-//         </h3>
-//         <span>{post.frontmatter.subtitle}</span>
-//         <ul>
-//         </ul>
-//     </article>
-// )

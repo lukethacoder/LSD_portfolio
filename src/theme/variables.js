@@ -21,3 +21,4 @@ export const tertiaryFont = "'Abril Fatface'";
 
 // Margins
 export const pageWidth = "80%";
+export const postPageTextWidth = "65%";

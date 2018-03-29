@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
 import Link from 'gatsby-link'
+import Img from 'gatsby-image'
 import styled from 'styled-components'
 
 import LandingPage from '../components/LandingPage';
@@ -49,5 +50,22 @@ export const query = graphql`
                 }
             }
         }
+        allImageSharp {
+            edges {
+                node {
+                    ... on ImageSharp {
+                        resolutions(width:650) {
+                            src
+                        }
+                    }
+                }
+            }       
+        }
     }
 `
+// export const imgQuery = graphql`
+// query IndexQuery {
+
+    
+// }
+// `

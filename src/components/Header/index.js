@@ -36,6 +36,7 @@ const HeaderContainer = styled.div`
   display: grid;
   grid-template-columns: 50% 50%;
   grid-template-rows: 1fr; 
+  
   /* SVGWrapper */
   /* NavContainer */
 `;
@@ -50,6 +51,7 @@ const SvgWrapper = styled.div`
   width: 50px;
   justify-content: center;
   align-content: center;
+  z-index: 50;
   a {
     width: 100%;
     height: 100%;
@@ -61,6 +63,7 @@ const SvgWrapper = styled.div`
       fill: ${primaryGold};
       height: 100%;
       /* min-height: 0; */
+      
   }
 }
 `;
@@ -69,6 +72,7 @@ const NavContainer = styled.div`
   align-content: center;
   justify-content: end;
   display: grid;
+  z-index: 50;
 `;
 
 const NavList = styled.ul`
