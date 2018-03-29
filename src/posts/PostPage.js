@@ -193,12 +193,3 @@ export const query = graphql`
         }
     }
 `;
-
-// edges {
-//     node P
-//     ...on ImageSharp {
-//         resize(width: 150, height: 150, rotate: 180) {
-//             src
-//         }
-//     }
-// }
