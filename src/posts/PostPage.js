@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import Link from "gatsby-link"
 import Img from "gatsby-image"
 import styled from 'styled-components'
-import { pageWidth, backgroundDarkGrey, primaryFont, primaryWhite, primaryGold, secondaryWhite, postPageTextWidth, primaryDarkGrey } from "../theme/variables";
+import { pageWidth, backgroundDarkGrey, primaryFont, primaryWhite, primaryGold, secondaryWhite, postPageTextWidth, primaryDarkGrey, otherGreyLighter, evenDarkerGrey } from "../theme/variables";
 
 import bg_img from '../images/bg_img.jpg'
 
@@ -38,13 +38,14 @@ const PostPageWrapper = styled.div`
             }
             div:nth-of-type(2) {
                 position: absolute;
-                bottom: 50px;
+                bottom: 150px;
                 h1 {
                     font-family: ${primaryFont};
                     color: ${primaryWhite};
                     font-weight: 700;
                     font-size: 7.5vw;
-                    line-height: .85;
+                    line-height: 1;
+                    margin-bottom: 25px;
                 }
                 h2 {
                     font-family: ${primaryFont};
@@ -110,6 +111,14 @@ const PostPageWrapper = styled.div`
                 height: 2px;
                 margin: 50px auto;
                 width: ${postPageTextWidth};
+            }
+            pre {
+                width: ${postPageTextWidth};
+                margin: 25px auto;
+                background-color: ${evenDarkerGrey};
+                code {
+                    color: ${primaryGold}
+                }
             }
             img {
                 width: 100%;
