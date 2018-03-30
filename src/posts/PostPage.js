@@ -78,7 +78,7 @@ const PostPageWrapper = styled.div`
                 margin: 0 auto 25px auto;
             }
             h1 {
-                font-size: 3rem;
+                font-size: 3.25rem;
             }
             h2 {
                 font-size: 2.5rem;

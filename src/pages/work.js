@@ -14,7 +14,7 @@ import PostList from '../components/postList/PostList'
 const PortfolioContainer = styled.div` 
   width: 100%;
   height: 100%;
-  margin: 0;
+  margin: 0 0 50px 0;
   /* background-color: rgba( 33, 32, 36, 0.5); */
 `;
 

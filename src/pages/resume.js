@@ -1,12 +1,28 @@
 import React from 'react'
 import Link from 'gatsby-link'
+import styled from 'styled-components'
+import {LandingPageWrapper, LandingPageContainer } from '../components/LandingPage'
+import resume from '../content/luke-secomb-public-resume.pdf'
+import { primaryGold, primaryFont, primaryDarkGrey, otherGrey } from '../theme/variables';
 
-const SecondPage = () => (
-  <div>
-    <h1>Hi from the second page</h1>
-    <p>Welcome to page 2</p>
-    <Link to="/">Go back to the homepage</Link>
-  </div>
+const HereLink = styled.a`
+  color: ${primaryGold};
+  font-family: ${primaryFont};
+  text-decoration: none;
+  transition: .25s;
+  &:hover {
+    color: ${otherGrey};
+    transition: .25s;
+  }
+`
+
+const Resume = () => (
+  <LandingPageWrapper>
+    <LandingPageContainer>
+      <h1>Resume</h1>
+      <h3>Download the pdf <HereLink href={resume} download>here</HereLink></h3>
+    </LandingPageContainer>
+  </LandingPageWrapper>
 )
 
-export default SecondPage
+export default Resume

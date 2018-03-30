@@ -1,16 +1,28 @@
 ---
 title: "Nanga Mai Services"
 subtitle: "Web Design | Web Development"
+linktoproject: "http://nangamaiservices.com.au/"
 cover: "./nanga_mai_services_cover.jpg"
 category: "Clients"
 date: "2018-02-11"
 tags: "Adobe XD, Illustrator, GatsbyJS, SASS"
 ---
-Lorem ipsum dolor amet activated charcoal hexagon palo santo chambray banjo keytar. Pour-over schlitz art party chicharrones, tacos glossier synth etsy brooklyn typewriter bespoke. Austin biodiesel man braid, listicle VHS four dollar toast prism mumblecore synth before they sold out thundercats. Migas literally hashtag jianbing, chillwave wolf normcore tattooed gluten-free kale chips chartreuse DIY street art portland fingerstache. Migas subway tile sustainable meggings occupy. Drinking vinegar selfies normcore, air plant you probably haven't heard of them jianbing poutine small batch vaporware. Pickled hashtag kombucha cronut gochujang.
+#Brief
+Nanga Mai Services is a Succession Facilitator and Farm Consultant business that required web development and digital design. Design direction, including a logo and website design, were the main parts of the project. 
 
-* words...
-* and stuff
+---
 
-Locavore kinfolk blue bottle, hoodie green juice hammock hell of portland deep v PBR&B jean shorts shabby chic wolf squid. Fanny pack helvetica vegan YOLO vinyl. Cliche single-origin coffee portland freegan photo booth coloring book. Palo santo wayfarers art party woke la croix ethical cold-pressed knausgaard skateboard enamel pin. Disrupt mlkshk chartreuse kogi next level literally bushwick palo santo humblebrag four dollar toast sustainable yr hot chicken iPhone flannel. Ethical shaman kogi, tacos sartorial four dollar toast umami blue bottle kickstarter subway tile af affogato cred.
+# Process
 
-* just a bit of good ol markdown
+## Logo
+The logo uses the font Weekly, with Montserrat Thin to compliment it. The colour scheme uses <i style="color: #8E7C60; font-style: normal;">#8E7C60</i> Gold and <i style="color: #3A3A3A; font-style: normal;">#3A3A3A</i> Dark Grey. The gold colour is meant to represent the countrysidem, but also add elements of professionalism. The dark grey is to add to the professionalism too, and give a contrasting colour to the <i style="color: #F2F2F2; font-style: normal;">#F2F2F2</i> off white.
+
+
+## Website Design
+cool info about the design of the website
+
+## Website Development
+
+The website is a super simple one page website built using GatsbyJS (React). Very basic usage of GatsbyJS's main features were used, and was only chosen as the framework of choice because thats what I was using/learning at the time. 
+
+# Final Product

@@ -22,14 +22,14 @@ import {
   pageWidth
 } from '../../theme/variables';
 
-const LandingPageWrapper = styled.div`
+export const LandingPageWrapper = styled.div`
     width: ${pageWidth};
     height: 80vh;
     margin: 0 auto 1.45rem auto;
     position: relative;
 `;
 
-const LandingPageContainer = styled.div`
+export const LandingPageContainer = styled.div`
   margin: 0 auto;
   height: auto;
   display: grid;
