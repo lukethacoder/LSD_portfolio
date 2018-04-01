@@ -1,6 +1,6 @@
 ---
 title: "Nanga Mai Services"
-subtitle: "Web Design | Web Development"
+subtitle: "Logo Design | Web Design | Web Development"
 linktoproject: "http://nangamaiservices.com.au/"
 cover: "./nanga_mai_services_cover.jpg"
 category: "Clients"
@@ -8,7 +8,7 @@ date: "2018-02-11"
 tags: "Adobe XD, Illustrator, GatsbyJS, SASS"
 ---
 #Brief
-Nanga Mai Services is a Succession Facilitator and Farm Consultant business that required web development and digital design. Design direction, including a logo and website design, were the main parts of the project. 
+Nanga Mai Services is a Succession Facilitator and Farm Consultant business that required web development and digital design. Design direction, including a logo and website design, were the main parts of the project. The client was after a professional look, but also not to stem too far away from the "farm" asthetic. 
 
 ---
 
@@ -20,6 +20,10 @@ The logo uses the font Weekly, with Montserrat Thin to compliment it. The colour
 
 ## Website Design
 cool info about the design of the website
+
+
+[GitHub](http://github.com)
+
 
 ## Website Development
 

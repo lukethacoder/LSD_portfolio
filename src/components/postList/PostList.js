@@ -4,7 +4,7 @@ import styled from 'styled-components'
 import { primaryGold, primaryWhite, secondaryGrey, primaryFont, evenDarkerGrey, backgroundDarkGrey} from "../../theme/variables";
 
 const PostListWrapper = styled.div`
-    
+    position: relative;
     a {
         text-decoration: none;
         width: 100%;
@@ -14,6 +14,10 @@ const PostListWrapper = styled.div`
         &:hover{
             background-color: ${evenDarkerGrey};
             transition: .5s;
+            div {
+                opacity: .2;
+                transition: .5s;
+            }
         }
         h1 {
             color: ${primaryWhite};
@@ -21,12 +25,16 @@ const PostListWrapper = styled.div`
             font-weight: 700;
             font-size: 5vw;
             line-height: .85;
+            z-index: 5;
+            position: relative;
         }
         h2 {
             color: ${primaryWhite};
             font-family: ${primaryFont};
             font-weight: 400;
             font-size: 1.95vw;
+            z-index: 5;
+            position: relative;
         }
         ul {
             display: block;
@@ -44,12 +52,27 @@ const PostListWrapper = styled.div`
     }
 `
 
+const SectionBackgroundImage = styled.div`
+    position: absolute;
+    display: block;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 0;
+    opacity: 0;
+    background-size: cover;
+    background-position: center;
+    transition: .5s;
+`
+
 export default class PostList extends Component {
     constructor(props) {
         super(props)
         this.state = {
             postTags: "",
-            postData: ""
+            postData: "",
+            postImage: ""
         }
     }
     render() {
@@ -61,7 +84,8 @@ export default class PostList extends Component {
 
         this.state = {
             postTags: tagsArray,
-            postData: this.props
+            postData: this.props,
+            postImage: post.frontmatter.cover.childImageSharp.sizes.src
         }
         return (
             <PostListWrapper>
@@ -73,7 +97,9 @@ export default class PostList extends Component {
                         {d}
                         </li>)}
                     </ul>
+                    <SectionBackgroundImage style={{backgroundImage: `url(${this.state.postImage})`}}/>
                 </Link>
+                
             </PostListWrapper>
         )
     }

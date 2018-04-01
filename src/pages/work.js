@@ -41,6 +41,18 @@ export const query = graphql`
                         category
                         date
                         tags
+                        cover {
+                            childImageSharp {
+                              sizes(maxWidth: 670) {
+                                base64
+                                aspectRatio
+                                src
+                                srcSet
+                                originalImg
+                                originalName
+                              }
+                          }
+                        }
                     }
                     fields {
                         slug
@@ -50,22 +62,16 @@ export const query = graphql`
                 }
             }
         }
-        allImageSharp {
-            edges {
-                node {
-                    ... on ImageSharp {
-                        resolutions(width:650) {
-                            src
-                        }
-                    }
-                }
-            }       
-        }
     }
 `
-// export const imgQuery = graphql`
-// query IndexQuery {
-
-    
+// allImageSharp {
+//     edges {
+//         node {
+//             ... on ImageSharp {
+//                 resolutions(width:650) {
+//                     src
+//                 }
+//             }
+//         }
+//     }       
 // }
-// `

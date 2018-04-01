@@ -3,6 +3,7 @@ import Link from "gatsby-link"
 import Img from "gatsby-image"
 import styled from 'styled-components'
 import { pageWidth, backgroundDarkGrey, primaryFont, primaryWhite, primaryGold, secondaryWhite, postPageTextWidth, primaryDarkGrey, otherGreyLighter, evenDarkerGrey } from "../theme/variables";
+import MarkdownWrapper from '../theme/markdownTheme'
 
 import bg_img from '../images/bg_img.jpg'
 
@@ -71,60 +72,6 @@ const PostPageWrapper = styled.div`
         > div {
             width: ${pageWidth};
             margin: 75px auto;
-            h1, h2, h3, h4, h5, h6 {
-                font-family: ${primaryFont};
-                color: ${secondaryWhite};
-                width: ${postPageTextWidth};
-                margin: 0 auto 25px auto;
-            }
-            h1 {
-                font-size: 3.25rem;
-            }
-            h2 {
-                font-size: 2.5rem;
-            }
-            h3 {
-                font-size: 2.5rem;
-                font-weight: 300;
-            }
-            h4 {
-                font-size: 2rem;
-            }
-            h5 {
-                font-size: 1.5rem;
-            }
-            h6 {
-                font-size: 1.25rem;
-            }
-            p, ul {
-                font-family: ${primaryFont};
-                color: ${secondaryWhite};
-                width: ${postPageTextWidth};
-                margin: 0 auto;
-                font-size: 1.25rem;
-            }
-            ul {
-                margin-top: 10px;
-            }
-            hr {
-                background: ${primaryGold};
-                height: 2px;
-                margin: 50px auto;
-                width: ${postPageTextWidth};
-            }
-            pre {
-                width: ${postPageTextWidth};
-                margin: 25px auto;
-                background-color: ${evenDarkerGrey};
-                code {
-                    color: ${primaryGold}
-                }
-            }
-            img {
-                width: 100%;
-                height: auto;
-                margin: 25px 0;
-            }
         }
     }
 `
@@ -165,11 +112,13 @@ export default class PostPage extends Component {
                             <ul>{this.state.postTags.map(d => <li>{d}</li>)}</ul>
                         </div>
                     </section>
-                    <div
-                        dangerouslySetInnerHTML={{
-                            __html: this.state.postData.markdownRemark.html
-                        }}
-                    />
+                    <div>
+                        <MarkdownWrapper
+                            dangerouslySetInnerHTML={{
+                                __html: this.state.postData.markdownRemark.html
+                            }}
+                        />
+                    </div>        
                 </div>
             </PostPageWrapper>
         )
