@@ -116,7 +116,8 @@ const Header = () => (
         
         <NavContainer>
           <NavList>
-            <Link to="/blog"><li>Blog</li></Link>
+            <Link to="/work"><li>Work</li></Link>
+            <Link to="/projects"><li>Projects</li></Link>
             <Link to="/resume"><li>Resume</li></Link>
             <Link to="/about"><li>About</li></Link>
           </NavList>
