@@ -1,9 +1,10 @@
 // Colour Variables
-export const primaryDarkGrey = '#212024';
+export const primaryDarkGrey = '#0B0B0D';
 export const primaryGold = '#D9B262';
 export const primaryWhite = '#F9F9F9';
 
-export const backgroundDarkGrey = 'rgba( 33, 32, 36, 0.75)';
+
+export const backgroundDarkGrey = 'rgba(11, 11, 13, 0.75)';
 
 export const secondaryGrey = '#47464D';
 export const secondaryGold = '#F2C76D';
@@ -20,5 +21,6 @@ export const secondaryFont = "'Montserrat', sans-serif";
 export const tertiaryFont = "'Abril Fatface'";
 
 // Margins
+export const navWidth = "90%";
 export const pageWidth = "80%";
 export const postPageTextWidth = "65%";

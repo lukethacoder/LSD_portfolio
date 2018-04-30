@@ -7,7 +7,7 @@ import './index.css'
 import fontawesome from '@fortawesome/fontawesome'
 import FontAwesomeIcon from '@fortawesome/react-fontawesome'
 import brands from '@fortawesome/fontawesome-free-brands'
-import { faCoffee } from '@fortawesome/fontawesome-free-solid'
+import { faCoffee, faSpinner } from '@fortawesome/fontawesome-free-solid'
 
 require("typeface-montserrat");
 require("typeface-abril-fatface");
@@ -96,9 +96,30 @@ class BackgroundChangeScroll extends Component {
   }
 }
 
+const WorkInProgress = styled.div`
+  position: fixed;
+  
+  z-index: 100;
+  bottom: 10px;
+  right: 20px;
+  font-family: ${primaryFont};
+  a {
+    color: ${primaryGold};
+    text-decoration: none;  
+    span {
+      color: ${primaryWhite};
+    }  
+  }
+`
+
 const TemplateWrapper = ({ children }) => (
 
   <TheBody>
+    <WorkInProgress>
+      <a href="#">
+        This website is a work in progress<br/>check out the <span>Github repo</span> <FontAwesomeIcon spin icon={faSpinner}/> 
+      </a>
+    </WorkInProgress>
     <BackgroundChangeScroll/>
     <BodyContainer>
       <Helmet

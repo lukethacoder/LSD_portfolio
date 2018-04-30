@@ -3,15 +3,15 @@ import Link from 'gatsby-link'
 import styled from 'styled-components'
 import {LandingPageWrapper, LandingPageContainer } from '../components/LandingPage'
 import resume from '../content/luke-secomb-public-resume.pdf'
-import { primaryGold, primaryFont, primaryDarkGrey, otherGrey } from '../theme/variables';
+import { primaryGold, primaryFont, primaryDarkGrey, otherGrey, primaryWhite, secondaryGrey } from '../theme/variables';
 
 const HereLink = styled.a`
-  color: ${primaryGold};
+  color: ${otherGrey};
   font-family: ${primaryFont};
   text-decoration: none;
   transition: .25s;
   &:hover {
-    color: ${otherGrey};
+    color: ${secondaryGrey};
     transition: .25s;
   }
 `

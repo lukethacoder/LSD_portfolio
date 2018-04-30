@@ -1,86 +1,36 @@
 ---
 title: "Ignite Driving"
-subtitle: "Branding | Web Design | Web Development"
+subtitle: "Ignite Driving was built from the ground up. All design and adversing 
+work, as well as the web development was created. The challenge was to reach and
+engage with the audience using current digital technologies and design thinking
+strategies"
 linktoproject: "https://ignitedriving.com.au"
 cover: "./ignite_driving_cover.jpg"
 category: "Clients"
 date: "2018-03-29"
 tags: "Adobe XD, GatsbyJS, Illustrator, inDesign, Photoshop, React, SASS"
 ---
-### Check out the website <a href="https://ignitedriving.com.au" target="_blank">here</a>
 
-> "Everything you need to get that relaxed driving that brings consistency only comes with practice." - John Surtees
+<div className="one_image">
+    <img src="./ignite_driving_cover.jpg">
+</div>
 
-#Brief
-The brief for this project was to brand, design and develop a business from nothing. Using the current industry players as a starting point, a fresh and ellegant design solution was needed.
+#The Brand
+Based in South Canberra, Ignite Driving is a newly founded small business that aims to help Learner drivers transition to become safe and confident P plate drivers. Through the use of thorough and informative teaching techniques, Ignite driving is putting safer drivers on Canberra roads.
 
 #Design Direction
 ###### images of inspiration / mood
+<div className="three_portrait">
+    <img src="./screen_test.png"/>
+    <img src="./screen_test.png"/>
+    <img src="./screen_test.png"/>
+</div>
 
-#Logo 
-The client brought a few initial ideas to the table, which aided with the design process. The client wanted a flowy cursaive type of font, with emphasis on looking "like a flame". The main 'ignite' text uses <a href="https://allbestfonts.com/skachat-shrift-brotherhood-script-besplatno/" target="_blank">Brotherhood Script</a>, and the 'driving' font is <a href="https://fonts.google.com/specimen/Raleway" target="_blank">Raleway Light</a>. The ignite text was rasterised and then thickened as to contrast better with the thin serif font. After thickening, the font was adjusted to remove and smooth of any odd shapes and/or curves.
+#The Project 
+Starting a brand from scratch is always a difficult process. It began with the design of the logo. Inspired by a flowing flame of sorts the cursive typography of the "ignite" contrasts with the sans serif "driving" type. The overall aesthetic follows hues of purple, oranges, and shades of grey. 
 
-#Website Design
-talk about mobile responsiveness (differnet nav bar - why not just a burger nav)
+#The Result
+The project has been completed, but is still undergoing review with the development. Small bugs are being thinned out and fixed up - and optimisations are always being developed. Additionally, there is a car wrap design that is in the process of being created. This will be used on the company car and will help it stand out when traveling the roads of Canberra.
 
-#Website Development
-The website was created using <a href="https://www.gatsbyjs.org/" target="_blank">GatsbyJS</a>, a static site generator built on <a href="https://reactjs.org/" target="_blank">React</a>. <a href="http://sass-lang.com/" target="_blank">SASS</a> was also used to utalise varialbes, mixins and other cool SASS features. 
-
-One main hurdle was the responsive navigation menu. On desktop it would be displayed as a simple navigation bar, but when the viewport is dropped down to a mobile device a fixed bottom navigation bar was used. This took some time to make just right, hiding and showing certain elements at certain times. CSS Grid was used on some parts of the navigation, and even more throughout the whole website. Certain elements wouldnt have been able to achieve the same look without CSS Grid
-
-### Mobile Viewport
-##### IMAGE OF MOBILE NAVIGATION
-
-````
-.bottomNavigation {
-    position: fixed;
-    display: flex;
-    background-color: $lightGrey;
-    .navigationMenu {
-        order: 2;
-        li {
-            a {
-                svg {
-                    display: block;
-                }
-            }
-            .activeClassName {
-                background-color: $mediumpurple;
-            }
-        }
-    }
-    .bookNowNav {
-        order: 1;
-    }
-}
-````
-### Destkop Viewport
-##### IMAGE OF DESKTOP NAVIGATION
-````
-// Desktop Viewport
-.bottomNavigation {
-    position: relative;
-    display: flex;
-    background-color: transparent;
-    .navigationMenu {
-        order: 1;
-        li {
-            a {
-                svg {
-                    display: none;
-                }
-            }
-            .activeClassName {
-                background-color: transparent;
-            }
-        }
-    }
-    .bookNowNav {
-        order: 2;
-    }
-}
-````
-
-
-# Gallery
-###### put random mock ups and other design stuff here
+#Technologies Used
+This project used reasonably standard technologies. The stand out is GatsbyJS. A new kid on the block, GatsbyJS is a React based static site generator. Spitting out a static website drastically cuts down on load times and in doing so ups the page ranking of the website, which is always a good thing.
