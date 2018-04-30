@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import Link from "gatsby-link"
 import Img from "gatsby-image"
 import styled from 'styled-components'
-import { pageWidth, backgroundDarkGrey, primaryFont, primaryWhite, primaryGold, secondaryWhite, postPageTextWidth, primaryDarkGrey, otherGreyLighter, evenDarkerGrey } from "../theme/variables";
+import { pageWidth, backgroundDarkGrey, primaryFont, primaryWhite, primaryGold, secondaryWhite, postPageTextWidth, primaryDarkGrey, otherGreyLighter, evenDarkerGrey, secondaryGrey } from "../theme/variables";
 import MarkdownWrapper from '../theme/markdownTheme'
 
 import fontawesome from '@fortawesome/fontawesome'
@@ -102,50 +102,118 @@ const PostPageWrapper = styled.div`
         }
         .pageContent {
             width: ${pageWidth};
+            height: auto;
             margin: 75px auto;
-            > div {
-                height: auto !important;
-                display: grid !important;
-                span {
-                    max-width: 100% !important;
-                    height: auto;
-                    background-color: purple;
-                    margin: 0 !important;
-                    padding: 0 !important;
-                    span {
-                        img {
-                            width: 100% !important;
+            div {
+                display: grid;
+                grid-template-columns: 100%;
+                width: 100%;
+                h1, h2, h3, h4, h5, h6, p {
+                    width: 60%;
+                    justify-self: end;
+                    font-family: ${primaryFont};
+                }
+                p {
+                    color: ${secondaryGrey};
+                }
+                hr {
+                    color: ${primaryGold};
+                    height: 4px;
+                    width: 25%;
+                    margin-left: 40%;
+                }
+                .image {
+                    width: 100%;
+                    height: auto !important;
+                    display: grid !important;
+                    align-content: center;
+                    justify-content: center;
+                    position: static;
+                    margin-top: 75px;
+                    margin-bottom: 75px;
+                    .gatsby-resp-image-wrapper {
+                        max-width: 100% !important;
+                        max-height: none !important;
+                        align-content: center;
+                        justify-content: center;
+                        overflow: hidden;
+                        margin: 0 !important;
+                        padding: 0 !important;
+                        display: block;
+                        position: relative;
+                        span {
+                            display: grid !important;
+                            width: 100%;
+                            /* bottom: 50%; */
+                            align-content: center;
+                            justify-content: center;
+                            img {
+                                position: relative;
+                                width: 100% !important;
+                            }
                         }
                     }
                 }
-            }
-            .one_image {
-                height: auto;
-                display: grid;
-                grid-template-columns: 1fr;
-                grid-template-rows: 1fr;
-                span {
-                    
-                }
-            }
-            .three_portrait {
-                height: auto;
-                display: grid;
-                grid-template-rows: 100%;
-                grid-template-columns: 1fr 1fr 1fr;
-                grid-column-gap: 10px;
-                /* span {
-                    max-width: 100% !important;
-                    height: auto;
-                    background-color: purple;
-                    margin: 0 !important;
-                    padding: 0 !important;
-                    span {
-                        img {
-                            width: 100% !important;
+                .one_image {
+                    grid-template-columns: 100%;
+                    grid-template-rows: 100%;
+                    width: 100%;
+                    /* min-height: 650px; */
+                    height: auto !important;
+                    background-color: #D9D9D9;
+                    .gatsby-resp-image-wrapper {
+                        display: block;
+                        height: 100% !important;
+                        width: 100%;
+                        span {
+                            align-content: center;
+                            justify-content: center;
+                            display: grid !important;
+                            img {
+                                align-content: center;
+                                justify-content: center;
+                            }
                         }
                     }
-                } */
+                }
+                .three_portrait {
+                    grid-template-rows: 100%;
+                    grid-template-columns: 1fr 1fr 1fr;
+                    grid-column-gap: 10px;
+                }
+                .one_big_two_smaller {
+                    grid-template-rows: 1fr;
+                    grid-template-columns: 1fr 1fr;
+                    grid-column-gap: 10px;
+                    padding: 0;
+                    .gatsby-resp-image-wrapper:nth-of-type(1) {
+                        height: 100% !important;
+                        width: 100%;
+                        span {
+                            display: grid;
+                            grid-template-columns: 100%;
+                            grid-template-rows: 100%;
+                            height: 100% !important;
+                            width: auto !important;
+                            padding: 0 !important;
+                            margin: 0 !important;
+                            img {
+                                height: 100% !important;
+                                width: auto !important;
+                                max-width: none !important;
+                                align-self: center;
+                                justify-self: center;
+                                position: relative !important;
+                            } 
+                        }
+                    }
+                }
+                .six_images {
+                    grid-auto-rows: minmax(100px, 250px);
+                    grid-template-columns: 1fr 1fr 1fr;
+                    grid-template-rows: 1fr 1fr;
+                    grid-gap: 10px;
+                }
             }
         }
     }
@@ -185,7 +253,8 @@ export default class PostPage extends Component {
                             <h1>{this.state.postData.markdownRemark.frontmatter.title}</h1>
                             <hr/>
                             <p>{this.state.postData.markdownRemark.frontmatter.subtitle}</p>
-                            <a href={this.state.postData.markdownRemark.frontmatter.linktoproject} target="_blank">Explore website</a>
+                            {console.log(this.state.postData.markdownRemark.frontmatter.linktoproject)}
+                            <a href={`${this.state.postData.markdownRemark.frontmatter.linktoproject}`} target="_blank">Explore website</a>
                         </div>
                         {/* <div>
                             <a href="#"><FontAwesomeIcon icon={faAngleLeft}/></a>
@@ -215,6 +284,7 @@ export const query = graphql`
                 category
                 date
                 tags
+                linktoproject
                 cover {
                     childImageSharp {
                       sizes(maxWidth: 670) {

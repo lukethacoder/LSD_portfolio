@@ -30,8 +30,7 @@ export default Portfolio
 
 export const query = graphql`
     query SiteMeta {
-
-        allMarkdownRemark(sort: { fields: [frontmatter___date], order: DESC }) {
+        allMarkdownRemark(filter: {frontmatter: {category: {eq: "Clients"}}}) {
             edges {
                 node {
                     id
