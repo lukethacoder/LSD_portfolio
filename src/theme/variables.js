@@ -6,7 +6,7 @@ export const primaryWhite = '#F9F9F9';
 
 export const backgroundDarkGrey = 'rgba(11, 11, 13, 0.75)';
 
-export const secondaryGrey = '#99999B';
+export const secondaryGrey = '#47464D';
 export const secondaryGold = '#F2C76D';
 export const secondaryWhite = '#F1F1F1';
 
