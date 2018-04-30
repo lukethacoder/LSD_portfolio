@@ -7,7 +7,7 @@ import FontAwesomeIcon from '@fortawesome/react-fontawesome'
 import brands from '@fortawesome/fontawesome-free-brands'
 import { faAlignRight } from '@fortawesome/fontawesome-free-solid'
 
-import { primaryDarkGrey, primaryGold, pageWidth } from '../../theme/variables';
+import { primaryDarkGrey, primaryGold, pageWidth, navWidth } from '../../theme/variables';
 
 import logo from '../../images/luke-secomb-digital-logo.svg';
 
@@ -31,7 +31,7 @@ const HeaderWrapper = styled.div`
 
 const HeaderContainer = styled.div`
   margin: 0 auto;
-  width: ${pageWidth};
+  width: ${navWidth};
   max-height: 125px;
   display: grid;
   grid-template-columns: 50% 50%;

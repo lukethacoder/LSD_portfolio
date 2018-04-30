@@ -1,8 +1,8 @@
 {
-  "name": "Luke Secomb",
+  "name": "Luke_Secomb_porfolio",
   "description": "Luke Secomb",
   "version": "1.0.0",
-  "author": "Luke Secomb <hello@lukesecomb.digital>",
+  "author": "Luke Secomb <hello@lukesecomb.digital> (https://lukesecomb.digital",
   "dependencies": {
     "@fortawesome/fontawesome": "^1.1.4",
     "@fortawesome/fontawesome-free-brands": "^5.0.8",
@@ -26,8 +26,7 @@
     "styled-components": "^3.2.3",
     "styled-components-theme": "^1.0.5",
     "typeface-abril-fatface": "0.0.54",
-    "typeface-montserrat": "0.0.54",
-    "webfontloader": "^1.6.28"
+    "typeface-montserrat": "0.0.54"
   },
   "keywords": [
     "gatsby"
