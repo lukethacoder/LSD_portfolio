@@ -116,7 +116,7 @@ const TemplateWrapper = ({ children }) => (
 
   <TheBody>
     <WorkInProgress>
-      <a href="#">
+      <a href="https://github.com/lukethacoder/LSD_portfolio" target="_blank">
         This website is a work in progress<br/>check out the <span>Github repo</span> <FontAwesomeIcon spin icon={faSpinner}/> 
       </a>
     </WorkInProgress>

@@ -9,7 +9,7 @@ const PostListWrapper = styled.div`
         text-decoration: none;
         width: 100%;
         display: block;
-        padding: 150px 10%;
+        padding: 150px 25% 150px 10%;
         transition: .5s;
         &:hover{
             background-color: ${evenDarkerGrey};
@@ -28,26 +28,19 @@ const PostListWrapper = styled.div`
             z-index: 5;
             position: relative;
         }
-        h2 {
+        hr {
+            width: 65%;
+            background-color: ${primaryGold};
+            height: 4px;
+        }
+        p {
             color: ${primaryWhite};
             font-family: ${primaryFont};
             font-weight: 400;
-            font-size: 1.95vw;
+            font-size: 1.75vw;
+            line-height: 1.15;
             z-index: 5;
             position: relative;
-        }
-        ul {
-            display: block;
-            color: ${primaryGold};
-            font-family: ${primaryFont};
-            list-style-type: none;
-            padding: 0;
-            margin: 0;
-            li {
-                display: inline-block;
-                margin-right: 20px;
-                font-size: 28px;
-            }
         }
     }
 `
@@ -90,13 +83,9 @@ export default class PostList extends Component {
         return (
             <PostListWrapper>
                 <Link to={this.props.post.fields.slug}>
-                    
-                    <h2>{this.props.post.frontmatter.subtitle}</h2>
                     <h1>{this.props.post.frontmatter.title}</h1>
-                    <ul>{this.state.postTags.map(d => <li>
-                        {d}
-                        </li>)}
-                    </ul>
+                    <hr/>
+                    <p>{this.props.post.frontmatter.subtitle}</p>
                     <SectionBackgroundImage style={{backgroundImage: `url(${this.state.postImage})`}}/>
                 </Link>
                 
