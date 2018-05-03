@@ -113,7 +113,6 @@ const WorkInProgress = styled.div`
 `
 
 const TemplateWrapper = ({ children }) => (
-
   <TheBody>
     <WorkInProgress>
       <a href="https://github.com/lukethacoder/LSD_portfolio" target="_blank">
