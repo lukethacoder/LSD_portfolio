@@ -1,7 +1,7 @@
 ---
 title: "Zoostagram"
 subtitle: "Zoostagram is a group uni project, aiming to create a more engaging experience when visiting the Canberra Zoo"
-linktoproject: "#"
+linktoproject: ""
 cover: "./zoostagram_dunes.jpg"
 category: "Projects"
 date: "2018-05-01"
