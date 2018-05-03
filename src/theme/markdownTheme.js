@@ -78,7 +78,6 @@ h1 {
 
 h2 {
   font-size: 24px;
-  border-bottom: 1px solid #cccccc;
   color: ${primaryWhite};
 }
 
@@ -88,6 +87,8 @@ h3 {
 
 h4 {
   font-size: 16px;
+  margin-bottom: 0;
+  color: ${primaryGold};
 }
 
 h5 {
