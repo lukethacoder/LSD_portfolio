@@ -1,9 +1,10 @@
 ---
 title: "Australian Roundhouses"
 subtitle: "Australian Roundhouses is currently a work in progress. Logo Design, Web Design and Web Development is forecast to be completed within the new few weeks."
-linktoproject: "#"
+linktoproject: "https://australianroundhouses.com.au"
 cover: "./australian_roundhouses_cover.jpg"
 category: "Clients"
+type: "none"
 date: "2018-04-01"
 tags: "Adobe XD, Illustrator"
 ---

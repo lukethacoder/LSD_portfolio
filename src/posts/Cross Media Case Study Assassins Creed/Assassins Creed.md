@@ -4,7 +4,7 @@ subtitle: "A case study of the Assassin's Creed universe and the effectiveness o
 linktoproject: ""
 cover: "./assassins_creed_black_flag_wallpaper.jpg"
 category: "Projects"
-date: "2018-05-01"
+date: "2018-03-10"
 tags: "University, Cross-Media, Report"
 ---
 

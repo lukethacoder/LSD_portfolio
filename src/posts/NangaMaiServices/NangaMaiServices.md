@@ -4,6 +4,7 @@ subtitle: "Nanga Mai Services is a Succession Facilitator and Farm Consultant co
 linktoproject: "http://nangamaiservices.com.au/"
 cover: "./nanga_mai_services_cover.jpg"
 category: "Clients"
+type: "website"
 date: "2018-02-11"
 tags: "Adobe XD, Illustrator, GatsbyJS, SASS"
 ---

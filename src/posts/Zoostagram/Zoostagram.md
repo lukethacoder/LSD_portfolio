@@ -4,7 +4,8 @@ subtitle: "Zoostagram is a group uni project, aiming to create a more engaging e
 linktoproject: ""
 cover: "./zoostagram_dunes.jpg"
 category: "Projects"
-date: "2018-05-01"
+type: "website"
+date: "2018-05-03"
 tags: "Adobe XD, Illustrator, GatsbyJS, SASS"
 ---
 

@@ -244,6 +244,17 @@ export default class PostPage extends Component {
             postData: data,
             postImage: imageSource
         }
+        let whereToLinkTo = ""
+        if (this.state.postData.markdownRemark.frontmatter.type === "none") {
+            whereToLinkTo = ""
+        }
+        else if (this.state.postData.markdownRemark.frontmatter.type === "website") {
+            whereToLinkTo = "Explore website"
+        }
+        else if (this.state.postData.markdownRemark.frontmatter.type === "pdf") {
+            whereToLinkTo = "Read More (PDF download)"
+        }
+
         return (
             <PostPageWrapper>
                 <div>
@@ -254,7 +265,7 @@ export default class PostPage extends Component {
                             <hr/>
                             <p>{this.state.postData.markdownRemark.frontmatter.subtitle}</p>
                             {console.log(this.state.postData.markdownRemark.frontmatter.linktoproject)}
-                            <a href={`${this.state.postData.markdownRemark.frontmatter.linktoproject}`} target="_blank">Explore website</a>
+                            <a href={`${this.state.postData.markdownRemark.frontmatter.linktoproject}`} target="_blank">{whereToLinkTo}</a>
                         </div>
                         {/* <div>
                             <a href="#"><FontAwesomeIcon icon={faAngleLeft}/></a>
@@ -282,6 +293,7 @@ export const query = graphql`
                 title
                 subtitle
                 category
+                type
                 date
                 tags
                 linktoproject

@@ -75,26 +75,6 @@ const NavContainer = styled.div`
   z-index: 50;
 `;
 
-const NavList = styled.ul`
-  width: 50%;
-  float: right;
-  list-style-type: none;
-  padding: 0;
-  margin: 0;
-  display: none; /* grid */
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: auto;
-  align-content: right;
-  a {
-    text-decoration: none;
-    li {
-      justify-self: right;
-      color: ${primaryGold};
-      margin: 1% 10%;
-    }
-  }
-`;
-
 const NavIcon = styled.a`
   justify-self: end;
   color: ${primaryGold};
@@ -115,12 +95,6 @@ const Header = () => (
         </SvgWrapper>
         
         <NavContainer>
-          <NavList>
-            <Link to="/work"><li>Work</li></Link>
-            <Link to="/projects"><li>Projects</li></Link>
-            <Link to="/resume"><li>Resume</li></Link>
-            <Link to="/about"><li>About</li></Link>
-          </NavList>
           <NavIcon to="/">
             <FontAwesomeIcon icon={faAlignRight}/>
           </NavIcon>

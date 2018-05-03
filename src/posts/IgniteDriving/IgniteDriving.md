@@ -7,6 +7,7 @@ strategies"
 linktoproject: "https://ignitedriving.com.au"
 cover: "./ignite_driving_cover.jpg"
 category: "Clients"
+type: "website"
 date: "2018-03-29"
 tags: "Adobe XD, GatsbyJS, Illustrator, inDesign, Photoshop, React, SASS"
 ---
