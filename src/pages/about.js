@@ -3,7 +3,20 @@ import Link from 'gatsby-link'
 import styled from 'styled-components'
 
 import {LandingPageWrapper, LandingPageContainer } from '../components/LandingPage'
-import { primaryFont, primaryGold, pageWidth, primaryWhite } from '../theme/variables';
+import { primaryFont, primaryGold, pageWidth, primaryWhite, backgroundDarkGrey, evenDarkerGrey } from '../theme/variables';
+
+import img_gatsbyjs from '../images/gatsbyjs.png';
+import img_sass from '../images/sass.png';
+import img_camera from '../images/camera.png';
+import img_npm from '../images/npm.png';
+import img_restful from '../images/restful-api.png';
+import img_grapql from '../images/grapql.png';
+import img_adobe from '../images/acc.png';
+import img_gulp from '../images/gulp.png';
+import img_react from '../images/react.png';
+import img_maya from '../images/maya.jpg';
+import img_vscode from '../images/vs-code.png';
+import img_gihub from '../images/github.png';
 
 const AboutInfo = styled.div`
   background-color: transparent;
@@ -44,15 +57,60 @@ const AboutInfo = styled.div`
     }
   }
 `
+const AboutGrid = styled.div`
+  width: 100% !important;
+  height: auto;
+  margin-left: 0 !important ;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: auto;
+  grid-gap: 15px;
+  margin-top: 25px !important;
+  div {
+      width: 100%;
+      justify-self: flex-start;
+      display: grid;
+      grid-template-columns: 100%;
+      grid-template-rows: 100%;
+      justify-content: flex-start;
+      align-content: center;
+      transition: .5s;
+      &:hover {
+          transition: .5s;
+          a {
+              background-color: ${primaryGold};
+              transition: .1s;
+              img {
+                  filter: grayscale(100%);
+                  transition: .1s;
+              }
+          }
+      }
+      a {
+        width: 100%;
+        margin: 0;
+        padding: 0;
+        display: grid;
+        grid-template-columns: 100%;
+        grid-template-rows: 100%;
+        justify-content: center;
+        align-content: center;
+        background-color: ${primaryWhite};
+        transition: .5s;
+        img {
+            width: 100%;
+            display: grid;
+            justify-self: center;
+            align-self: center;
+            padding: 15%;
+            transition: .5s;
+        }
+      } 
+  }
+`
 
 const About = () => (
     <div>
-    {/* <LandingPageWrapper>
-        <LandingPageContainer>
-            <h1>About</h1>
-            <h2></h2>
-        </LandingPageContainer>
-    </LandingPageWrapper> */}
     <AboutInfo>
         <div>
             <p>
@@ -65,21 +123,49 @@ const About = () => (
                 On the side I do<br/><strong>freelance</strong> work, <br/>designing and<br/>developing <strong>beautiful</strong>,<br/><strong>responsive</strong>, <strong>efficient</strong><br/>and <strong>user-friendly</strong><br/>websites.
             </p>
             <p>
-                I have had previous<br/>experience with:<br/>
-                <ul>
-                    <li><a href="http://gatsbyjs.org" target="_blank">GatsbyJS</a> + <a href="reactjs.org" target="_blank" rel="noopener noreferrer">React</a></li>
-                    <li><a href="https://www.javascript.com/" target="_blank" rel="noopener noreferrer">JavaScript</a></li>
-                    <li><a href="http://sass-lang.com/" target="_blank" rel="noopener noreferrer">SASS</a> + <a href="https://www.styled-components.com/" target="_blank" rel="noopener noreferrer">Styled Components</a></li>
-                    <li>Digital Photography</li>
-                    <li><a href="https://nodejs.org/en/" target="_blank" rel="noopener noreferrer">Node.js</a></li>
-                    <li>HTML5 + CSS</li>
-                    <li><a href="https://restfulapi.net/" target="_blank" rel="noopener noreferrer">RESTful API's</a></li>
-                    <li><a href="https://graphql.org/" target="_blank" rel="noopener noreferrer">GraphQL</a></li>
-                    <li><a href="https://gulpjs.com/" target="_blank" rel="noopener noreferrer">Gulp.js</a> + <a href="https://gruntjs.com/" target="_blank" rel="noopener noreferrer">Grunt</a></li>
-                    <li><a href="https://www.adobe.com/au/" target="_blank" rel="noopener noreferrer">Adobe Creative Suite</a></li>
-                    <li>Film Photography</li>
-                    <li><a href="https://www.autodesk.com.au/products/maya/overview" target="_blank" rel="noopener noreferrer">Autodesk Maya</a></li>
-                </ul>
+                I have <br/><strong>experience</strong> with:<br/>
+                <AboutGrid>
+                    <div>
+                        <a href="http://gatsbyjs.org"><img src={img_gatsbyjs}/></a>
+                    </div>
+                    <div>
+                        <a href="https://reactjs.org/"><img src={img_react}/></a>
+                    </div>
+                    <div>
+                        <a href="https://www.adobe.com/au/"><img src={img_adobe}/></a>
+                    </div>
+
+                    <div>
+                        <a href="https://500px.com/lukesecomb"><img src={img_camera}/></a>
+                    </div>
+                    <div>
+                        <a href="https://www.npmjs.com"><img src={img_npm}/></a>
+                    </div>
+                    <div>
+                        <a href="http://sass-lang.com/"><img src={img_sass}/></a>
+                    </div>
+                    
+                    <div>
+                        <a href="https://gulpjs.com/"><img src={img_gulp}/></a>
+                    </div>
+                    <div>
+                        <a href="https://graphql.org/"><img src={img_grapql}/></a>
+                    </div>
+                    <div>
+                        <a href="https://restfulapi.net/"><img src={img_restful}/></a>
+                    </div>
+
+                    <div>
+                        <a href="https://code.visualstudio.com/"><img src={img_vscode}/></a>
+                    </div>
+                    <div>
+                        <a href="https://github.com/lukethacoder"><img src={img_gihub}/></a>
+                    </div>
+                    <div>
+                        <a href="https://www.autodesk.eu/products/maya/overview"><img src={img_maya}/></a>
+                    </div>
+
+                </AboutGrid>
             </p>
             <p>
                 I aspire to create<br/><strong>memorable</strong> designs<br/>and more than<br/><strong>functional</strong> digital<br/>experiences.

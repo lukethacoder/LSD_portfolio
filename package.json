@@ -23,6 +23,7 @@
     "react-helmet": "^5.2.0",
     "react-particles-js": "^2.1.1",
     "react-svg": "^2.2.14",
+    "sassiness": "^1.4.2",
     "styled-components": "^3.2.3",
     "styled-components-theme": "^1.0.5",
     "typeface-abril-fatface": "0.0.54",

@@ -30,7 +30,7 @@ export default Projects
 
 export const query = graphql`
     query SiteMetaProjects {
-        allMarkdownRemark(filter: {frontmatter: {category: {eq: "Projects"}}}) {
+        allMarkdownRemark(filter: {frontmatter: {category: {eq: "Projects"}}} sort: {fields: [frontmatter___date], order: DESC}) {
             edges {
                 node {
                     id
@@ -38,7 +38,7 @@ export const query = graphql`
                         title
                         subtitle
                         category
-                        date
+                        date(formatString: "MMMM DD, YYYY")
                         tags
                         cover {
                             childImageSharp {
