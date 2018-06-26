@@ -14,7 +14,7 @@ tags: "Adobe XD, Illustrator, GatsbyJS, SASS"
 </div>
 
 #The Project
-This is still a work in progress and will be finished by the due date, mid May. 
+A mobile web application built to enhance the Canberra Zoo experience. Designed and Developed as part of a major group project at the University of Canberra.
 
 #Technologies Used 
 ***

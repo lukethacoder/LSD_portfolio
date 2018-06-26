@@ -7,6 +7,40 @@ import DayOfWeek from '../components/DayOfWeek';
 import RandomWord from '../components/globalCompontents/RandomWord';
 import bg_img from '../images/bg_img.jpg';
 import { primaryWhite, primaryDarkGrey, primaryGold, primaryFont, pageWidth } from '../theme/variables';
+import { DynamicBackgroundImage } from '../components/globalCompontents/theme-context'
+
+const IndexPage = () => (
+  <DynamicBackgroundImage.Provider image={bg_img}>
+    <IndexPageContainer>
+      <LandingPage />
+      <WorkContainer>
+        <div>
+          <p>
+            Hello, I am <strong>Luke</strong>,<br/>Web Developer and<br/>Digital Designer
+          </p>
+          <p>
+            Welcome to <strong>my<br/>website</strong>, it's great<br/>to have <strong>you</strong> here.
+          </p>
+          <p>
+            This website uses<br/><strong>GatsbyJS*</strong>, and is<br/>hosted with <strong>Github</strong><br/>and <strong>Netlify</strong>.
+            <br />
+            <em>
+              *React, Node.js, webpack, gulp, styled<br/>components, SASS, fontawesome<br/>and some other magic.
+            </em>
+          </p>
+          <p>
+            Cool stuff, eh?<br/>If you are <strong>keen for<br/>a chat</strong>, hit me up at<br/><strong><a href="#">hello@lukesecomb.digital</a></strong>
+          </p>
+          <p>
+            <strong>Stay creative and have<br/><RandomWord/> <DayOfWeek/></strong>
+          </p>
+        </div>
+      </WorkContainer>
+    </IndexPageContainer>
+  </DynamicBackgroundImage.Provider>
+)
+
+export default IndexPage
 
 
 const IndexPageContainer = styled.div` 
@@ -48,34 +82,3 @@ const WorkContainer = styled.div`
     }
   }
 `
-
-const IndexPage = () => (
-  <IndexPageContainer>
-    <LandingPage />
-    <WorkContainer>
-      <div>
-        <p>
-          Hello, I am <strong>Luke</strong>,<br/>Web Developer and<br/>Digital Designer
-        </p>
-        <p>
-          Welcome to <strong>my<br/>website</strong>, it's great<br/>to have <strong>you</strong> here.
-        </p>
-        <p>
-          This website uses<br/><strong>GatsbyJS*</strong>, and is<br/>hosted with <strong>Github</strong><br/>and <strong>Netlify</strong>.
-          <br />
-          <em>
-            *React, Node.js, webpack, gulp, styled<br/>components, SASS, fontawesome<br/>and some other magic.
-          </em>
-        </p>
-        <p>
-          Cool stuff, eh?<br/>If you are <strong>keen for<br/>a chat</strong>, hit me up at<br/><strong><a href="#">hello@lukesecomb.digital</a></strong>
-        </p>
-        <p>
-          <strong>Stay creative and have<br/><RandomWord/> <DayOfWeek/></strong>
-        </p>
-      </div>
-    </WorkContainer>
-  </IndexPageContainer>
-)
-
-export default IndexPage

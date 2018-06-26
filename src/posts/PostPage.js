@@ -4,13 +4,111 @@ import Img from "gatsby-image"
 import styled from 'styled-components'
 import { pageWidth, backgroundDarkGrey, primaryFont, primaryWhite, primaryGold, secondaryWhite, postPageTextWidth, primaryDarkGrey, otherGreyLighter, evenDarkerGrey, secondaryGrey } from "../theme/variables";
 import MarkdownWrapper from '../theme/markdownTheme'
+import DynamicBackgroundImage from '../components/globalCompontents/theme-context'
 
-import fontawesome from '@fortawesome/fontawesome'
-import FontAwesomeIcon from '@fortawesome/react-fontawesome'
-import brands from '@fortawesome/fontawesome-free-brands'
-import { faAngleLeft, faAngleRight } from '@fortawesome/fontawesome-free-solid'
+// import fontawesome from '@fortawesome/fontawesome'
+// import FontAwesomeIcon from '@fortawesome/react-fontawesome'
+// import brands from '@fortawesome/fontawesome-free-brands'
+// import { faAngleLeft, faAngleRight } from '@fortawesome/fontawesome-free-solid'
 
 import bg_img from '../images/bg_img.jpg'
+
+export default class PostPage extends Component {
+    constructor(props) {
+        super(props)
+        this.state = {
+            postTags: "",
+            postData: "",
+            postImage: ""
+        }
+    }
+
+    render() {
+        const { data } = this.props;
+        // console.log(this.props);
+        const imageSource = data.markdownRemark.frontmatter.cover.childImageSharp.sizes.src;
+        // console.log(imageSource);
+        
+        const theTags = data.markdownRemark.frontmatter.tags;
+        const tags4days = theTags.split(', ');
+        let tagsArray = Array.from(tags4days);
+
+        this.state = {
+            postTags: tagsArray,
+            postData: data,
+            postImage: imageSource
+        }
+        let whereToLinkTo = ""
+        if (this.state.postData.markdownRemark.frontmatter.type === "none") {
+            whereToLinkTo = ""
+        }
+        else if (this.state.postData.markdownRemark.frontmatter.type === "website") {
+            whereToLinkTo = "Explore website"
+        }
+        else if (this.state.postData.markdownRemark.frontmatter.type === "pdf") {
+            whereToLinkTo = "Read More (PDF download)"
+        }
+
+        return (
+            <DynamicBackgroundImage.Provider image={this.state.postImage}> {/* fix this to sent background image to parent components */ }
+                <PostPageWrapper>
+                    <div>
+                        <section>
+                            <div style={{backgroundImage: `url(${this.state.postImage})`}}></div>
+                            <div>
+                                <h1>{this.state.postData.markdownRemark.frontmatter.title}</h1>
+                                <hr/>
+                                <p>{this.state.postData.markdownRemark.frontmatter.subtitle}</p>
+                                {console.log(this.state.postData.markdownRemark.frontmatter.linktoproject)}
+                                <a href={`${this.state.postData.markdownRemark.frontmatter.linktoproject}`} target="_blank">{whereToLinkTo}</a>
+                            </div>
+                            {/* <div>
+                                <a href="#"><FontAwesomeIcon icon={faAngleLeft}/></a>
+                                <a href="#"><FontAwesomeIcon icon={faAngleRight}/></a>
+                            </div>                       */}
+                        </section>
+                        <div className="pageContent">
+                            <MarkdownWrapper
+                                dangerouslySetInnerHTML={{
+                                    __html: this.state.postData.markdownRemark.html
+                                }}
+                            />
+                        </div>        
+                    </div>
+                </PostPageWrapper>      
+        </DynamicBackgroundImage.Provider>
+        )
+    }
+}
+
+export const query = graphql`
+    query BlogPostQuery($slug: String!) {
+        markdownRemark(fields: { slug: { eq: $slug } }) {
+            html
+            frontmatter {
+                title
+                subtitle
+                category
+                type
+                date
+                tags
+                linktoproject
+                cover {
+                    childImageSharp {
+                      sizes(maxWidth: 670) {
+                        base64
+                        aspectRatio
+                        src
+                        srcSet
+                        originalImg
+                        originalName
+                      }
+                  }
+                }
+            }
+        }
+    }
+`;
 
 const PostPageWrapper = styled.div`
     width: 100%;
@@ -218,98 +316,3 @@ const PostPageWrapper = styled.div`
         }
     }
 `
-
-export default class PostPage extends Component {
-    constructor(props) {
-        super(props)
-        this.state = {
-            postTags: "",
-            postData: "",
-            postImage: ""
-        }
-    }
-
-    render() {
-        const { data } = this.props;
-        // console.log(this.props);
-        const imageSource = data.markdownRemark.frontmatter.cover.childImageSharp.sizes.src;
-        // console.log(imageSource);
-        
-        const theTags = data.markdownRemark.frontmatter.tags;
-        const tags4days = theTags.split(', ');
-        let tagsArray = Array.from(tags4days);
-
-        this.state = {
-            postTags: tagsArray,
-            postData: data,
-            postImage: imageSource
-        }
-        let whereToLinkTo = ""
-        if (this.state.postData.markdownRemark.frontmatter.type === "none") {
-            whereToLinkTo = ""
-        }
-        else if (this.state.postData.markdownRemark.frontmatter.type === "website") {
-            whereToLinkTo = "Explore website"
-        }
-        else if (this.state.postData.markdownRemark.frontmatter.type === "pdf") {
-            whereToLinkTo = "Read More (PDF download)"
-        }
-
-        return (
-            <PostPageWrapper>
-                <div>
-                    <section>
-                        <div style={{backgroundImage: `url(${this.state.postImage})`}}></div>
-                        <div>
-                            <h1>{this.state.postData.markdownRemark.frontmatter.title}</h1>
-                            <hr/>
-                            <p>{this.state.postData.markdownRemark.frontmatter.subtitle}</p>
-                            {console.log(this.state.postData.markdownRemark.frontmatter.linktoproject)}
-                            <a href={`${this.state.postData.markdownRemark.frontmatter.linktoproject}`} target="_blank">{whereToLinkTo}</a>
-                        </div>
-                        {/* <div>
-                            <a href="#"><FontAwesomeIcon icon={faAngleLeft}/></a>
-                            <a href="#"><FontAwesomeIcon icon={faAngleRight}/></a>
-                        </div>                       */}
-                    </section>
-                    <div className="pageContent">
-                        <MarkdownWrapper
-                            dangerouslySetInnerHTML={{
-                                __html: this.state.postData.markdownRemark.html
-                            }}
-                        />
-                    </div>        
-                </div>
-            </PostPageWrapper>
-        )
-    }
-}
-
-export const query = graphql`
-    query BlogPostQuery($slug: String!) {
-        markdownRemark(fields: { slug: { eq: $slug } }) {
-            html
-            frontmatter {
-                title
-                subtitle
-                category
-                type
-                date
-                tags
-                linktoproject
-                cover {
-                    childImageSharp {
-                      sizes(maxWidth: 670) {
-                        base64
-                        aspectRatio
-                        src
-                        srcSet
-                        originalImg
-                        originalName
-                      }
-                  }
-                }
-            }
-        }
-    }
-`;

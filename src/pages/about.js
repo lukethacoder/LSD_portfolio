@@ -18,6 +18,80 @@ import img_maya from '../images/maya.jpg';
 import img_vscode from '../images/vs-code.png';
 import img_gihub from '../images/github.png';
 
+const About = () => (
+    <div>
+    <AboutInfo>
+        <div>
+            <p>
+                Hello, I am <strong>Luke</strong>,<br/>Web Developer and<br/>Digital Designer.
+            </p>
+            <p>
+                I am currently studying<br/>a Bachelor of <strong>Web<br/>Design & Production</strong><br/>at the <strong>University<br/>of Canberra.</strong>
+            </p>
+            <p>
+                On the side I do<br/><strong>freelance</strong> work, <br/>designing and<br/>developing <strong>beautiful</strong>,<br/><strong>responsive</strong>, <strong>efficient</strong><br/>and <strong>user-friendly</strong><br/>websites.
+            </p>
+            <p>
+                I have <br/><strong>experience</strong> with:<br/>
+                <AboutGrid>
+                    <div>
+                        <a href="http://gatsbyjs.org"><img src={img_gatsbyjs}/></a>
+                    </div>
+                    <div>
+                        <a href="https://reactjs.org/"><img src={img_react}/></a>
+                    </div>
+                    <div>
+                        <a href="https://www.adobe.com/au/"><img src={img_adobe}/></a>
+                    </div>
+
+                    <div>
+                        <a href="https://500px.com/lukesecomb"><img src={img_camera}/></a>
+                    </div>
+                    <div>
+                        <a href="https://www.npmjs.com"><img src={img_npm}/></a>
+                    </div>
+                    <div>
+                        <a href="http://sass-lang.com/"><img src={img_sass}/></a>
+                    </div>
+                    
+                    <div>
+                        <a href="https://gulpjs.com/"><img src={img_gulp}/></a>
+                    </div>
+                    <div>
+                        <a href="https://graphql.org/"><img src={img_grapql}/></a>
+                    </div>
+                    <div>
+                        <a href="https://restfulapi.net/"><img src={img_restful}/></a>
+                    </div>
+
+                    <div>
+                        <a href="https://code.visualstudio.com/"><img src={img_vscode}/></a>
+                    </div>
+                    <div>
+                        <a href="https://github.com/lukethacoder"><img src={img_gihub}/></a>
+                    </div>
+                    <div>
+                        <a href="https://www.autodesk.eu/products/maya/overview"><img src={img_maya}/></a>
+                    </div>
+
+                </AboutGrid>
+            </p>
+            <p>
+                I aspire to create<br/><strong>memorable</strong> designs<br/>and more than<br/><strong>functional</strong> digital<br/>experiences.
+            </p>
+            <p>
+                I aim to think<br/><strong>critically</strong> and<br/><strong>creatively</strong> to <strong>solve<br/></strong> design problems<br/>and enjoy both<br/><strong>collaborating</strong><br/> within a team <br/>or working <strong><br/>individually</strong>.
+            </p>
+            <p>
+                <strong>Flexibility</strong> is also<br/>important as<br/>working with code<br/>isn't always a<br/>straight forward<br/>process - <strong>bugs are fun</strong>.
+            </p>
+        </div>
+    </AboutInfo>
+    </div>
+)
+
+export default About
+
 const AboutInfo = styled.div`
   background-color: transparent;
   padding: 5% 0;
@@ -108,77 +182,3 @@ const AboutGrid = styled.div`
       } 
   }
 `
-
-const About = () => (
-    <div>
-    <AboutInfo>
-        <div>
-            <p>
-                Hello, I am <strong>Luke</strong>,<br/>Web Developer and<br/>Digital Designer.
-            </p>
-            <p>
-                I am currently studying<br/>a Bachelor of <strong>Web<br/>Design & Production</strong><br/>at the <strong>University<br/>of Canberra.</strong>
-            </p>
-            <p>
-                On the side I do<br/><strong>freelance</strong> work, <br/>designing and<br/>developing <strong>beautiful</strong>,<br/><strong>responsive</strong>, <strong>efficient</strong><br/>and <strong>user-friendly</strong><br/>websites.
-            </p>
-            <p>
-                I have <br/><strong>experience</strong> with:<br/>
-                <AboutGrid>
-                    <div>
-                        <a href="http://gatsbyjs.org"><img src={img_gatsbyjs}/></a>
-                    </div>
-                    <div>
-                        <a href="https://reactjs.org/"><img src={img_react}/></a>
-                    </div>
-                    <div>
-                        <a href="https://www.adobe.com/au/"><img src={img_adobe}/></a>
-                    </div>
-
-                    <div>
-                        <a href="https://500px.com/lukesecomb"><img src={img_camera}/></a>
-                    </div>
-                    <div>
-                        <a href="https://www.npmjs.com"><img src={img_npm}/></a>
-                    </div>
-                    <div>
-                        <a href="http://sass-lang.com/"><img src={img_sass}/></a>
-                    </div>
-                    
-                    <div>
-                        <a href="https://gulpjs.com/"><img src={img_gulp}/></a>
-                    </div>
-                    <div>
-                        <a href="https://graphql.org/"><img src={img_grapql}/></a>
-                    </div>
-                    <div>
-                        <a href="https://restfulapi.net/"><img src={img_restful}/></a>
-                    </div>
-
-                    <div>
-                        <a href="https://code.visualstudio.com/"><img src={img_vscode}/></a>
-                    </div>
-                    <div>
-                        <a href="https://github.com/lukethacoder"><img src={img_gihub}/></a>
-                    </div>
-                    <div>
-                        <a href="https://www.autodesk.eu/products/maya/overview"><img src={img_maya}/></a>
-                    </div>
-
-                </AboutGrid>
-            </p>
-            <p>
-                I aspire to create<br/><strong>memorable</strong> designs<br/>and more than<br/><strong>functional</strong> digital<br/>experiences.
-            </p>
-            <p>
-                I aim to think<br/><strong>critically</strong> and<br/><strong>creatively</strong> to <strong>solve<br/></strong> design problems<br/>and enjoy both<br/><strong>collaborating</strong><br/> within a team <br/>or working <strong><br/>individually</strong>.
-            </p>
-            <p>
-                <strong>Flexibility</strong> is also<br/>important as<br/>working with code<br/>isn't always a<br/>straight forward<br/>process - <strong>bugs are fun</strong>.
-            </p>
-        </div>
-    </AboutInfo>
-    </div>
-)
-
-export default About
