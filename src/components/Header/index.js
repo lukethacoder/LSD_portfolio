@@ -1,15 +1,16 @@
-import React from 'react'
+import React, {Component} from 'react'
 import Link from 'gatsby-link'
 import styled from 'styled-components'
 
 import fontawesome from '@fortawesome/fontawesome'
 import FontAwesomeIcon from '@fortawesome/react-fontawesome'
 import brands from '@fortawesome/fontawesome-free-brands'
-import { faAlignRight } from '@fortawesome/fontawesome-free-solid'
+import { faAlignRight, faTimes } from '@fortawesome/fontawesome-free-solid'
 
-import { primaryDarkGrey, primaryGold, pageWidth, navWidth } from '../../theme/variables';
+import SocialMediaIcons from '../globalCompontents/SocialMediaIcons'
 
-import logo from '../../images/luke-secomb-digital-logo.svg';
+import { primaryDarkGrey, primaryGold, pageWidth, navWidth, primaryWhite, primaryFont } from '../../theme/variables';
+
 
 const LogoSVG = () => (
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 350 226.86">
@@ -21,6 +22,71 @@ const LogoSVG = () => (
   </g></g>
 </svg>
 );
+
+class MenuOverlay extends Component {
+  render() {
+    return (
+      <MenuOverlayChild style={this.props.isOpen ? {display: "block"} : {display: "none"}}>
+        <CloseButton onClick={ this.props.isClosed}>
+          <FontAwesomeIcon icon={faTimes}/>
+        </CloseButton>
+        <MenuList onClick={ this.props.isClosed}>
+          <li><Link to="/work">Work</Link></li>
+          <li><Link to="/projects">Projects</Link></li>
+          {/* <li><a href="#">Blog</a></li> */}
+          <li><Link to="/experience">Experience</Link></li>
+          <li><Link to="/about">About</Link></li>
+        </MenuList>
+        <SocialMediaContainer>
+          <SocialMediaIcons/>  
+        </SocialMediaContainer>
+      </MenuOverlayChild>
+    )
+  }
+}
+
+export default class Header extends Component {
+  constructor(props) {
+    super(props);
+
+    this.state = {
+      menuVisState: false
+    }
+  }
+
+  toggleMenu(whatIsIt) {
+    console.log('pls open me')
+    this.setState({
+      menuVisState: whatIsIt
+    })
+  }
+
+  render() {
+    return (
+      <div>
+        <HeaderWrapper>
+          <HeaderContainer>
+            <SvgWrapper>
+              <Link to="/">
+                <LogoSVG />
+              </Link>
+            </SvgWrapper>
+            
+            <NavContainer>
+              <NavIcon to="/" onClick={() => this.toggleMenu(true)}>
+                <FontAwesomeIcon icon={faAlignRight}/>
+              </NavIcon>
+            </NavContainer>        
+        </HeaderContainer>
+      </HeaderWrapper>
+      <MenuOverlay
+        isOpen={this.state.menuVisState}
+        isClosed={ () => this.toggleMenu(false)}
+      ></MenuOverlay>
+    </div>
+    )
+  }
+}
 
 const HeaderWrapper = styled.div`
   width: 100%;
@@ -63,9 +129,8 @@ const SvgWrapper = styled.div`
       fill: ${primaryGold};
       height: 100%;
       /* min-height: 0; */
-      
+    }
   }
-}
 `;
 
 const NavContainer = styled.div`
@@ -78,6 +143,7 @@ const NavContainer = styled.div`
 const NavIcon = styled.a`
   justify-self: end;
   color: ${primaryGold};
+  cursor: pointer;
   svg {
     font-size: 26px;
     padding: 5% 0;
@@ -85,22 +151,109 @@ const NavIcon = styled.a`
   }
 `;
 
-const Header = () => (
-  <HeaderWrapper>
-    <HeaderContainer>
-        <SvgWrapper>
-          <Link to="/">
-            <LogoSVG />
-          </Link>
-        </SvgWrapper>
-        
-        <NavContainer>
-          <NavIcon to="/">
-            <FontAwesomeIcon icon={faAlignRight}/>
-          </NavIcon>
-        </NavContainer>        
-    </HeaderContainer>
-  </HeaderWrapper>
-)
+const MenuOverlayChild = styled.div`
+  width: 100%;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: 0;
+  padding: 0;
+  background-color: ${primaryDarkGrey};
+  z-index: 999;
+  grid-template-rows: 1fr 5vh;
+  align-content: center;
+  justify-content: center;  
+}`
 
-export default Header
+const CloseButton = styled.div`
+  color: ${primaryWhite};
+  transition: .5s;
+  margin: 0;
+  padding: 0;
+  z-index: 99999;
+  &:hover {
+    color: ${primaryGold};
+    transition: .5s;
+  }
+  svg {
+    position: absolute;
+    top: 25px;
+    right: 2.5%;
+    height: 50px;
+    color: ${primaryGold};
+    cursor: pointer;
+    font-size: 26px;
+    z-index: 99999;
+    &:hover {
+      text-decoration: none;
+      color: ${primaryWhite};
+      transition: .5s;
+    }
+  }
+`
+
+const MenuList = styled.ul`
+  width: 100%;
+  height: 100%;
+  position: relative;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  grid-template-columns: 100%;
+  grid-template-rows: auto;
+  justify-content: center;
+  align-content: center;
+  li {
+    width: auto;
+    text-align: center;
+    padding: 24px 0;
+    a {
+      text-align: center;
+      text-decoration: none;
+      color: ${primaryWhite};
+      font-size: 6vw;
+      line-height: 5vw;
+      font-family: ${primaryFont};
+      font-weight: 700;
+      transition: .5s;
+      margin: 0;
+      padding;
+      &:hover {
+        color: ${primaryGold};
+        transition: .5s;
+      }
+    }
+  }
+`
+
+const SocialMediaContainer = styled.div`
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-content: center;
+  position: absolute;
+  bottom: 0;
+  margin: 24px 0;
+  ul {
+    height: 20%;
+    width: auto;
+    display: inline-flex;
+    justify-content: center;
+    align-content: center;
+    align-self: center;
+    list-style-type: none;
+    li {
+      padding: 0 8px;
+      a {
+        text-decoration: none;
+        color: ${primaryGold};
+        font-size: 2.5vh;
+      }
+    }
+  }
+  
+`

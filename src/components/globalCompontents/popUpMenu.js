@@ -2,8 +2,8 @@ import React from 'react'
 import styled from 'styled-components'
 import { primaryFont, primaryGold } from '../../theme/variables';
 
-const NavigationMenu = () => (
-    <NavigationItems>
+const PopUpMenu = () => (
+    <PopUpMenuContainer>
         <ul>
             <li><a href="/work">Work</a></li>
             <li><a href="/projects">Projects</a></li>
@@ -11,13 +11,13 @@ const NavigationMenu = () => (
             <li><a href="/experience">Experience</a></li>
             <li><a href="/about">About</a></li>
         </ul>
-    </NavigationItems>
+    </PopUpMenuContainer>
     
 )
 
-export default NavigationMenu
+export default PopUpMenu
 
-const NavigationItems = styled.div`
+const PopUpMenuContainer = styled.div`
     width: 100%;
     display: block;
     > ul {

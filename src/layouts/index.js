@@ -38,15 +38,8 @@ class TemplateWrapper extends Component {
     }
     return (
       <TheBody>
-      {/* <WorkInProgress>
-        <a href="https://github.com/lukethacoder/LSD_portfolio" target="_blank">
-          This website is a work in progress<br/>check out the <span>Github repo</span> <FontAwesomeIcon spin icon={faSpinner}/> 
-        </a>
-      </WorkInProgress> */}
-
       <BackgroundImageNode image={useThisImage}>
       </BackgroundImageNode>
-
       <BorderMeUp/>
 
       <BodyContainer>
@@ -74,53 +67,6 @@ class TemplateWrapper extends Component {
     );
   }
 };
-
-
-// const TemplateWrapper02 = ({ children }) => (
-//   <TheBody>
-//     <WorkInProgress>
-//       <a href="https://github.com/lukethacoder/LSD_portfolio" target="_blank">
-//         This website is a work in progress<br/>check out the <span>Github repo</span> <FontAwesomeIcon spin icon={faSpinner}/> 
-//       </a>
-//     </WorkInProgress>
-
-//     <DynamicBackgroundImage.Provider 
-//       value={{
-//         // image: bg_img
-//       }}
-//     >
-//       <DynamicBackgroundImage.Consumer>
-//         {({image}) => (
-//           <BackgroundImageNodeContainer image={image}>  
-//             { console.log(image) }
-//           </BackgroundImageNodeContainer>
-//         )}
-//       </DynamicBackgroundImage.Consumer>
-//     </DynamicBackgroundImage.Provider>
-       
-//     <BodyContainer>
-//       <Helmet
-//         title="Luke Secomb - Web Developer | Digital Designer"
-//         meta={[
-//           { name: 'description', content: '' },
-//           { name: 'keywords', content: '' },
-//           { property: 'og:title', content: 'Luke Secomb - Web Developer | Digital Designer'},
-//           { property: 'og:description', content: ''},
-//           { property: 'og:url', content: 'https://lukesecomb.digital'},
-//           { property: 'og:image', content: {bg_img}}
-//         ]}
-//         script={[
-//           {"src": "https://use.fontawesome.com/releases/v5.0.6/js/all.js", "type": "text/javascript"}
-//         ]}
-//       />
-//       <Header />
-//       <ChildrenContainer>
-//         {children()}
-//       </ChildrenContainer>
-//       <Footer />
-//     </BodyContainer>
-//   </TheBody>
-// )
 
 TemplateWrapper.propTypes = {
   children: PropTypes.func,
