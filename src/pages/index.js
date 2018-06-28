@@ -27,10 +27,10 @@ const IndexPage = () => (
             Welcome to <strong>my<br/>website</strong>, it's great<br/>to have <strong>you</strong> here.
           </p>
           <p>
-            This website uses<br/><strong>GatsbyJS*</strong>, and is<br/>hosted with <strong>Github</strong><br/>and <strong>Netlify</strong>.
+            This website uses <br/><strong>GatsbyJS*</strong>, and is <br/>hosted with <strong>Github </strong><br/>and <strong>Netlify</strong>.
             <br />
             <em>
-              *React, Node.js, webpack, gulp, styled<br/>components, SASS, fontawesome<br/>and some other magic.
+              *React, Node.js, webpack, gulp, styled <br/>components, SASS, FontAwesome <br/>and some other magic.
             </em>
           </p>
           <p>
