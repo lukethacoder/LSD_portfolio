@@ -14,29 +14,17 @@ class Projects extends Component {
         super(props);
 
         this.state = {
-            image: 'potato new',
-            testImage: 'hola',
-            data: this.props.data,
-            changeStateo: this.changeStateo,
-            value: {image: 'might be true'}
+            data: this.props.data
         }
-
-        // this.renderQuiz = this.renderQuizTitles.bind(this)
     }
-
-    componentDidMount() {
-        console.log('did mount projects');
-      }
 
     render() {
         return (
-        <DynamicBackgroundImage.Provider value={this.state.value}>
-            <ProjectsContainer>
-                {this.state.data.allMarkdownRemark.edges.map(( { node }) => (        
-                    <PostList key={node.id} post={node}/>
-                ))}
-            </ProjectsContainer>
-        </DynamicBackgroundImage.Provider>
+        <ProjectsContainer>
+            {this.state.data.allMarkdownRemark.edges.map(( { node }) => (        
+                <PostList key={node.id} post={node}/>
+            ))}
+        </ProjectsContainer>
         );
     }
 };

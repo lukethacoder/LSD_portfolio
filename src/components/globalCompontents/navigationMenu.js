@@ -4,6 +4,21 @@ import Helmet from 'react-helmet'
 import styled from 'styled-components'
 import { primaryFont, primaryGold } from '../../theme/variables';
 
+const NavigationMenu = () => (
+    <NavigationItems>
+        <ul>
+            <li><a href="/work">Work</a></li>
+            <li><a href="/projects">Projects</a></li>
+            {/* <li><a href="#">Blog</a></li> */}
+            <li><a href="/experience">Experience</a></li>
+            <li><a href="/about">About</a></li>
+        </ul>
+    </NavigationItems>
+    
+)
+
+export default NavigationMenu
+
 const NavigationItems = styled.div`
     width: 100%;
     display: block;
@@ -27,18 +42,3 @@ const NavigationItems = styled.div`
         }
     }
 `
-
-const NavigationMenu = () => (
-    <NavigationItems>
-        <ul>
-            <li><a href="/work">Work</a></li>
-            <li><a href="/projects">Projects</a></li>
-            {/* <li><a href="#">Blog</a></li> */}
-            <li><a href="/resume">Resume</a></li>
-            <li><a href="/about">About</a></li>
-        </ul>
-    </NavigationItems>
-    
-)
-
-export default NavigationMenu

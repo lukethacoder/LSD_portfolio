@@ -5,7 +5,6 @@ import styled from 'styled-components'
 class BackgroundImageNode extends Component {
     constructor(props) {
       super(props)
-      console.log(this.props)
       this.state = {
         filter: 'blur(0px)',
         opacity: ''
@@ -14,11 +13,11 @@ class BackgroundImageNode extends Component {
     }
     componentDidMount() {
       window.addEventListener('scroll', this.handleScroll);
-      console.log(this.props)
     }
     componentWillUnmount() {
       window.removeEventListener('scroll', this.handleScroll);
     }
+
     handleScroll(e) {
       e = window.pageYOffset;
       this.setState({
@@ -26,7 +25,7 @@ class BackgroundImageNode extends Component {
         opacity: `${1 / (e / 200)}`
       })
     }
-  
+
     render() {
       return (
         <div>
@@ -40,13 +39,16 @@ class BackgroundImageNode extends Component {
     }
   }
 
-  const BackgroundImageNodeContainer = ({ image }) => ( 
-    <BackgroundImageNode image={image}/>
-  )
+  // const BackgroundImageNodeContainer = ({ image }) => (
+  //   <BackgroundImageNode image={image}>
+  //     {console.log(image)}
+  //     {this.setTheOldStateNewAgain(image)}
+  //   </BackgroundImageNode>
+  // )
 
 
 
-export default BackgroundImageNodeContainer
+export default BackgroundImageNode
 
 
 const BackgroundImage = styled.div`
@@ -54,7 +56,7 @@ const BackgroundImage = styled.div`
   height: 100%;
   margin: 0;
   padding: 0;
-  background-position: 0;
+  background-position: top left;
   background-size: cover;
   opacity: .7;
   position: fixed;

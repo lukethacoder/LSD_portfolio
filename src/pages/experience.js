@@ -5,6 +5,24 @@ import {LandingPageWrapper, LandingPageContainer } from '../components/LandingPa
 import resume from '../content/luke-secomb-public-resume.pdf'
 import { primaryGold, primaryFont, primaryDarkGrey, otherGrey, primaryWhite, secondaryGrey } from '../theme/variables';
 
+const Experience = () => (
+  <ExperienceWrapper>
+    <LandingPageWrapper>
+      <LandingPageContainer>
+        <h1>Experience</h1>
+        <h3>Download the pdf <HereLink href={resume} download>here</HereLink></h3>
+      </LandingPageContainer>
+    </LandingPageWrapper>
+  </ExperienceWrapper>
+  
+)
+
+export default Experience
+
+const ExperienceWrapper = styled.div`
+
+`
+
 const HereLink = styled.a`
   color: ${otherGrey};
   font-family: ${primaryFont};
@@ -15,14 +33,3 @@ const HereLink = styled.a`
     transition: .25s;
   }
 `
-
-const Resume = () => (
-  <LandingPageWrapper>
-    <LandingPageContainer>
-      <h1>Resume</h1>
-      <h3>Download the pdf <HereLink href={resume} download>here</HereLink></h3>
-    </LandingPageContainer>
-  </LandingPageWrapper>
-)
-
-export default Resume

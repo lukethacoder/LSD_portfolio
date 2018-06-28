@@ -19,7 +19,6 @@ import img_vscode from '../images/vs-code.png';
 import img_gihub from '../images/github.png';
 
 const About = () => (
-    <div>
     <AboutInfo>
         <div>
             <p>
@@ -87,14 +86,13 @@ const About = () => (
             </p>
         </div>
     </AboutInfo>
-    </div>
 )
 
 export default About
 
 const AboutInfo = styled.div`
   background-color: transparent;
-  padding: 5% 0;
+  padding: 60vh 0 5% 0;
   div {
     width: ${pageWidth};
     margin: 0 auto;
@@ -132,53 +130,54 @@ const AboutInfo = styled.div`
   }
 `
 const AboutGrid = styled.div`
-  width: 100% !important;
-  height: auto;
-  margin-left: 0 !important ;
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
-  grid-template-rows: auto;
-  grid-gap: 15px;
-  margin-top: 25px !important;
-  div {
-      width: 100%;
-      justify-self: flex-start;
-      display: grid;
-      grid-template-columns: 100%;
-      grid-template-rows: 100%;
-      justify-content: flex-start;
-      align-content: center;
-      transition: .5s;
-      &:hover {
-          transition: .5s;
-          a {
-              background-color: ${primaryGold};
-              transition: .1s;
-              img {
-                  filter: grayscale(100%);
-                  transition: .1s;
-              }
-          }
-      }
-      a {
+    width: 100% !important;
+    height: auto;
+    margin-left: 0 !important ;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto;
+    grid-gap: 15px;
+    margin-top: 25px !important;
+    @media (min-width: 720px) {
+        grid-template-columns: 1fr 1fr 1fr;        
+    }
+    @media (min-width: 1079px) {
+        grid-template-columns: 1fr 1fr 1fr 1fr ;        
+    }
+    @media (min-width:1439px) {
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    }
+    div {
         width: 100%;
-        margin: 0;
-        padding: 0;
+        justify-self: flex-start;
         display: grid;
         grid-template-columns: 100%;
         grid-template-rows: 100%;
-        justify-content: center;
+        justify-content: flex-start;
         align-content: center;
-        background-color: ${primaryWhite};
-        transition: .5s;
-        img {
+        a {
             width: 100%;
+            margin: 0;
+            padding: 0;
             display: grid;
-            justify-self: center;
-            align-self: center;
-            padding: 15%;
+            grid-template-columns: 100%;
+            grid-template-rows: 100%;
+            justify-content: center;
+            align-content: center;
+            background-color: ${primaryWhite};
             transition: .5s;
+            img {
+                width: 100%;
+                display: grid;
+                justify-self: center;
+                align-self: center;
+                padding: 15%;
+                transition: .5s;
+                &:hover {
+                    filter: blur(10px);
+                    transition: .5s;
+                }
+            }
         }
-      } 
-  }
+    }
 `
