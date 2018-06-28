@@ -70,7 +70,7 @@ export default class PostList extends Component {
     }
     render() {
         const { post } = this.props;
-        console.log(this.props);
+        // console.log(this.props);
         const theTags = post.frontmatter.tags;
         const tags4days = theTags.split(', ');
         let tagsArray = Array.from(tags4days);

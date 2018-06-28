@@ -4,40 +4,34 @@ import Img from "gatsby-image"
 import styled from 'styled-components'
 import { pageWidth, backgroundDarkGrey, primaryFont, primaryWhite, primaryGold, secondaryWhite, postPageTextWidth, primaryDarkGrey, otherGreyLighter, evenDarkerGrey, secondaryGrey } from "../theme/variables";
 import MarkdownWrapper from '../theme/markdownTheme'
-import DynamicBackgroundImage from '../components/globalCompontents/theme-context'
+import { DynamicBackgroundImage } from '../components/globalCompontents/theme-context'
 
 // import fontawesome from '@fortawesome/fontawesome'
 // import FontAwesomeIcon from '@fortawesome/react-fontawesome'
 // import brands from '@fortawesome/fontawesome-free-brands'
 // import { faAngleLeft, faAngleRight } from '@fortawesome/fontawesome-free-solid'
 
-import bg_img from '../images/bg_img.jpg'
-
 export default class PostPage extends Component {
     constructor(props) {
         super(props)
         this.state = {
-            postTags: "",
-            postData: "",
-            postImage: ""
+            postData: this.props.data,
+            image: this.props.data.markdownRemark.frontmatter.cover.childImageSharp.sizes.src,
+            changeStateo: this.changeStateo,
         }
+
+        console.log('post page test')
+
+        this.changeStateo = () => {
+            console.log('change Stateo RAN')
+            this.setState(state => ({
+              value:
+                state.value === value.image
+            }));
+          };
     }
 
     render() {
-        const { data } = this.props;
-        // console.log(this.props);
-        const imageSource = data.markdownRemark.frontmatter.cover.childImageSharp.sizes.src;
-        // console.log(imageSource);
-        
-        const theTags = data.markdownRemark.frontmatter.tags;
-        const tags4days = theTags.split(', ');
-        let tagsArray = Array.from(tags4days);
-
-        this.state = {
-            postTags: tagsArray,
-            postData: data,
-            postImage: imageSource
-        }
         let whereToLinkTo = ""
         if (this.state.postData.markdownRemark.frontmatter.type === "none") {
             whereToLinkTo = ""
@@ -50,20 +44,20 @@ export default class PostPage extends Component {
         }
 
         return (
-            <DynamicBackgroundImage.Provider image={this.state.postImage}> {/* fix this to sent background image to parent components */ }
+            <DynamicBackgroundImage.Provider value={this.state}> {/* fix this to sent background image to parent components */ }
                 <PostPageWrapper>
                     <div>
                         <section>
-                            <div style={{backgroundImage: `url(${this.state.postImage})`}}></div>
+                            <div></div>
                             <div>
                                 <h1>{this.state.postData.markdownRemark.frontmatter.title}</h1>
                                 <hr/>
                                 <p>{this.state.postData.markdownRemark.frontmatter.subtitle}</p>
-                                {console.log(this.state.postData.markdownRemark.frontmatter.linktoproject)}
+                                {/* {console.log(this.state.postData.markdownRemark.frontmatter.linktoproject)} */}
                                 <a href={`${this.state.postData.markdownRemark.frontmatter.linktoproject}`} target="_blank">{whereToLinkTo}</a>
                             </div>
                             {/* <div>
-                                <a href="#"><FontAwesomeIcon icon={faAngleLeft}/></a>
+                                <a href="#" onClick go to previous post><FontAwesomeIcon icon={faAngleLeft}/></a>
                                 <a href="#"><FontAwesomeIcon icon={faAngleRight}/></a>
                             </div>                       */}
                         </section>
@@ -119,11 +113,11 @@ const PostPageWrapper = styled.div`
             margin-top: -20vh;
             padding: 10% 10%;
             width: 100%;
-            background-color: ${backgroundDarkGrey};
+            /* background-color: ${backgroundDarkGrey}; */
             position: relative;
             z-index: 0;
             div:nth-of-type(1) {
-            /* background-image: url(${bg_img}); */
+            /* background-image: url(); */
             width: 100%;
             height: 100%;
             background-size: cover;
@@ -136,7 +130,7 @@ const PostPageWrapper = styled.div`
                     position: absolute;
                     width: 100%;
                     height: 100%;
-                    background-color: ${primaryDarkGrey};
+                    /* background-color: ${primaryDarkGrey}; */
                     opacity: .95;
                 }
             }

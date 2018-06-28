@@ -1,21 +1,20 @@
 import React, { Component } from 'react'
 // import Link from 'gatsby-link'
 import styled from 'styled-components'
-import DynamicBackgroundImage from '../../layouts/index'
 
 class BackgroundImageNode extends Component {
     constructor(props) {
       super(props)
+      console.log(this.props)
       this.state = {
         filter: 'blur(0px)',
-        opacity: '',
-        backgroundImage: this.props.image
+        opacity: ''
       }
       this.handleScroll = this.handleScroll.bind(this);
-      console.log(this.props.image);
     }
     componentDidMount() {
       window.addEventListener('scroll', this.handleScroll);
+      console.log(this.props)
     }
     componentWillUnmount() {
       window.removeEventListener('scroll', this.handleScroll);
@@ -34,7 +33,7 @@ class BackgroundImageNode extends Component {
           <BackgroundImage style={{
             filter: this.state.filter,
             opacity: this.state.opacity,
-            backgroundImage: `url( ${this.state.backgroundImage} )`
+            backgroundImage: `url( ${this.props.image} )`
           }}/>
         </div>
       );

@@ -1,30 +1,58 @@
 import React, { Component } from 'react'
 import Link from 'gatsby-link'
-import Img from 'gatsby-image'
 import styled from 'styled-components'
 
 import LandingPage from '../components/LandingPage';
-import DayOfWeek from '../components/DayOfWeek';
-import RandomWord from '../components/globalCompontents/RandomWord';
-import bg_img from '../images/bg_img.jpg';
+import bg_img_old from '../images/bg_img_old.jpg';
 import { primaryWhite, primaryDarkGrey, primaryGold, primaryFont, pageWidth } from '../theme/variables';
 
 import PostList from '../components/postList/PostList'
+import { DynamicBackgroundImage } from '../components/globalCompontents/theme-context'
 
-const ProjectsContainer = styled.div` 
-  width: 100%;
-  height: 100%;
-  margin: 0 0 50px 0;
-  /* background-color: rgba( 33, 32, 36, 0.5); */
-`;
+class Projects extends Component {
+    constructor(props) {
+        super(props);
 
-const Projects = ({ data }) => (
-    <ProjectsContainer>
-        {data.allMarkdownRemark.edges.map(( { node }) => (        
-            <PostList key={node.id} post={node}/>
-        ))}
-    </ProjectsContainer>
-)
+        this.state = {
+            image: 'potato new',
+            testImage: 'hola',
+            data: this.props.data,
+            changeStateo: this.changeStateo,
+            value: {image: 'might be true'}
+        }
+
+        // this.renderQuiz = this.renderQuizTitles.bind(this)
+    }
+
+    componentDidMount() {
+        console.log('did mount projects');
+      }
+
+    render() {
+        return (
+        <DynamicBackgroundImage.Provider value={this.state.value}>
+            <ProjectsContainer>
+                {this.state.data.allMarkdownRemark.edges.map(( { node }) => (        
+                    <PostList key={node.id} post={node}/>
+                ))}
+            </ProjectsContainer>
+        </DynamicBackgroundImage.Provider>
+        );
+    }
+};
+
+// const Projects01 = ({ data }) => ( 
+//     <DynamicBackgroundImage.Provider image={bg_img} value={{
+//         image: bg_img,
+//         updateLocale: e => this.setState(appLocales[e.target.value])
+//     }}>
+//         <ProjectsContainer>
+//             {data.allMarkdownRemark.edges.map(( { node }) => (        
+//                 <PostList key={node.id} post={node}/>
+//             ))}
+//         </ProjectsContainer>
+//     </DynamicBackgroundImage.Provider>
+// )
 
 export default Projects
 
@@ -74,3 +102,10 @@ export const query = graphql`
 //         }
 //     }       
 // }
+
+const ProjectsContainer = styled.div` 
+  width: 100%;
+  height: 100%;
+  margin: 0 0 50px 0;
+  /* background-color: rgba( 33, 32, 36, 0.5); */
+`;

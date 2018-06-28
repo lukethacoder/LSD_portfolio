@@ -10,7 +10,12 @@ import { primaryWhite, primaryDarkGrey, primaryGold, primaryFont, pageWidth } fr
 import { DynamicBackgroundImage } from '../components/globalCompontents/theme-context'
 
 const IndexPage = () => (
-  <DynamicBackgroundImage.Provider image={bg_img}>
+  <DynamicBackgroundImage.Provider 
+    value={{
+      // state: this.state,
+      image: bg_img
+    }}
+  >
     <IndexPageContainer>
       <LandingPage />
       <WorkContainer>
