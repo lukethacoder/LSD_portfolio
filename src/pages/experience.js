@@ -44,7 +44,7 @@ const Experience = () => (
           </ExperienceItemContent>
           <ExperienceItemContent>
             <h5>2018 - present</h5>
-            <h3> Intern / Freelancer</h3>
+            <h3>Intern / Freelance Work</h3>
             <h4>2B Design & Advertising</h4>
           </ExperienceItemContent>
           <ExperienceItemContent>
