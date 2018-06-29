@@ -10,7 +10,7 @@ const Experience = () => (
     <LandingPageWrapper>
       <LandingPageContainer>
         <h1>Experience</h1>
-        <h3>Download the pdf <HereLink href={resume} download>here</HereLink></h3>
+        <h3>Resume download <HereLink href={resume} download>here</HereLink></h3>
       </LandingPageContainer>
     </LandingPageWrapper>
     <ExperienceContentWrapper>

@@ -1,15 +1,5 @@
 import React from 'react'
-import Link from 'gatsby-link'
 import styled from 'styled-components'
-
-import fontawesome from '@fortawesome/fontawesome'
-import FontAWesomeIcon from '@fortawesome/react-fontawesome'
-import brands from '@fortawesome/fontawesome-free-brands'
-import { faAlignRight } from '@fortawesome/fontawesome-free-solid'
-
-import logo from '../../images/logo.jpg';
-
-import SocialMediaIcons from '../globalCompontents/SocialMediaIcons'
 
 import {
   primaryDarkGrey,
@@ -21,6 +11,17 @@ import {
   otherGreyLighter,
   pageWidth
 } from '../../theme/variables';
+const LandingPage = () => (
+  <LandingPageWrapper>
+    <LandingPageContainer>
+      <h1>Luke<br/>Secomb</h1>
+      <h3>Web Developer | Digital Designer</h3>
+    </LandingPageContainer>
+  </LandingPageWrapper>
+)
+
+export default LandingPage
+
 
 export const LandingPageWrapper = styled.div`
     width: ${pageWidth};
@@ -42,24 +43,31 @@ export const LandingPageContainer = styled.div`
     font-family: ${primaryFont};
     color: ${primaryWhite};
     font-weight: 700;
-    font-size: 10vw;
+    font-size: 5em;
     line-height: .85;
+    @media (min-width: 720px) {
+      font-size: 7em;
+    }
+    @media (min-width: 1079px) {
+      font-size: 8em;
+    }
+    @media (min-width:1439px) {
+      font-size: 10em;
+    }
   }
   h3 {
     font-family: ${primaryFont};
     color: ${primaryGold};
     font-weight: 400;
-    font-size: 3vw;
+    font-size: 1.25em;
+    @media (min-width: 720px) {
+      font-size: 1.75em;
+    }
+    @media (min-width: 1079px) {
+      font-size: 2.25em;
+    }
+    @media (min-width:1439px) {
+      font-size: 2.75em;
+    }
   }
 `;
-
-const LandingPage = () => (
-  <LandingPageWrapper>
-    <LandingPageContainer>
-      <h1>Luke<br/>Secomb</h1>
-      <h3>Web Developer | Digital Designer</h3>
-    </LandingPageContainer>
-  </LandingPageWrapper>
-)
-
-export default LandingPage

@@ -61,20 +61,6 @@ export default class Header extends Component {
   }
 
   render() {
-    // anime({
-    //   targets: '#lineDrawing .lines path',
-    //   strokeDashoffset: [anime.setDashoffset, 0],
-    //   easing: 'easeInOutSine',
-    //   fill: [
-    //     {value: 'rgba(0,0,0,0)'},
-    //     {value: 'rgba(0,0,0,0)'},
-    //     {value: '#D9B262'}
-    //   ],
-    //   duration: 1500,
-    //   delay: function(el, i) { return i * 250 },
-    //   direction: 'alternate',
-    //   loop: true,
-    // });
     return (
       <div>
         <HeaderWrapper>
@@ -122,15 +108,20 @@ const HeaderContainer = styled.div`
 
 const SvgWrapper = styled.div`
   display: flex;
-  height: auto;
-  width: auto;
-  margin: 0;
-  /* padding: 5% 5% 5% 0; */
-  height: 50px;
-  width: 50px;
+  height: 32px;
+  width: 32px;
   justify-content: center;
   align-content: center;
   z-index: 50;
+  margin: 8px 0;
+  @media (min-width: 720px) {
+    width: 50px;
+    height: 50px;
+  }
+  @media (min-width:1439px) {
+    width: 50px;
+    height: 50px;
+  }
   a {
     width: 100%;
     height: 100%;

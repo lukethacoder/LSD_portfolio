@@ -7,15 +7,8 @@ import DayOfWeek from '../components/DayOfWeek';
 import RandomWord from '../components/globalCompontents/RandomWord';
 import bg_img from '../images/bg_img.jpg';
 import { primaryWhite, primaryDarkGrey, primaryGold, primaryFont, pageWidth } from '../theme/variables';
-import { DynamicBackgroundImage } from '../components/globalCompontents/theme-context'
 
 const IndexPage = () => (
-  <DynamicBackgroundImage.Provider 
-    value={{
-      // state: this.state,
-      image: bg_img
-    }}
-  >
     <IndexPageContainer>
       <LandingPage />
       <WorkContainer>
@@ -42,7 +35,6 @@ const IndexPage = () => (
         </div>
       </WorkContainer>
     </IndexPageContainer>
-  </DynamicBackgroundImage.Provider>
 )
 
 export default IndexPage
@@ -63,12 +55,21 @@ const WorkContainer = styled.div`
     margin: 0 auto;
     p {
       width: 100%;
-      font-size: 3.25em;
+      font-size: 2.25em;
       line-height: 1.1;
       color: ${primaryWhite};
       font-family: ${primaryFont};
       font-weight: 400;
       margin-bottom: 1.5em;
+      @media (min-width: 720px) {
+        font-size: 2.75em;
+      }
+      @media (min-width: 1079px) {
+        font-size: 3.25em;
+      }
+      @media (min-width:1439px) {
+        font-size: 3.75em;
+      }
       strong {
         color: ${primaryGold};
         font-style: normal;
