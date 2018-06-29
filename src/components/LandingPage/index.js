@@ -39,6 +39,17 @@ export const LandingPageContainer = styled.div`
   position: absolute;
   bottom: 0;
   left: 0;
+  br {
+    display: block;
+    @media (min-width: 890px) {
+      display: none;
+    }
+  }
+  span {
+    @media (min-width: 890px) {
+      display: none;
+    }
+  }
   h1 {
     font-family: ${primaryFont};
     color: ${primaryWhite};

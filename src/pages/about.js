@@ -98,12 +98,21 @@ const AboutInfo = styled.div`
     margin: 0 auto;
     p {
       width: 100%;
-      font-size: 3.25em;
+      font-size: 1.5em;
       line-height: 1.1;
       color: ${primaryWhite};
       font-family: ${primaryFont};
       font-weight: 400;
       margin-bottom: 1.5em;
+      @media (min-width: 720px) {
+        font-size: 2.75em;
+      }
+      @media (min-width: 1079px) {
+        font-size: 3.25em;
+      }
+      @media (min-width:1439px) {
+        font-size: 3.75em;
+      }
       strong {
         color: ${primaryGold};
         font-style: normal;
@@ -134,17 +143,14 @@ const AboutGrid = styled.div`
     height: auto;
     margin-left: 0 !important ;
     display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: auto;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-auto-rows: 1fr;
     grid-gap: 15px;
     margin-top: 25px !important;
     @media (min-width: 720px) {
-        grid-template-columns: 1fr 1fr 1fr;        
+        grid-template-columns: 1fr 1fr 1fr 1fr;
     }
     @media (min-width: 1079px) {
-        grid-template-columns: 1fr 1fr 1fr 1fr ;        
-    }
-    @media (min-width:1439px) {
         grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
     }
     div {

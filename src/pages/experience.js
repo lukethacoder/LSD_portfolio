@@ -9,7 +9,7 @@ const Experience = () => (
   <ExperienceWrapper>
     <LandingPageWrapper>
       <LandingPageContainer>
-        <h1>Experience</h1>
+        <h1>Exper<span>-</span><br/>ience</h1>
         <h3>Resume download <HereLink href={resume} download>here</HereLink></h3>
       </LandingPageContainer>
     </LandingPageWrapper>
@@ -108,7 +108,16 @@ const ExperienceItemContainer = styled.div`
   h2 {
     align-self: center;
     justify-self: flex-start;
-    font-size: 64px;
+    font-size: 2.5em;
+    @media (min-width: 720px) {
+      font-size: 3em;
+    }
+    @media (min-width: 1079px) {
+      font-size: 3.5em;
+    }
+    @media (min-width:1439px) {
+      font-size: 4em;
+    }
   }
   > div {
     padding: 24px 0;

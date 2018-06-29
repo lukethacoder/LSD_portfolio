@@ -169,7 +169,11 @@ const MenuOverlayChild = styled.div`
   z-index: 999;
   grid-template-rows: 1fr 5vh;
   align-content: center;
-  justify-content: center;  
+  justify-content: center;
+  @media (min-width: 720px) {
+    height: 100vh;
+    padding: 20vh 0;
+  }
 }`
 
 const CloseButton = styled.div`
