@@ -1,16 +1,16 @@
 ---
 title: "Luke Secomb Digital"
 subtitle: "Personal Brand, Design and Development"
-linktoproject: ""
-cover: "./zoostagram_dunes.jpg"
+linktoproject: "https://lukesecomb.digital"
+cover: "./luke-secomb-digital-logo-pattern.jpg"
 category: "Projects"
 type: "website"
 date: "2018-05-21"
 tags: "Adobe XD, Illustrator, GatsbyJS, SASS"
 ---
-<!-- 
-<div class="one_image image">
-    <img src="./zoostagram_dunes.jpg"/>
+
+<!-- <div class="one_image image">
+    <img src="./luke-secomb-digital-logo-pattern.jpg"/>
 </div> -->
 
 #The Project

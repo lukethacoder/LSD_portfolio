@@ -268,6 +268,28 @@ const PostPageWrapper = styled.div`
                         }
                     }
                 }
+                .two_image {
+                    grid-template-columns: 50% 50%;
+                    grid-template-rows: 100%;
+                    grid-column-gap: 10px;
+                    width: 100%;
+                    /* min-height: 650px; */
+                    height: auto !important;
+                    .gatsby-resp-image-wrapper {
+                        display: block;
+                        height: 100% !important;
+                        width: 100%;
+                        span {
+                            align-content: center;
+                            justify-content: center;
+                            display: grid !important;
+                            img {
+                                align-content: center;
+                                justify-content: center;
+                            }
+                        }
+                    }
+                }
                 .three_portrait {
                     grid-template-rows: 100%;
                     grid-template-columns: 1fr 1fr 1fr;
